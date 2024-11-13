@@ -16,18 +16,21 @@
 
 ## 🌐 Web 开发模板
 
-| 模板 | 特性 |
-| --- | --- |
-| [Opensaas（免费）](https://github.com/wasp-lang/open-saas/) | 使用 React + Node.js，支持登录、支付（Stripe）、邮件及AI功能 |
-| [Rapidlaunch（免费）](https://github.com/rapidlaunch/rapidlaunch) | 开源的 Next.js SaaS 启动工具包，提供美观的启动工具包和组件 |
-| [SaasterKit（免费）](https://github.com/saasterkit/saasterkit) | 在 Next.js 上构建 Web 应用程序的开源项目模板，包含 GraphQL API 和身份验证等功能 |
+| 模板 | 特性 | 适用场景 |
+| --- | --- | --- |
+| [Opensaas（免费）](https://github.com/wasp-lang/open-saas/) | - React + Node.js架构<br>- 内置Stripe支付<br>- 邮件系统集成<br>- AI功能支持<br>- 完整认证系统 | 快速构建SaaS应用 |
+| [Webflow](https://webflow.com/) | - 可视化开发<br>- 专业级CMS<br>- 强大的动画系统<br>- 响应式设计 | 设计导向的网站开发 |
+| [SaaS Boilerplate](https://saasboilerplate.com/) | - Next.js + TypeScript<br>- GraphQL API<br>- 多租户架构<br>- 企业级安全 | 企业级SaaS应用 |
+| [Vue Black Dashboard](https://www.creative-tim.com/) | - Vue.js + Laravel<br>- 模块化状态管理<br>- REST API集成<br>- 完整UI组件库 | 管理后台开发 |
 
-## 🧩 Chrome 插件开发模板
+## 🛠️ 开发工具集成
 
-| 模板 | 特性 |
+| 工具类型 | 推荐选项 |
 | --- | --- |
-| [Plasmo](https://www.plasmo.com/) | 支持多种前端框架如 React 和 Vue <br>[Plasmo插件开发教程(付费)>>](https://xiaobot.net/p/ship-ph-copilot) |
-| [wxt.dev](https://wxt.dev/) | 支持 Vue、Svelte 等多种前端框架 |
+| IDE | - VS Code（轻量级）<br>- WebStorm（全功能） |
+| 前端框架 | - Vue.js（灵活轻量）<br>- Svelte（高性能）<br>- Alpine.js（微型框架） |
+| 设计工具 | - Figma（协作设计）<br>- Adobe Express（快速制作） |
+
 
 ## ⚙️ 技术栈与工具推荐
 
@@ -38,6 +41,8 @@
 | [Next.js](https://nextjs.org/)🌟 | React基础，附带学习教程：<br>[中文文档 >>](https://nextjscn.org/)<br>[实践教程 >>](https://nextjs.weijunext.com/)  |
 | [Vue.js](https://vuejs.org/) | 易于学习的前端框架，适合快速开发 |
 | [Remix](https://remix.run/) | 基于 React 的现代框架，注重用户体验 |
+| [Svelte](https://svelte.dev/) | 新兴框架,性能出色|
+
 
 ### 🔧 后端
 
@@ -45,6 +50,8 @@
 | --- | --- |
 | [Nest.js](https://docs.nestjs.com/) | 基于 Node.js 的强大框架 |
 | [Express.js](https://expressjs.com/) | 轻量级Node.js框架 |
+| [fastapi](https://fastapi.tiangolo.com/) | 轻量级快速Python框架 |
+
 
 ### 🗄️ 数据库
 
@@ -53,6 +60,10 @@
 | [Firebase](https://console.firebase.google.com/)🌟 | 支持数据库、云函数和登录鉴权 |
 | [MongoDB](https://www.mongodb.com/) | 灵活的NoSQL数据库，适合大数据处理 |
 | [Supabase](https://supabase.com/)🌟 | 开源替代Firebase，支持数据库和认证 |
+| [PostgreSQL](https://www.postgresql.org/)🌟 | 功能强大的开源关系型数据库 |
+| [MongoDB](https://www.mongodb.com/) | 灵活的NoSQL数据库 |
+| [Redis](https://redis.io/) | 高性能缓存数据库 |
+
 
 ### 🔐 登录鉴权
 
@@ -80,6 +91,8 @@
 | --- | --- |
 | [Vercel](https://vercel.com/dashboard)🌟 | 快速部署解决方案，适合大部分项目 |
 | [Netlify](https://www.netlify.com/) | 提供持续部署和静态网站托管服务 |
+| [CloudFlare](https://www.cloudflare.com/) | 提供持续部署和静态网站托管服务 |
+
 
 ### 🎨 图标库与设计工具
 
