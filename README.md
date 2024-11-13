@@ -108,7 +108,7 @@
 | [OpenAI](https://openai.com/)🌟 | 提供强大的AI模型和API服务。|
 | [Together.ai](https://together.ai/) | 提供AI协作平台，便于团队使用AI技术。|
 | [Perplexity.ai](https://www.perplexity.ai/)🌟 | 提供智能搜索引擎与问答系统。|
-| [Guoq](http://guoq.io/)  | 提供多种AI服务的平台，专注于自然语言处理。|
+| [Groq](https://groq.com/)  | 提供多种AI服务的平台，专注于自然语言处理。|
 
 ### 📣 信息发布渠道
 
