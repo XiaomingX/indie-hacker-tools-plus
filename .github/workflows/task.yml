@@ -1,0 +1,27 @@
+name: 每日任务
+
+on:
+  schedule:
+    - cron: '0 23 * * *'  # 每天23:00 UTC触发
+  workflow_dispatch:  # 允许手动触发工作流
+
+jobs:
+  keep-active:
+    runs-on: ubuntu-latest  # 使用最新的Ubuntu环境
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4  # 使用最新版本的 checkout action
+
+      - name: 更新 TIME.md
+        run: |
+          # 获取当前时间并写入到 TIME.md 文件
+          echo "当前运行完成时间: $(date -u +"%Y-%m-%d %H:%M:%S")" > TIME.md
+
+      - name: 提交更改
+        run: |
+          git config --local user.name "GitHub Actions"
+          git config --local user.email "actions@github.com"
+          git add TIME.md
+          git commit -m "Update TIME.md with current time"
+          git push
