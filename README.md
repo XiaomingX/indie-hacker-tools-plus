@@ -43,14 +43,14 @@
 | [Remix](https://remix.run/) | 基于 React 的现代框架，注重用户体验 |
 | [Svelte](https://svelte.dev/) | 新兴框架,性能出色|
 
-
 ### 🔧 后端
 
 | 技术栈 | 备注 |
 | --- | --- |
 | [Nest.js](https://docs.nestjs.com/) | 基于 Node.js 的强大框架 |
 | [Express.js](https://expressjs.com/) | 轻量级Node.js框架 |
-| [fastapi](https://fastapi.tiangolo.com/) | 轻量级快速Python框架 |
+| [FastAPI](https://fastapi.tiangolo.com/) | 轻量级快速Python框架 |
+| [Flask](https://flask.palletsprojects.com/) | 简洁灵活的Python微框架 |
 
 
 ### 🗄️ 数据库
@@ -113,6 +113,7 @@
 | 平台/工具名 | 备注 |
 | --- | --- |
 | [Cloudflare](https://www.cloudflare.com/)🌟 | 提供CDN、DDoS防护和域名解析等服务。|
+| [Snyk](https://snyk.io/) | 专注于开源代码和容器的安全检测与修复，帮助识别和解决安全漏洞。|
 
 ### 🤖 人工智能与机器学习工具
 
