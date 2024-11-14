@@ -48,10 +48,10 @@
 | 技术栈 | 备注 |
 | --- | --- |
 | [Nest.js](https://docs.nestjs.com/) | 基于 Node.js 的强大框架 |
-| [Express.js](https://expressjs.com/) | 轻量级Node.js框架 |
-| [FastAPI](https://fastapi.tiangolo.com/) | 轻量级快速Python框架 |
-| [Flask](https://flask.palletsprojects.com/) | 简洁灵活的Python微框架 |
-
+| [Express.js](https://expressjs.com/) | 轻量级 Node.js 框架 |
+| [FastAPI](https://fastapi.tiangolo.com/) | 轻量级快速 Python 框架 |
+| [Flask](https://flask.palletsprojects.com/) | 简洁灵活的 Python 微框架 |
+| [Chainlit](https://docs.chainlit.io/) | 用于快速构建和部署 LLM 应用的 Python 框架 |
 
 ### 🗄️ 数据库
 
