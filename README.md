@@ -123,6 +123,7 @@
 | [Together.ai](https://together.ai/) | 提供AI协作平台，便于团队使用AI技术。|
 | [Perplexity.ai](https://www.perplexity.ai/)🌟 | 提供智能搜索引擎与问答系统。|
 | [Groq](https://groq.com/)  | 提供多种AI服务的平台，专注于自然语言处理。|
+| [Hugging Face](https://huggingface.co/)🌟 | 提供预训练模型和开源工具，支持各种深度学习任务。|
 
 ### 📣 信息发布渠道
 
