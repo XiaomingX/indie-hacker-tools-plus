@@ -1,13 +1,3 @@
-### 安装 Streamlit
-如果尚未安装 Streamlit，请在终端中运行以下命令：
-```bash
-pip install streamlit
-```
-
-### 快速 Demo 代码
-将以下代码保存为 `app.py` 文件：
-
-```python
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -60,10 +50,3 @@ if uploaded_file is not None:
     file_data = pd.read_csv(uploaded_file)
     st.write("文件内容：")
     st.dataframe(file_data)
-```
-
-### 运行 Demo
-在终端中运行以下命令：
-```bash
-streamlit run app.py
-```
