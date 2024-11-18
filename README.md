@@ -133,3 +133,8 @@
 | [Hacker News](https://news.ycombinator.com/)🌟 | 技术社区新闻网站，适合分享技术相关内容和项目。|
 | 社交媒体平台（如 Twitter、LinkedIn） | 用于宣传产品更新、活动及行业动态。|
 | 博客与个人网站 | 发布详细的产品介绍、案例研究及技术文章。|
+| [YouTube](https://www.youtube.com/) | 全球最大的视频分享平台，适合推广视觉内容和品牌故事。 |
+| [小红书](https://www.xiaohongshu.com/) | 中国流行的生活分享平台，适合推广时尚、生活方式类产品。 |
+| [Bilibili](https://www.bilibili.com/) | 中国知名的弹幕视频网站，适合年轻受众和创意内容推广。 |
+| [抖音](https://www.douyin.com/) | 中国领先的短视频平台，适合高频互动和病毒式传播。 |
+| [TikTok](https://www.tiktok.com/) | 国际版抖音，全球范围内广受欢迎的短视频平台，适合快速覆盖年轻用户群体。 |
