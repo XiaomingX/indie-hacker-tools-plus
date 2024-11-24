@@ -13,6 +13,17 @@
 不想踩坑、不想多花冤枉钱？那就来看看我们为你整理的工具合集吧！💡✨
 
 欢迎大家提PR和issues，帮助我们一起完善这个工具库，让每一位开发者都能从中受益，获取最精粹的技术支持！✨
+
+## 常用资源清单
+
+🌍 [跨境出海技术栈](https://github.com/XiaomingX/indie-hacker-tools-plus)
+
+🤖 [AI搞钱原则手册](https://github.com/XiaomingX/ai-money-maker-handbook)
+
+🛠️ [构建你自己的X](https://github.com/XiaomingX/build-your-own-xxx)
+
+📋 [1000个中国独立开发者项目](https://github.com/XiaomingX/1000-chinese-independent-developer-plus)
+
   
 ## 🌐 Web 开发模板
 
