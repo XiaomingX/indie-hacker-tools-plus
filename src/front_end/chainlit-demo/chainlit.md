@@ -1,14 +1,18 @@
-# Welcome to Chainlit! 🚀🤖
+# Chainlit 欢迎指南 🚀🤖
 
-Hi there, Developer! 👋 We're excited to have you on board. Chainlit is a powerful tool designed to help you prototype, debug and share applications built on top of LLMs.
+嗨，开发者朋友！👋 很高兴你能加入Chainlit的行列。Chainlit是一款强大的工具，专为帮助你快速原型开发、调试和分享基于大语言模型(LLMs)构建的应用而设计。
 
-## Useful Links 🔗
+## 实用链接 🔗
 
-- **Documentation:** Get started with our comprehensive [Chainlit Documentation](https://docs.chainlit.io) 📚
-- **Discord Community:** Join our friendly [Chainlit Discord](https://discord.gg/k73SQ3FyUh) to ask questions, share your projects, and connect with other developers! 💬
+- **官方文档**：通过我们详尽的[Chainlit文档](https://docs.chainlit.io)开始使用 📚
+- **Discord社区**：加入友好的[Chainlit Discord](https://discord.gg/k73SQ3FyUh)，在这里你可以提问、分享项目，以及与其他开发者交流！💬
 
-We can't wait to see what you create with Chainlit! Happy coding! 💻😊
+我们已经迫不及待想看到你用Chainlit创造出的作品了！祝你编码愉快！💻😊
 
-## Welcome screen
+## 欢迎界面设置
 
-To modify the welcome screen, edit the `chainlit.md` file at the root of your project. If you do not want a welcome screen, just leave this file empty.
+若要修改欢迎界面，请编辑项目根目录下的`chainlit.md`文件。如果不需要欢迎界面，只需将该文件留空即可。
+
+---
+
+**关键词**：Chainlit, LLM应用开发, 大语言模型工具, 原型开发, 调试工具, AI应用部署, 开发者指南
