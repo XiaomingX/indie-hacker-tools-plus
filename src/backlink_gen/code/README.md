@@ -2,6 +2,7 @@
 
 <br>
 LinkS 是一个用 Python 编写的简单工具，可以自动为收集的网站生成几十个外部链接。
+这些外联可能因对方使用了google analytics，或者google爬虫获取，从而有一定概率让google收录你的网站！
 <br>
 
 ### 安装方法：

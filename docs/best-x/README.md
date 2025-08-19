@@ -1,4 +1,4 @@
-# prompt-collection-quickstart
+# 精选PROMPT汇总
 
 ```
 group together the pro and con cases for each arguement 

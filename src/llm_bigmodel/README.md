@@ -6,7 +6,6 @@
 
 - **Gemini**  
 - **OpenAI**  
-- **PPLX**  
 - **Qwen**  
 - **Together**  
 - **XAI**  
