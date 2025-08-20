@@ -30,6 +30,8 @@
 
 📋 [100k-us-domains:ai导航站点数据集](https://github.com/XiaomingX/100k-us-domains)
 
+🧠 [世界上覆盖最全的优秀Qwen提示语大全](https://github.com/XiaomingX/awesome-qwen-prompt-insight)
+
 ## 🌐 Web 开发模板
 
 | 模板 | 特性 | 适用场景 |
