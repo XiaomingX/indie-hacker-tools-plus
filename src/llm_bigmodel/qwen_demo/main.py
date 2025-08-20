@@ -47,7 +47,7 @@ def simpleResult():
     print(completion.choices[0].message.content)
 
 def main():
-    streamResult()
+    # streamResult()
     simpleResult()
 
 if __name__ == "__main__":
