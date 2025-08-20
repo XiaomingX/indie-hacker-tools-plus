@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
+# 不推荐，启动速度很慢，不如chainlit清爽.
 # 设置页面标题和图标
 st.set_page_config(page_title="Streamlit 快速 Demo", page_icon="🌟")
 # 页面标题
