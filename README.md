@@ -66,7 +66,6 @@
 | [Next.js](https://nextjs.org/)🌟 | React基础，附带学习教程：<br>[中文文档 >>](https://nextjscn.org/)<br>[实践教程 >>](https://nextjs.weijunext.com/)  |
 | [Vue.js](https://vuejs.org/) | 易于学习的前端框架，适合快速开发 |
 | [Remix](https://remix.run/) | 基于 React 的现代框架，注重用户体验 |
-| [Svelte](https://svelte.dev/) | 新兴框架,性能出色|
 
 ### 🔧 后端
 
@@ -89,6 +88,7 @@
 | [Redis](https://redis.io/) | 高性能键值存储数据库，常用于缓存和实时数据处理。 |
 | [MySQL](https://www.mysql.com/) | 广泛使用的关系型数据库，适合多种 Web 应用场景。 |
 | [Cassandra](http://cassandra.apache.org/) | 高可扩展性的 NoSQL 数据库，适合处理大规模分布式数据。 |
+| [ClickHouse](https://clickhouse.com/)🌟 | 开源列式存储分析型数据库，专为高性能OLAP（在线分析处理）和大规模数据查询设计。 |
 
 ### 🔐 登录鉴权
 
@@ -107,10 +107,7 @@
 | 技术栈 | 备注 |
 | --- | --- |
 | [Stripe](https://stripe.com/) | 全球领先的支付处理平台 |
-| [Lemon Squeezy](https://www.lemonsqueezy.com/)🌟 | 专为独立开发者设计的支付解决方案 |
 | [PayPal](https://www.paypal.com/) | 全球知名的在线支付平台 |
-| [Square](https://squareup.com/) | 适合小型企业的支付解决方案 |
-| [ACI Worldwide](https://www.aciworldwide.com/) | 面向大型企业的支付处理平台 |
 
 ### 💬 在线客服和反馈服务
 
@@ -140,6 +137,10 @@
 | [AWS](https://aws.amazon.com/) | 全面的云计算服务平台 |
 | [Google Cloud](https://cloud.google.com/) | 提供多样化的云服务 |
 | [Microsoft Azure](https://azure.microsoft.com/) | 支持多种操作系统和框架的云平台 |
+| [Vultr](https://www.vultr.com/) | 提供全球分布式节点的高性价比云主机，适合开发者及小型项目部署 |
+| [阿里云](https://www.aliyun.com/) | 国内领先的云计算服务商，提供全面的IaaS、PaaS、SaaS服务及行业解决方案 |
+| [火山引擎](https://www.volcengine.com/) | 字节跳动旗下云服务平台，依托字节跳动技术能力，在AI、视频处理、大数据等领域有特色优势 |
+| [腾讯云](https://cloud.tencent.com/) | 国内主流云计算平台，覆盖云服务器、云数据库、AI等多领域，在游戏、社交等场景有丰富解决方案 |
 
 ### 📊 客户反馈工具
 
@@ -266,6 +267,9 @@
 | [BigML](https://bigml.com/) | 提供易于使用的机器学习工具，适合数据分析和模型构建。|
 | [LightGBM](https://lightgbm.readthedocs.io/en/latest/) | 高效的梯度提升框架，适合处理大规模数据集。|
 | [RapidMiner](https://rapidminer.com/) | 用户友好的数据科学平台，支持无代码的数据分析和建模。|
+| [豆包](https://www.doubao.com/) | 字节跳动开发的AI助手，支持对话交互、内容创作、信息查询等多场景应用。|
+| [Coze](https://www.coze.com/) | 字节跳动推出的AI应用开发平台，支持低代码/无代码搭建聊天机器人、智能助手等AI应用。|
+| [Dify](https://dify.ai/) | 开源的大语言模型（LLM）应用开发平台，支持可视化搭建AI助手、知识库问答等应用，兼容多种主流LLM模型。|
 
 
 ### 📣 信息发布渠道
@@ -297,6 +301,7 @@
 
 | 工具类型 | 推荐选项 | 
 | --- | --- |
+| **jobleap.cn** | - 提供模拟面试、面试押题、简历模版、职位机会搜索等功能，适合校招和社招。对于想要提升面试技巧或寻找合适职位的求职者来说，这是一个非常有价值的资源。 |
 | **BOSS直聘** | - 中国领先的线上招聘平台，直聊模式的开创者，拥有庞大的人才池，适合白领、金领、蓝领用户和学生。提供智能算法匹配和安全保障. |
 | **LinkedIn** | - 全球最大的职业网络，提供高级搜索过滤器和职位发布功能，适合寻找专业人才. |
 | **Indeed** | - 全球领先的招聘网站，吸引数百万求职者，提供先进的搜索选项和雇主仪表板。 |
@@ -309,4 +314,3 @@
 | **智联招聘** | - 专注于中高端人才岗位，提供一站式人力资源服务. |
 | **猎聘** | - 注重用户隐私保护，严格审核企业和职位信息，提供安全可信的求职环境. |
 | **拉勾招聘** | - 与众多知名企业合作，提供优质岗位信息和智能推荐服务. |
-| **jobleap.cn** | - 提供模拟面试、面试押题、简历模版、职位机会搜索等功能，适合校招和社招。对于想要提升面试技巧或寻找合适职位的求职者来说，这是一个非常有价值的资源。 |
