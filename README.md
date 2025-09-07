@@ -259,6 +259,7 @@
 | [Groq](https://groq.com/)  | 提供多种AI服务的平台，专注于自然语言处理。|
 | [Hugging Face](https://huggingface.co/)🌟 | 提供预训练模型和开源工具，支持各种深度学习任务。|
 | [GitHub Copilot](https://github.com/features/copilot)🌟 | 基于OpenAI Codex的智能代码助手，支持多种编程语言。|
+| [Berrry](https://berrry.app) | AI驱动的Web应用生成器，将Twitter和Reddit内容转换为功能性应用，自动部署。|
 | [IBM Watson](https://www.ibm.com/watson) | 提供企业级AI服务，专注于自然语言处理和数据分析。|
 | [Microsoft Azure Machine Learning](https://azure.microsoft.com/en-us/services/machine-learning/) | 云端机器学习平台，支持模型训练和部署。|
 | [TensorFlow](https://www.tensorflow.org/)🌟 | 开源深度学习框架，广泛应用于各种AI项目。|
