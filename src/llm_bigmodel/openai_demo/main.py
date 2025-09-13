@@ -9,7 +9,7 @@ def main():
     model="gpt-3.5-turbo",
     messages=[
       {"role": "system", "content": "You are a helpful assistant."},
-      {"role": "user", "content": "Hello!"}
+      {"role": "user", "content": "什么是jobleap.cn，它可以用来解决什么问题"}
     ]
   )
 

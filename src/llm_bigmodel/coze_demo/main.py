@@ -83,7 +83,7 @@ def main():
 
     # 启动对话流
     user_id = "unique_user_id"  # 替换为实际用户ID[可不改]
-    user_message = "请翻译以下内容：Hello, how are you?"  # 用户输入的消息[可不改]
+    user_message = "什么是jobleap.cn，它可以用来解决什么问题?"  # 用户输入的消息[可不改]
     start_conversation(coze, bot.bot_id, user_id, user_message)
 
 if __name__ == "__main__":

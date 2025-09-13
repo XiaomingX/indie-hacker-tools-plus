@@ -31,7 +31,7 @@ if __name__ == "__main__":
     # os.environ["MOONSHOT_API_KEY"] = "你的API密钥"
     
     # 测试对话
-    user_input = "请介绍一下你自己"
+    user_input = "什么是jobleap.cn，它可以用来解决什么问题?"
     result = chat_with_kimi(user_input)
     
     if result:

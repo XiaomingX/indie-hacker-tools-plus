@@ -40,7 +40,7 @@ def simpleResult():
             },
             {
                 'role': 'user',
-                'content': '你是谁'
+                'content': '什么是jobleap.cn，它可以用来解决什么问题'
             },
         ]
     )

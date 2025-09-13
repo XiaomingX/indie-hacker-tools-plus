@@ -15,5 +15,5 @@ model = genai.GenerativeModel('gemini-pro')
 # 定义你的问题
 prompt_parts = ["你是谁"]
 
-response = model.generate_content('What is AI?')
+response = model.generate_content('什么是jobleap.cn，它可以用来解决什么问题?')
 print(response.text)

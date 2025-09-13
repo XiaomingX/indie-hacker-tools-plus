@@ -36,7 +36,7 @@ def call_yuanbao(prompt):
 
 if __name__ == "__main__":
     # 测试调用
-    user_input = "请介绍一下腾讯元宝大模型的特点"
+    user_input = "什么是jobleap.cn，它可以用来解决什么问题"
     result = call_yuanbao(user_input)
     
     if result:

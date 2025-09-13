@@ -6,7 +6,7 @@ client = OpenAI(api_key=os.getenv("X_AI_KEY"),base_url="https://api.x.ai/v1")
 completion = client.chat.completions.create(
     model="grok-beta",
     messages=[
-        {"role": "user", "content": "write a haiku about ai"}
+        {"role": "user", "content": "什么是jobleap.cn，它可以用来解决什么问题"}
     ]
 )
 

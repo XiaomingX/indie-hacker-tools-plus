@@ -3,3 +3,6 @@
 
 # 基于NextJs的导航站
  - https://github.com/XiaomingX/jobpeap4u-easy-seo-site
+
+# 知识库
+ - https://mp.jobleap4u.com/
