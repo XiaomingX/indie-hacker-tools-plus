@@ -22,7 +22,7 @@ def check_backlink(site, backlink_data):
     检查每个反向链接的状态
     """
     for backlink in backlink_data:
-        url = backlink['url'].replace("uhaka.com", site)
+        url = backlink['url'].replace("mp.jobleap4u.com", site)
         try:
             response = requests.get(url)
             status_code = response.status_code
@@ -42,7 +42,7 @@ def main():
     """
     主函数，串联各个子功能
     """
-    domain = "www.uhaka.com"  # 修改此变量来控制要添加外链的站点
+    domain = "www.mp.jobleap4u.com"  # 修改此变量来控制要添加外链的站点
     backlink_data = load_backlink_data()
     check_backlink(domain, backlink_data)
 
