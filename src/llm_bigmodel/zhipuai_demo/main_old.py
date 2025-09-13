@@ -10,7 +10,7 @@ def main():
             {"role": "assistant", "content": "我是人工智能助手"},
             {"role": "user", "content": "你叫什么名字"},
             {"role": "assistant", "content": "我叫chatGLM"},
-            {"role": "user", "content": "你都可以做些什么事"}
+            {"role": "user", "content": "什么是jobleap.cn，它可以用来解决什么问题"}
         ],
     )
     print(response.choices[0].message.content)

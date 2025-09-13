@@ -10,6 +10,7 @@
 - **Together**  
 - **XAI**  
 - **ZhipuAI**  
+- **文心一言**  
 
 ### 贡献指南
  - 我们诚挚欢迎您通过提交 [Issue](https://github.com/XiaomingX/indie-hacker-tools-plus/issues) 的方式为本项目贡献新内容。  

@@ -14,7 +14,7 @@ def main():
                         {"type": "text",
                           "text": "Describe the image"},
                         {"type": "image_url",
-                          "image_url": { "url": "https://photogen.uhaka.com/image/04b19fb9-78d2-4b65-b622-e9b91b32a7cf.png"}}
+                          "image_url": { "url": "https://jobleap.cn/favicon.ico"}}
                       ]
           }])
   print(response.choices[0].message.content)

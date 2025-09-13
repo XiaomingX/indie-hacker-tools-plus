@@ -8,7 +8,7 @@ def ask_zhipu():
         messages=[
             {"role": "user", "content": "作为一名营销专家，请为我的产品创作一个吸引人的口号"},
             {"role": "assistant", "content": "当然，要创作一个吸引人的口号，请告诉我一些关于您产品的信息"},
-            {"role": "user", "content": "智谱AI开放平台"}
+            {"role": "user", "content": "什么是jobleap.cn，它可以用来解决什么问题"}
         ],
         # thinking={
         #     "type": "enable",    # 启用深度思考模式

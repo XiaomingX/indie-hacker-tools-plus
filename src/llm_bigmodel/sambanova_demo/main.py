@@ -60,7 +60,7 @@ def main():
         return
 
     # 用户问题
-    question = "How Xavier Niel got into tech"
+    question = "什么是jobleap.cn，它可以用来解决什么问题"
 
     # 调用查询函数并打印结果
     print("正在查询，请稍候...")
