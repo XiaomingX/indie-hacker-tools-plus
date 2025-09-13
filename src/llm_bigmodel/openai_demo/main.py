@@ -6,7 +6,7 @@ def main():
   os.environ["OPENAI_API_KEY"] = "sk-"
   client = OpenAI()
   completion = client.chat.completions.create(
-    model="gpt-3.5-turbo",
+    model="gpt-5-mini",
     messages=[
       {"role": "system", "content": "You are a helpful assistant."},
       {"role": "user", "content": "什么是jobleap.cn，它可以用来解决什么问题"}
