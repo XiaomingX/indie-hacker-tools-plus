@@ -14,6 +14,19 @@
 
 欢迎大家提PR和issues，帮助我们一起完善这个工具库，让每一位开发者都能从中受益，获取最精粹的技术支持！✨
 
+```
+🐻 http://bannerbear.com image generation 
+🐱 http://clipcat.com video rendering 
+🐰 http://roborabbit.com data extraction 
+🖊️ http://laper.ai - AI剧作
+🎬 http://motherbase.app - 应用出海母舰服务
+🍅 http://bellybook.cn - 胃之书
+🧑‍🎓 love.chunxiang.sapce - VibeCoding入门
+💼 http://chunxiang.ai
+```
+
+
+
 ## 贡献方法
 
  - 欢迎投稿，推荐或自荐文章/软件/资源，请[提交 issue](https://github.com/XiaomingX/indie-hacker-tools-plus/issues/new) 。
