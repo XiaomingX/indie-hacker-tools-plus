@@ -45,29 +45,58 @@
 
 🧠 [世界上覆盖最全的优秀Qwen提示语大全](https://github.com/XiaomingX/awesome-qwen-prompt-insight)
 
-## 🌐 Web 开发模板
+## 🚀 Web 开发模板 (2025 更新版)
 
-| 模板 | 特性 | 适用场景 |
+| 类别 | 推荐项目 | 核心栈 & 特性 | 适用场景 |
+| --- | --- | --- | --- |
+| **全栈 SaaS** | **[OpenSaaS](https://opensaas.sh/)** (免费) | - React + Node.js (Wasp)<br>
+
+<br>- 内置 Stripe + OpenAI<br>
+
+<br>- 极其完善的文档 | 开源全栈 SaaS 启动 |
+| **全栈 SaaS** | **[ShipFast](https://shipfa.st/)** (付费/流行) | - Next.js App Router<br>
+
+<br>- MongoDB/Supabase<br>
+
+<br>- 包含 SEO 和邮件营销 | 个人开发者快速变现 (Indie Hacker) |
+| **管理后台** | **[Vben Admin](https://github.com/vbenjs/vue-vben-admin)** | - Vue 3 + TypeScript + Vite<br>
+
+<br>- Ant Design Vue<br>
+
+<br>- 权限管理开箱即用 | 企业级中后台系统 (Vue 生态) |
+| **管理后台** | **[Ant Design Pro](https://pro.ant.design/)** | - React + UmiJS<br>
+
+<br>- 阿里巴巴企业级规范<br>
+
+<br>- 区块开发模式 | 复杂的大型企业后台 (React 生态) |
+| **现代 UI 库** | **[shadcn/ui](https://ui.shadcn.com/)** | - **非组件库，而是复制代码**<br>
+
+<br>- 基于 Tailwind CSS + Radix<br>
+
+<br>- 极高的可定制性 | 构建自己的设计系统/现代化应用 |
+| **着陆页/营销** | **[Astro Paper](https://github.com/satnaing/astro-paper)** | - **Astro** (极致性能)<br>
+
+<br>- 零 JS 运行时默认<br>
+
+<br>- 优秀的 SEO 分数 | 博客、文档、营销官网 |
+| **AI 应用** | **[Vercel AI SDK](https://sdk.vercel.ai/)** | - Next.js + AI SDK<br>
+
+<br>- 流式传输 (Streaming) 支持<br>
+
+<br>- 兼容 GPT-4, Claude, Mistral | 快速构建 ChatGPT 类应用 |
+
+## 🛠️ 开发工具集成 (2025 更新版)
+
+| 工具类型 | 推荐选项 | 更新说明 |
 | --- | --- | --- |
-| [Opensaas（免费）](https://github.com/wasp-lang/open-saas/) | - React + Node.js架构- 内置Stripe支付- 邮件系统集成- AI功能支持- 完整认证系统 | 快速构建SaaS应用 |
-| [Webflow](https://webflow.com/) | - 可视化开发- 专业级CMS- 强大的动画系统- 响应式设计 | 设计导向的网站开发 |
-| [SaaS Boilerplate](https://saasboilerplate.com/) | - Next.js + TypeScript- GraphQL API- 多租户架构- 企业级安全 | 企业级SaaS应用 |
-| [Vue Black Dashboard](https://www.creative-tim.com/) | - Vue.js + Laravel- 模块化状态管理- REST API集成- 完整UI组件库 | 管理后台开发 |
-| **Materialize 2.0** | - Material Design框架- 简洁、响应式布局- 支持暗黑模式 | 快速构建现代UI |
-| **Tailwind Dashboard Pro** | - Tailwind CSS框架- 高度可定制- 预设组件库 | 数据驱动的应用 |
-| **Circlex** | - 支持支付集成- 响应式设计- 动画效果 | SaaS产品展示 |
-| **BonsAI** | - AI主题模板- 交互式动画- 灵活定制 | AI相关SaaS网站 |
+| **IDE (编辑器)** | - **Cursor** (👑 AI 原生首选)- **VS Code** (插件生态丰富)- **WebStorm** (重构能力强) | **Cursor** 是目前的必选项，它基于 VSCode 但深度集成了 AI 代码生成。 |
+| **前端元框架** | - **Next.js** (React 工业标准)- **Nuxt** (Vue 的最佳实践)- **Astro** (内容驱动/高性能) | 现代开发不再只用 React/Vue，而是直接使用元框架以获得 SSR/SEO 优势。 |
+| **UI/CSS 体系** | - **Tailwind CSS** (原子化 CSS 标准)- **shadcn/ui** (现代 UI 标准)- **Magic UI / Aceternity** (炫酷动画) | Materialize 和 Bootstrap 已逐渐淡出主流，Tailwind 是绝对核心。 |
+| **设计协作** | - **Figma** (行业标准)- **Penpot** (开源免费替代)- **v0.dev** (生成式 UI 设计) | Adobe XD 已死。v0.dev 允许你用 Prompt 直接生成 React 代码。 |
+| **后端/BaaS** | - **Supabase** (开源 Firebase 替代)- **FastAPI** (Python/AI 接口首选)- **Hono** (边缘计算/轻量级) | Supabase 让前端能搞定后端；FastAPI 是对接 AI 模型服务的标准。 |
+| **测试工具** | - **Vitest** (Vite 项目首选)- **Playwright** (最强 E2E 测试)- **Cypress** (老牌 E2E) | Vitest 比 Jest 快得多，且配置更简单。Playwright 正在取代 Cypress。 |
+| **包管理器** | - **pnpm** (最快，节省磁盘)- **Bun** (All-in-one 运行时)- **npm/yarn** | 推荐默认使用 **pnpm**。 |
 
-## 🛠️ 开发工具集成
-
-| 工具类型 | 推荐选项 |
-| --- | --- |
-| IDE | - **VS Code**（轻量级）- **WebStorm**（全功能）- **Sublime Text**（快速编辑） |
-| 前端框架 | - **Vue.js**（灵活轻量）- **Svelte**（高性能）- **Alpine.js**（微型框架）- **React.js**（组件化） |
-| 设计工具 | - **Figma**（协作设计）- **Adobe Express**（快速制作）- **Adobe XD**（高级设计） |
-| 后端框架 | - **Node.js**（高性能）- **Django**（Python框架）- **Express.js**（轻量级Node.js） |
-| CSS框架 | - **Tailwind CSS**（实用优先）- **Bootstrap**（快速开发）- **Materialize**（Material Design） |
-| 测试工具 | - **Jest**（单元测试）- **Cypress**（端到端测试）- **Playwright**（自动化测试） |
 
 ## 写给0-1岁的初创公司合伙人-创业入门书
 ```
@@ -98,260 +127,159 @@
 写给 0-1 岁的初创公司合伙人 (29)：复盘与决策日志 —— 如何避免认知偏差（Bias） - https://juejin.cn/post/7574382925762215974
 写给 0-1 岁的初创公司合伙人 (30)：长期贪婪 —— 建立基于诚信的商业声誉 - https://juejin.cn/post/7574584245152399411
 ```
-## ⚙️ 技术栈与工具推荐
 
-### 🎨 前端
+### 🚀 更新后的清单 (2026 版)
 
-| 技术栈 | 备注|
-| --- | --- |
-| [Next.js](https://nextjs.org/)🌟 | React基础，附带学习教程：<br>[中文文档 >>](https://nextjscn.org/)<br>[实践教程 >>](https://nextjs.weijunext.com/)  |
-| [Vue.js](https://vuejs.org/) | 易于学习的前端框架，适合快速开发 |
-| [Remix](https://remix.run/) | 基于 React 的现代框架，注重用户体验 |
+我为你优化了结构，并加入了目前行业内最推崇的“AI 时代全栈工具链”。
 
-### 🔧 后端
+#### 🎨 前端 (Frontend)
 
 | 技术栈 | 备注 |
 | --- | --- |
-| [Nest.js](https://docs.nestjs.com/) | 基于 Node.js 的强大框架，支持 TypeScript，适合构建可扩展的应用程序。 |
-| [Express.js](https://expressjs.com/) | 轻量级 Node.js 框架，灵活且易于使用，适合快速开发 RESTful API。 |
-| [FastAPI](https://fastapi.tiangolo.com/) | 轻量级快速 Python 框架，性能优越，适合构建高效的 API。 |
-| [Flask](https://flask.palletsprojects.com/) | 简洁灵活的 Python 微框架，适合小型应用和快速原型开发。 |
-| [Chainlit](https://docs.chainlit.io/) | 用于快速构建和部署 LLM 应用的 Python 框架，简化机器学习模型的集成。 |
+| [Next.js](https://nextjs.org/) 🌟 | **行业标准**。React 全栈框架，支持 Server Components。 |
+| [Vue.js / Nuxt](https://nuxt.com/) | 易上手，Nuxt 3 是目前 Vue 生态最强大的全栈框架。 |
+| [Shadcn/ui](https://ui.shadcn.com/) 🚀 | **必选**。基于 Tailwind 的组件库，代码所有权归你，高度可定制。 |
+| [Tailwind CSS](https://tailwindcss.com/) | 现代样式的标准写法，原子化 CSS 的统治者。 |
 
-### 🗄️ 数据库
-
-| 技术栈 | 备注 |
-| --- | --- |
-| [Firebase](https://console.firebase.google.com/)🌟 | 支持实时数据库、云函数和用户认证，适合快速开发。 |
-| [MongoDB](https://www.mongodb.com/) | 灵活的 NoSQL 数据库，适合处理大规模数据和非结构化数据。 |
-| [Supabase](https://supabase.com/)🌟 | 开源替代 Firebase，提供数据库、认证和实时订阅功能。 |
-| [PostgreSQL](https://www.postgresql.org/)🌟 | 功能强大的开源关系型数据库，支持复杂查询和数据完整性。 |
-| [Redis](https://redis.io/) | 高性能键值存储数据库，常用于缓存和实时数据处理。 |
-| [MySQL](https://www.mysql.com/) | 广泛使用的关系型数据库，适合多种 Web 应用场景。 |
-| [Cassandra](http://cassandra.apache.org/) | 高可扩展性的 NoSQL 数据库，适合处理大规模分布式数据。 |
-| [ClickHouse](https://clickhouse.com/)🌟 | 开源列式存储分析型数据库，专为高性能OLAP（在线分析处理）和大规模数据查询设计。 |
-
-### 🔐 登录鉴权
+#### 🔧 后端 (Backend & AI)
 
 | 技术栈 | 备注 |
 | --- | --- |
-| [Clerk](https://clerk.com/) | 强大的用户身份验证解决方案，支持多种登录方式和用户管理功能。 |
-| [Auth0](https://auth0.com/)🌟 | 提供全面的身份验证和授权解决方案，支持社交登录和多因素认证。 |
-| [Okta](https://www.okta.com/) | 企业级身份管理平台，提供单点登录（SSO）和多因素认证功能。 |
-| [Keycloak](https://www.keycloak.org/) | 开源身份和访问管理解决方案，支持 SSO 和社交登录集成。 |
-| [SuperTokens](https://supertokens.io/) | 开源身份验证解决方案，提供会话管理和多因素认证功能。 |
+| [Hono](https://hono.dev/) 🔥 | **新宠**。极速、轻量，完美支持 Cloudflare Workers 和 Node.js。 |
+| [Nest.js](https://docs.nestjs.com/) | 企业级 Node.js 框架，架构严谨，适合大型项目。 |
+| [FastAPI](https://fastapi.tiangolo.com/) | Python 后端首选，原生支持异步，AI/数据科学集成最强。 |
+| [LangChain / LlamaIndex](https://www.langchain.com/) | 构建 AI Agent 和 RAG 应用的核心框架。 |
+| [Chainlit](https://docs.chainlit.io/) | 快速构建 AI 聊天交互界面的 Python 框架。 |
 
-
-
-### 💳 支付
+#### 🗄️ 数据库与 ORM (Database & ORM)
 
 | 技术栈 | 备注 |
 | --- | --- |
-| [Stripe](https://stripe.com/) | 全球领先的支付处理平台 |
-| [PayPal](https://www.paypal.com/) | 全球知名的在线支付平台 |
+| [Supabase](https://supabase.com/) 🌟 | **首选**。开源 Firebase 替代品，内置 PostgREST、Auth 和存储。 |
+| [PostgreSQL](https://www.postgresql.org/) | 关系型数据库基石。结合 **pgvector** 可存储向量数据。 |
+| [Drizzle ORM](https://orm.drizzle.team/) 🔥 | 性能极高且类型安全的 ORM，目前在 Next.js 社区极受欢迎。 |
+| [Upstash](https://upstash.com/) | 专为 Serverless 优化的 Redis、Kafka 和向量数据库。 |
+| [MongoDB Atlas](https://www.mongodb.com/atlas) | 依然是文档型数据库的首选云服务。 |
 
-### 💬 在线客服和反馈服务
+#### 🔐 登录鉴权 (Authentication)
 
 | 技术栈 | 备注 |
 | --- | --- |
-| [Tawk](https://tawk.to/) | 免费在线客服解决方案 |
-| [Zendesk](https://www.zendesk.com/) | 全面的客户支持平台 |
-| [Crisp](https://crisp.chat/) | 多渠道客户支持平台 |
-| [LiveChat](https://www.livechat.com/) | 提供多语言支持的在线聊天工具 |
+| [Clerk](https://clerk.com/) 🚀 | **最快落地**。体验最好的身份验证，几分钟即可集成登录框。 |
+| [Auth.js (NextAuth)](https://authjs.dev/) | 开源、灵活，深度集成于 Next.js 生态。 |
+| [Logto](https://logto.io/) | 优秀的开源身份基础设施，UI 精美，支持多种语言。 |
 
-### 🚀 部署与托管
+#### 🚀 部署与托管 (Deployment)
 
 | 平台 | 备注 |
 | --- | --- |
-| [Vercel](https://vercel.com/dashboard)🌟 | 快速部署解决方案，适合大部分项目 |
-| [Netlify](https://www.netlify.com/) | 提供持续部署和静态网站托管服务 |
-| [CloudFlare](https://www.cloudflare.com/) | 提供持续部署和静态网站托管服务 |
-| [AWS Amplify](https://aws.amazon.com/amplify/) | 全栈应用部署解决方案 |
-| [Render](https://render.com/) | 简单易用的云托管平台 |
-| [Heroku](https://www.heroku.com/) | 成熟的PaaS平台 |
+| [Vercel](https://vercel.com/) 🌟 | Next.js 项目的最佳部署目的地，Edge Function 支持。 |
+| [Cloudflare](https://www.cloudflare.com/) 🚀 | 通过 Workers 和 Pages 提供极速的边缘计算托管。 |
+| [Railway](https://railway.app/) | Heroku 的最佳替代品，支持一键部署数据库和各类服务。 |
+| [Zeabur](https://zeabur.com/) | 针对亚洲开发者优化，支持多种语言框架的一键部署平台。 |
+
+#### 💳 支付与订阅 (Payments)
+
+| 技术栈 | 备注 |
+| --- | --- |
+| [Stripe](https://stripe.com/) | 全球支付标准，订阅制（SaaS）开发的最佳选择。 |
+| [Lemon Squeezy](https://www.lemonsqueezy.com/) | **Merchant of Record (MoR)**。自动处理全球税务，省去合规烦恼。 |
+| [Paddle](https://www.paddle.com/) | 另一款优秀的 MoR 支付工具，适合出海开发者。 |
+
+
+### 🎨 图标库与设计工具（重点更新）
+
+| 平台/工具名 | 状态更新 | 建议与备注 |
+| --- | --- | --- |
+| **Figma** | 🌟 **行业标准** | 目前全球最主流的协作设计工具。其 **FigJam** 已完美替代了原有的 InVision 功能。 |
+| [Iconify](https://iconify.design/) | 活跃 | 依然是开发者最爱的开源图标集成方案，支持数千个图标库。 |
+| [Sketch](https://www.sketch.com/) | 活跃 | Mac 专精，近期加强了 Web 端的协作能力，仍是苹果生态设计师的首选。 |
+| ~~InVision~~ | ❌ **已停服** | **已于 2024 年底永久关闭。** 建议迁移至 Figma 或 Miro。 |
+| ~~Adobe XD~~ | ⚠️ **停止维护** | 进入维护模式，不再增加新功能。Adobe 建议用户转而探索 Creative Cloud 的其他组件。 |
+| **Pixso / 即时设计** | ✨ **国产首选** | 如果有国内协作需求，这两款工具是 Figma 的优秀国产替代品，访问更稳定。 |
+| **Framer** | 🚀 **新宠** | 现在的 Framer 已从原型工具转型为“设计即上线”的网站构建器，非常强大。 |
 
 ### 📈 主机与云服务
 
 | 平台 | 备注 |
 | --- | --- |
-| [DigitalOcean](https://www.digitalocean.com/) | 适合开发者的云主机服务 |
-| [AWS](https://aws.amazon.com/) | 全面的云计算服务平台 |
-| [Google Cloud](https://cloud.google.com/) | 提供多样化的云服务 |
-| [Microsoft Azure](https://azure.microsoft.com/) | 支持多种操作系统和框架的云平台 |
-| [Vultr](https://www.vultr.com/) | 提供全球分布式节点的高性价比云主机，适合开发者及小型项目部署 |
-| [阿里云](https://www.aliyun.com/) | 国内领先的云计算服务商，提供全面的IaaS、PaaS、SaaS服务及行业解决方案 |
-| [火山引擎](https://www.volcengine.com/) | 字节跳动旗下云服务平台，依托字节跳动技术能力，在AI、视频处理、大数据等领域有特色优势 |
-| [腾讯云](https://cloud.tencent.com/) | 国内主流云计算平台，覆盖云服务器、云数据库、AI等多领域，在游戏、社交等场景有丰富解决方案 |
+| [DigitalOcean](https://www.digitalocean.com/) | 适合开发者的简洁云平台，App Platform 极大简化了部署。 |
+| [Vercel / Netlify](https://vercel.com/) | **【新增】** 前端与全栈开发者的首选，提供极致的 CI/CD 和 Edge Functions 体验。 |
+| [AWS](https://aws.amazon.com/) / [Azure](https://azure.microsoft.com/) | 依然是企业级市场的绝对主力，AI 算力服务是其近年核心。 |
+| [火山引擎](https://www.volcengine.com/) | 字节跳动旗下，在 **AI 大模型服务（豆包）** 和视频处理领域具备极强竞争力。 |
+| [腾讯云](https://cloud.tencent.com/) | 在微信生态集成、小程序开发、音视频领域有独特优势。 |
 
 ### 📊 客户反馈工具
 
 | 工具 | 备注 |
 | --- | --- |
-| [TypeForm](https://www.typeform.com/) | 交互式调查工具 |
-| [QuestionPro](https://www.questionpro.com/) | 支持多种题型的调查平台 |
-| [Qualtrics](https://www.qualtrics.com/) | 全面的客户体验管理平台 |
+| [Typeform](https://www.typeform.com/) | 依然保持交互设计的领先地位，AI 自动生成表单功能表现优秀。 |
+| [Tally.so](https://tally.so/) | **【新增】** 类似 Notion 体验的无代码表单工具，免费额度极高，深受初创团队喜爱。 |
+| [Qualtrics](https://www.qualtrics.com/) | 企业级专业调研首选，适合深度数据分析。 |
 
-### 📈 开发者工具
+### 🛡️ 基础设施、安全与 CDN (整合版)
 
-| 工具 | 备注 |
+| 平台 | 备注 |
 | --- | --- |
-| [Checkout Page](https://checkoutpage.co/) | 基于Stripe的无代码支付解决方案 |
-| [Stax](https://staxpayments.com/) | 支持多种支付方式的平台 |
-| [Adyen](https://www.adyen.com/) | 全面的支付解决方案 |
+| **Cloudflare** | 不只是 CDN，其 **Workers AI** 和 **Zero Trust** 已成为独立开发者标配。 |
+| **Vercel / Netlify** | **【更新】** 前端部署与 Serverless 的首选，比单纯用 CloudFront 更适合快速迭代。 |
+| **Snyk** | 依然是 AppSec 领头羊，现在重点在 **Snyk Code** 的 AI 自动修复。 |
+| **CrowdStrike** | 企业级端点安全霸主，适合有严格合规需求的中大型初创公司。 |
+| **Akamai / AWS** | 适合超大规模企业级流量，初创公司建议优先 Cloudflare。 |
 
-这些工具和平台可以帮助开发者和企业在支付、客服、部署、主机、反馈收集等方面获得更好的支持和解决方案。
+### 🖼️ 图片视频与创意流 (AI 驱动版)
 
-
-### 🎨 图标库与设计工具
-
-| 平台/工具名 | 备注 |
+| 平台 | 备注 |
 | --- | --- |
-| [Iconify](https://iconify.design/) | 提供丰富的图标库，可以在项目中使用各种图标。|
-| [Figma](https://www.figma.com/) | 在线协作设计工具，用于界面和原型设计。|
-| [InVision](https://www.invisionapp.com/) | 强大的原型设计工具，支持团队协作和实时反馈。|
-| [Adobe XD](https://www.adobe.com/products/xd.html) | 适用于界面设计和原型制作的强大工具，支持多用户实时协作。|
-| [Sketch](https://www.sketch.com/) | Mac专用的矢量设计工具，适合UI/UX设计师使用。|
-| [Marvel](https://marvelapp.com/) | 提供快速原型制作和用户测试功能的设计平台，适合初学者使用。|
+| **Squoosh** | Google 出品的本地压缩工具，隐私性比 Tinypng 更好，支持 WebP/AVIF。 |
+| **Canva / 可画** | 现在的核心是 **Magic Studio**，AI 生成图片和自动排版非常成熟。 |
+| **CapCut / 剪映** | 依然是短视频第一梯队，新增了 **AI 虚拟人** 口播功能。 |
+| **DaVinci Resolve** | 依然是专业级首选，内置的 AI 隔绝人声和遮罩追踪功能极强。 |
+| **Runway / Luma AI** | **【新增】** 视频生成领域的领头羊，适合制作高质感的 AI 宣传视频。 |
 
-### 🖼️ 图片视频处理工具
-
-| 平台/工具名 | 备注 |
-| --- | --- |
-| [Tinypng](https://tinypng.com/) | 图片压缩工具，可减小PNG和JPEG文件大小。|
-| [OBS Studio](https://obsproject.com/) | 开源录屏软件，支持多平台。|
-| [Adobe Photoshop](https://www.adobe.com/products/photoshop.html) | 行业内标准的图像编辑软件，提供强大的修饰和创意工具。|
-| [Canva](https://www.canva.com/) | 用户友好的在线图形设计工具，适合快速创建社交媒体图像和演示文稿。|
-| [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/) | 专业级视频编辑软件，提供强大的色彩分级和音频编辑功能。|
-| [CyberLink PowerDirector 365](https://www.cyberlink.com/products/powerdirector-video-editing-software/) | 快速渲染视频项目并提供多种特效的编辑软件，适合视频爱好者和YouTuber使用。|
-
-
-### 🌍 CDN与安全服务
-
-| 平台/工具名 | 备注 |
-| --- | --- |
-| [Cloudflare](https://www.cloudflare.com/)🌟 | 提供CDN、DDoS防护和域名解析等服务。 |
-| [Snyk](https://snyk.io/) | 专注于开源代码和容器的安全检测与修复，帮助识别和解决安全漏洞。 |
-| [Hugging Face](https://huggingface.co/)🌟 | 提供预训练模型和开源工具，支持各种深度学习任务。 |
-| [Akamai](https://www.akamai.com/) | 全球最大的CDN提供商，提供高性能和安全的内容分发服务。 |
-| [Amazon CloudFront](https://aws.amazon.com/cloudfront/) | 与AWS服务集成的CDN，提供快速、安全的内容分发。 |
-| [Goooood SafeCDN](https://goooood.com/) | 专注于亚洲市场的高性能CDN，提供低延迟和DDoS防护。 |
-| [Sucuri](https://sucuri.net/) | 以安全为主的CDN，提供WAF和DDoS防护等高级安全功能。 |
-| [Imperva Incapsula](https://www.imperva.com/products/incapsula/) | 提供高级DDoS防护和WAF功能的安全CDN。 |
-| [CrowdStrike Falcon](https://www.crowdstrike.com/) | AI驱动的端点安全平台，提供实时威胁检测和响应。 |
-| [Fortinet FortiEDR](https://www.fortinet.com/products/fortiedr) | 提供实时威胁检测和响应的端点安全解决方案。 |
-| [IBM Security QRadar](https://www.ibm.com/security/products/security-intelligence) | 集成AI和机器学习的威胁分析平台。 |
-
-### 📈 CDN性能比较
-
-| CDN提供商 | 性能特点 | 价格 |
-| --- | --- | --- |
-| Cloudflare | 全球网络，低延迟，DDoS防护 | 提供免费计划和按需付费 |
-| Akamai | 全球最大的CDN网络，高性能 | 按流量收费，起价约100-200美元/月 |
-| Amazon CloudFront | 与AWS集成，实时缓存刷新 | 按流量收费，起价85美元/TB |
-| Goooood SafeCDN | 低延迟，DDoS防护，亚洲市场优化 | 提供定制化价格和免费试用 |
-
-### 🛡️ 安全服务比较
-
-| 安全服务 | 主要功能 | 价格 |
-| --- | --- | --- |
-| Snyk | 开源代码安全检测和修复 | 提供免费账户和按需付费 |
-| CrowdStrike Falcon | AI驱动的端点安全 | 需要联系销售获取定价 |
-| Fortinet FortiEDR | 实时威胁检测和响应 | 需要联系销售获取定价 |
-| Sucuri | 高级WAF和DDoS防护 | 提供按年付费计划，起价229美元/年 |
-
-### 🤖 AI与安全
-
-| 平台/工具名 | 备注 |
-| --- | --- |
-| [Hugging Face](https://huggingface.co/) | 提供AI模型和工具，支持深度学习任务。 |
-| [Snyk DeepCode AI](https://snyk.io/product/deepcode/) | 使用AI识别和修复代码安全漏洞。 |
-
-### 📊 机器学习与安全
-
-| 平台/工具名 | 备注 |
-| --- | --- |
-| [Hugging Face Transformers](https://huggingface.co/docs/transformers/) | 提供预训练模型和工具，支持机器学习任务。 |
-| [Snyk AI-Powered AppSec](https://snyk.io/product/appsec/) | 使用AI加速应用安全和漏洞修复。 |
-
-### 🌐 全球覆盖与性能
-
-| CDN提供商 | 全球覆盖 | 性能特点 |
-| --- | --- | --- |
-| Cloudflare | 335+城市，125+国家 | 全球网络，低延迟 |
-| Akamai | 280,000+节点 | 全球最大的CDN网络，高性能 |
-| Amazon CloudFront | AWS全球数据中心网络 | 与AWS集成，实时缓存刷新 |
-
-### 📊 安全与合规
-
-| 安全服务 | 主要功能 | 合规支持 |
-| --- | --- | --- |
-| Snyk | 开源代码安全检测和修复 | 支持多种合规标准 |
-| Sucuri | 高级WAF和DDoS防护 | 支持PCI DSS、HIPAA、GDPR等合规 |
-| CrowdStrike Falcon | AI驱动的端点安全 | 支持多种合规标准 |
-
-
-### 🤖 人工智能与机器学习工具
+### 🤖 AI 与开发者生产力 (核心清单)
 
 | 工具名 | 备注 |
 | --- | --- |
-| [OpenAI](https://openai.com/)🌟 | 提供强大的AI模型和API服务。|
-| [Together.ai](https://together.ai/) | 提供AI协作平台，便于团队使用AI技术。|
-| [Perplexity.ai](https://www.perplexity.ai/)🌟 | 提供智能搜索引擎与问答系统。|
-| [Groq](https://groq.com/)  | 提供多种AI服务的平台，专注于自然语言处理。|
-| [Hugging Face](https://huggingface.co/)🌟 | 提供预训练模型和开源工具，支持各种深度学习任务。|
-| [GitHub Copilot](https://github.com/features/copilot)🌟 | 基于OpenAI Codex的智能代码助手，支持多种编程语言。|
-| [IBM Watson](https://www.ibm.com/watson) | 提供企业级AI服务，专注于自然语言处理和数据分析。|
-| [Microsoft Azure Machine Learning](https://azure.microsoft.com/en-us/services/machine-learning/) | 云端机器学习平台，支持模型训练和部署。|
-| [TensorFlow](https://www.tensorflow.org/)🌟 | 开源深度学习框架，广泛应用于各种AI项目。|
-| [PyTorch](https://pytorch.org/)🌟 | 另一个流行的开源深度学习框架，适合研究和生产环境。|
-| [DataRobot](https://www.datarobot.com/) | 自动化机器学习平台，简化模型开发过程。|
-| [BigML](https://bigml.com/) | 提供易于使用的机器学习工具，适合数据分析和模型构建。|
-| [LightGBM](https://lightgbm.readthedocs.io/en/latest/) | 高效的梯度提升框架，适合处理大规模数据集。|
-| [RapidMiner](https://rapidminer.com/) | 用户友好的数据科学平台，支持无代码的数据分析和建模。|
-| [豆包](https://www.doubao.com/) | 字节跳动开发的AI助手，支持对话交互、内容创作、信息查询等多场景应用。|
-| [Coze](https://www.coze.com/) | 字节跳动推出的AI应用开发平台，支持低代码/无代码搭建聊天机器人、智能助手等AI应用。|
-| [Dify](https://dify.ai/) | 开源的大语言模型（LLM）应用开发平台，支持可视化搭建AI助手、知识库问答等应用，兼容多种主流LLM模型。|
+| **Hugging Face** | AI 界的基础设施，Transformers 库和 Inference API 是核心。 |
+| **OpenAI / Anthropic** | **【更新】** 除了 GPT-4，**Claude 3.5 Sonnet** 目前在代码和逻辑领域口碑极佳。 |
+| **Groq / Together.ai** | **【更新】** 追求极致推理速度的首选，适合需要秒回的应用场景。 |
+| **Perplexity.ai** | 已经取代了许多开发者的日常搜索，适合技术调研。 |
+| **Cursor** | **【新增/强烈推荐】** 目前最强的 AI 代码编辑器，正在迅速取代单纯的 Copilot 插件。 |
+| **Dify / Coze** | 国内外 LLM 应用开发的主流 LLMops 平台，支持工作流编排。 |
+| **PyTorch** | 工业界和学术界的绝对主流框架（TensorFlow 份额持续萎缩）。 |
 
+### 📊 数据科学与自动化 (精简版)
 
-### 📣 信息发布渠道
+| 工具名 | 备注 |
+| --- | --- |
+| **DataRobot** | 依然是 AutoML 的老牌强项，适合银行、保险等企业级场景。 |
+| **LightGBM** | 结构化数据/表格竞赛的王者，由微软维护。 |
+| **Weights & Biases** | **【新增】** 现代 AI 训练必备的实验跟踪平台，取代了旧式的表格记录。 |
+
+### 📣 信息发布与增长渠道
 
 | 渠道名 | 备注 |
 | --- | --- |
-| [Product Hunt](https://www.producthunt.com/)🌟 | 新产品发布平台，适合推广新应用和服务。|
-| [Hacker News](https://news.ycombinator.com/)🌟 | 技术社区新闻网站，适合分享技术相关内容和项目。|
-| 社交媒体平台（如 Twitter、LinkedIn） | 用于宣传产品更新、活动及行业动态。|
-| 博客与个人网站 | 发布详细的产品介绍、案例研究及技术文章。|
-| [YouTube](https://www.youtube.com/) | 全球最大的视频分享平台，适合推广视觉内容和品牌故事。 |
-| [小红书](https://www.xiaohongshu.com/) | 中国流行的生活分享平台，适合推广时尚、生活方式类产品。 |
-| [Bilibili](https://www.bilibili.com/) | 中国知名的弹幕视频网站，适合年轻受众和创意内容推广。 |
-| [抖音](https://www.douyin.com/) | 中国领先的短视频平台，适合高频互动和病毒式传播。 |
-| [TikTok](https://www.tiktok.com/) | 国际版抖音，全球范围内广受欢迎的短视频平台，适合快速覆盖年轻用户群体。 |
-| [Crunchbase](https://www.crunchbase.com/) | 全球知名企业数据库，允许初创公司创建资料以吸引投资者和媒体关注。 |
-| [BetaList](https://betalist.com/) | 专注于初创公司的软启动平台，获得用户反馈和测试机会。 |
-| [KillerStartups](https://www.killerstartups.com/) | 为新兴初创公司提供曝光的平台，通过提交信息获得潜在客户关注。 |
-| [F6S](https://www.f6s.com/) | 连接初创公司与投资者和资源的平台，允许创建公司资料并获取融资机会。 |
-| [Inc42](https://inc42.com/) | 提供初创公司的聚光灯计划，有助于融资和客户获取。 |
-| [VentureBeat](https://venturebeat.com/) | 技术新闻网站，专注于初创公司和创新，通过提交新闻稿或产品发布获取曝光。 |
-| [TechCrunch](https://techcrunch.com/) | 知名科技新闻网站，经常报道新兴初创公司的动态，是展示产品的重要渠道。 |
-| [Reddit](https://www.reddit.com/) | 在特定子版块中参与讨论，并在适当时机提及自己的初创公司，吸引潜在用户。 |
-| Podcast平台（如 Spotify, Apple Podcasts） | 制作与产品相关的播客内容，吸引听众并提升品牌认知度。 |
+| **Product Hunt** | 依然是全球首发的最高舞台，现在的规则更看重 Launch Day 的社区互动。 |
+| **Hacker News** | 纯粹的技术硬核社区，极其反感硬广，适合发布技术深度博文。 |
+| **Twitter (X)** | AI 开发者最活跃的阵地，Build in Public (公开构建) 的主战场。 |
+| **Reddit** | 推荐 r/SideProject, r/SaaS, r/SelfHosted 等特定子版块。 |
+| **Indie Hackers** | **【新增】** 独立开发者必入，分享盈利模式和增长心得。 |
+| **小红书 / 抖音 / TikTok** | 流量分发的关键，适合通过“工具演示”视频进行病毒式传播。 |
+| **Crunchbase / F6S** | 主要用于背书，提升公司在资方眼中的可信度。 |
 
-以下是关于招聘与求职平台的整理，其中特别提到了 **jobleap.cn** 的功能：
 
 ## 📈 招聘与求职平台
 
-| 工具类型 | 推荐选项 | 
+| 工具类型 | 推荐选项与功能特点 |
 | --- | --- |
-| **jobleap.cn** | - 提供模拟面试、面试押题、简历模版、职位机会搜索等功能，适合校招和社招。对于想要提升面试技巧或寻找合适职位的求职者来说，这是一个非常有价值的资源。 |
-| **BOSS直聘** | - 中国领先的线上招聘平台，直聊模式的开创者，拥有庞大的人才池，适合白领、金领、蓝领用户和学生。提供智能算法匹配和安全保障. |
-| **LinkedIn** | - 全球最大的职业网络，提供高级搜索过滤器和职位发布功能，适合寻找专业人才. |
-| **Indeed** | - 全球领先的招聘网站，吸引数百万求职者，提供先进的搜索选项和雇主仪表板。 |
-| **Glassdoor** | - 提供职位搜索、公司评分和薪酬信息，帮助求职者了解公司文化和待遇。 |
-| **Google for Jobs** | - 利用搜索引擎的力量，将职位发布直接显示在Google搜索结果中，提高职位可见性。 |
-| **Jora** | - 国际工作搜索引擎，遍布36个国家，提供直观的界面和全球人才库。 |
-| **Handshake** | - 专注于与大学合作，为青年人才提供平台，与1400万学生建立联系。 |
-| **AngelList** | - 专注于初创企业招聘，吸引创造力和前瞻性思维的求职者。 |
-| **前程无忧** | - 中国知名招聘平台，提供职位搜索和校园招聘服务，适合白领人员. |
-| **智联招聘** | - 专注于中高端人才岗位，提供一站式人力资源服务. |
-| **猎聘** | - 注重用户隐私保护，严格审核企业和职位信息，提供安全可信的求职环境. |
-| **拉勾招聘** | - 与众多知名企业合作，提供优质岗位信息和智能推荐服务. |
+| **🚀 核心推荐** | **jobleap.cn**：提供 AI 模拟面试、高频面试押题、精美简历模板及职位全网搜索。特别适合需要针对性提升面试表现的校招与社招求职者，是职场进阶的“备考神器”。 |
+| **🔥 国内主流** | **BOSS直聘**：开创“直聊模式”，响应速度最快。目前是国内垂直招聘领域的领头羊，涵盖了从互联网到传统行业的全量岗位。 |
+| **💼 中高端/猎头** | **猎聘**：侧重于中高端管理及技术岗位，提供专业的猎头服务，适合有 3-5 年以上工作经验、寻求职级跳跃的专业人士。 |
+| **🌐 国际/大厂** | **LinkedIn (领英)**：虽然其国内社交功能已简化为“领英职场”，但它依然是**外企、跨国公司**以及海外求职的首选平台。 |
+| **🏢 传统门户** | **前程无忧 (51job) / 智联招聘**：老牌大型综合平台，岗位数量庞大，尤其在传统制造业、金融和国企校招方面拥有极高的覆盖率。 |
+| **💻 技术/初创** | **Wellfound (原 AngelList)**：原名 AngelList，是全球初创企业招聘的鼻祖。如果你想加入潜力巨大的**初创公司**或 Web3 团队，这是首选。 |
+| **📊 评价/薪资** | **Glassdoor**：全球最权威的公司点评平台。在申请外企前，通过它查看真实的面试经验、内部薪资水平和公司文化口碑。 |
+| **🎓 校园招聘** | **Handshake / 实习僧**：Handshake 适合海外留学生，国内学生则建议结合“实习僧”或“牛客网”进行针对性的互联网实习与校招准备。 |
+| **🔍 聚合搜索** | **Indeed / Google for Jobs**：作为全球最大的招聘搜索引擎，它们能抓取全网的招聘信息，适合作为“查漏补缺”的工具。 |
