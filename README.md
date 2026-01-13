@@ -45,57 +45,17 @@
 
 🧠 [世界上覆盖最全的优秀Qwen提示语大全](https://github.com/XiaomingX/awesome-qwen-prompt-insight)
 
-## 🚀 Web 开发模板 (2025 更新版)
-
-| 类别 | 推荐项目 | 核心栈 & 特性 | 适用场景 |
-| --- | --- | --- | --- |
-| **全栈 SaaS** | **[OpenSaaS](https://opensaas.sh/)** (免费) | - React + Node.js (Wasp)<br>
-
-<br>- 内置 Stripe + OpenAI<br>
-
-<br>- 极其完善的文档 | 开源全栈 SaaS 启动 |
-| **全栈 SaaS** | **[ShipFast](https://shipfa.st/)** (付费/流行) | - Next.js App Router<br>
-
-<br>- MongoDB/Supabase<br>
-
-<br>- 包含 SEO 和邮件营销 | 个人开发者快速变现 (Indie Hacker) |
-| **管理后台** | **[Vben Admin](https://github.com/vbenjs/vue-vben-admin)** | - Vue 3 + TypeScript + Vite<br>
-
-<br>- Ant Design Vue<br>
-
-<br>- 权限管理开箱即用 | 企业级中后台系统 (Vue 生态) |
-| **管理后台** | **[Ant Design Pro](https://pro.ant.design/)** | - React + UmiJS<br>
-
-<br>- 阿里巴巴企业级规范<br>
-
-<br>- 区块开发模式 | 复杂的大型企业后台 (React 生态) |
-| **现代 UI 库** | **[shadcn/ui](https://ui.shadcn.com/)** | - **非组件库，而是复制代码**<br>
-
-<br>- 基于 Tailwind CSS + Radix<br>
-
-<br>- 极高的可定制性 | 构建自己的设计系统/现代化应用 |
-| **着陆页/营销** | **[Astro Paper](https://github.com/satnaing/astro-paper)** | - **Astro** (极致性能)<br>
-
-<br>- 零 JS 运行时默认<br>
-
-<br>- 优秀的 SEO 分数 | 博客、文档、营销官网 |
-| **AI 应用** | **[Vercel AI SDK](https://sdk.vercel.ai/)** | - Next.js + AI SDK<br>
-
-<br>- 流式传输 (Streaming) 支持<br>
-
-<br>- 兼容 GPT-4, Claude, Mistral | 快速构建 ChatGPT 类应用 |
-
-## 🛠️ 开发工具集成 (2025 更新版)
+## 🚀 Web 开发模板 (2026 更新版)
 
 | 工具类型 | 推荐选项 | 更新说明 |
 | --- | --- | --- |
-| **IDE (编辑器)** | - **Cursor** (👑 AI 原生首选)- **VS Code** (插件生态丰富)- **WebStorm** (重构能力强) | **Cursor** 是目前的必选项，它基于 VSCode 但深度集成了 AI 代码生成。 |
-| **前端元框架** | - **Next.js** (React 工业标准)- **Nuxt** (Vue 的最佳实践)- **Astro** (内容驱动/高性能) | 现代开发不再只用 React/Vue，而是直接使用元框架以获得 SSR/SEO 优势。 |
-| **UI/CSS 体系** | - **Tailwind CSS** (原子化 CSS 标准)- **shadcn/ui** (现代 UI 标准)- **Magic UI / Aceternity** (炫酷动画) | Materialize 和 Bootstrap 已逐渐淡出主流，Tailwind 是绝对核心。 |
-| **设计协作** | - **Figma** (行业标准)- **Penpot** (开源免费替代)- **v0.dev** (生成式 UI 设计) | Adobe XD 已死。v0.dev 允许你用 Prompt 直接生成 React 代码。 |
-| **后端/BaaS** | - **Supabase** (开源 Firebase 替代)- **FastAPI** (Python/AI 接口首选)- **Hono** (边缘计算/轻量级) | Supabase 让前端能搞定后端；FastAPI 是对接 AI 模型服务的标准。 |
-| **测试工具** | - **Vitest** (Vite 项目首选)- **Playwright** (最强 E2E 测试)- **Cypress** (老牌 E2E) | Vitest 比 Jest 快得多，且配置更简单。Playwright 正在取代 Cypress。 |
-| **包管理器** | - **pnpm** (最快，节省磁盘)- **Bun** (All-in-one 运行时)- **npm/yarn** | 推荐默认使用 **pnpm**。 |
+| **全栈 SaaS 启动器** | - **ShipFast** (最快变现)- **OpenSaaS** (Wasp 免费框架)- **T3 Stack** (类型安全首选) | **ShipFast** 依然是独立开发者的首选；**OpenSaaS** 则利用 Wasp 简化了大量全栈样板代码。 |
+| **管理后台 (Admin)** | - **Vben Admin** (Vue3 技术尖端)- **Ant Design Pro** (React 企业标准)- **Refine** (无头后台框架) | **Refine** 是目前的黑马，它不绑定 UI 库，可以自由组合 AntD、MUI 或 Tailwind，极大提升了灵活性。 |
+| **现代 UI 组件体系** | - **shadcn/ui** (组件标准)- **Magic UI** (动态组件)- **Aceternity UI** (现代感交互) | 现代开发已从“安装组件库”转向“复制代码块”；**Magic UI** 和 **Aceternity** 是目前构建高逼格落地页的利器。 |
+| **内容驱动框架** | - **Astro** (SEO 性能之王)- **Docusaurus** (文档神器)- **Next.js** (静态生成模式) | **Astro** 在 2026 年依然是博客、文档和营销页面的首选，其 Islands 架构对极致性能的优化无可替代。 |
+| **AI 应用开发栈** | - **Vercel AI SDK** (流式渲染)- **LangChain.js** (复杂链式调用)- **Model Context Protocol (MCP)** | **Vercel AI SDK** 已成为前端调用 LLM 的工业标准，支持所有主流模型库的流式传输。 |
+| **后端云/BaaS** | - **Supabase** (PostgreSQL 生态)- **Convex** (实时同步后端)- **Appwrite** (开源全栈平台) | **Supabase** 不再只是数据库，其 Edge Functions 和 Vector 支持是 AI 项目的核心支撑。 |
+| **数据库/ORM** | - **Prisma** (开发体验最好)- **Drizzle ORM** (极致轻量/边缘适用)- **Turso** (边缘 SQLite) | **Drizzle** 凭借零开销和原生 SQL 体验，在边缘计算（Edge Runtime）场景下已逐步超越 Prisma。 |
 
 
 ## 写给0-1岁的初创公司合伙人-创业入门书
