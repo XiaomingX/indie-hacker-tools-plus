@@ -45,17 +45,101 @@
 
 🧠 [世界上覆盖最全的优秀Qwen提示语大全](https://github.com/XiaomingX/awesome-qwen-prompt-insight)
 
-## 🚀 Web 开发模板 (2026 更新版)
+## 🚀 Web 开发模板 (2026 精选版)
 
-| 工具类型 | 推荐选项 | 更新说明 |
-| --- | --- | --- |
-| **全栈 SaaS 启动器** | - **ShipFast** (最快变现)- **OpenSaaS** (Wasp 免费框架)- **T3 Stack** (类型安全首选) | **ShipFast** 依然是独立开发者的首选；**OpenSaaS** 则利用 Wasp 简化了大量全栈样板代码。 |
-| **管理后台 (Admin)** | - **Vben Admin** (Vue3 技术尖端)- **Ant Design Pro** (React 企业标准)- **Refine** (无头后台框架) | **Refine** 是目前的黑马，它不绑定 UI 库，可以自由组合 AntD、MUI 或 Tailwind，极大提升了灵活性。 |
-| **现代 UI 组件体系** | - **shadcn/ui** (组件标准)- **Magic UI** (动态组件)- **Aceternity UI** (现代感交互) | 现代开发已从“安装组件库”转向“复制代码块”；**Magic UI** 和 **Aceternity** 是目前构建高逼格落地页的利器。 |
-| **内容驱动框架** | - **Astro** (SEO 性能之王)- **Docusaurus** (文档神器)- **Next.js** (静态生成模式) | **Astro** 在 2026 年依然是博客、文档和营销页面的首选，其 Islands 架构对极致性能的优化无可替代。 |
-| **AI 应用开发栈** | - **Vercel AI SDK** (流式渲染)- **LangChain.js** (复杂链式调用)- **Model Context Protocol (MCP)** | **Vercel AI SDK** 已成为前端调用 LLM 的工业标准，支持所有主流模型库的流式传输。 |
-| **后端云/BaaS** | - **Supabase** (PostgreSQL 生态)- **Convex** (实时同步后端)- **Appwrite** (开源全栈平台) | **Supabase** 不再只是数据库，其 Edge Functions 和 Vector 支持是 AI 项目的核心支撑。 |
-| **数据库/ORM** | - **Prisma** (开发体验最好)- **Drizzle ORM** (极致轻量/边缘适用)- **Turso** (边缘 SQLite) | **Drizzle** 凭借零开销和原生 SQL 体验，在边缘计算（Edge Runtime）场景下已逐步超越 Prisma。 |
+### ⚡ 全栈 SaaS 启动器 (SaaS Starters)
+
+| 技术栈 | 备注 |
+| --- | --- |
+| [ShipFast](https://shipfa.st/) 💰 | **变现首选**。独立开发者最快的全栈变现模板，集成支付与邮件。 |
+| [OpenSaaS](https://opensaas.sh/) | **免费开源**。基于 Wasp 框架，极大简化了全栈样板代码逻辑。 |
+| [T3 Stack](https://create.t3.gg/) | **类型安全**。Next.js + TypeScript + tRPC 的极致开发体验。 |
+
+### 🛠️ 管理后台 (Admin Panels)
+
+| 技术栈 | 备注 |
+| --- | --- |
+| [Refine](https://refine.dev/) 🏆 | **黑马工具**。无头 (Headless) 后台框架，支持自由组合各类 UI 库。 |
+| [Vben Admin](https://vvbin.com/) | **Vue 生态尖端**。基于 Vue3 + Vite + Ant Design 的大型后台方案。 |
+| [Ant Design Pro](https://pro.ant.design/) | **企业级标准**。React 生态下最成熟、最稳健的中后台架构。 |
+
+### 🎨 现代 UI 组件体系 (Modern UI)
+
+| 技术栈 | 备注 |
+| --- | --- |
+| [shadcn/ui](https://ui.shadcn.com/) 🚀 | **行业标准**。不再安装组件库，而是直接复制代码块，拥有 100% 控制权。 |
+| [Magic UI](https://magicui.design/) | **动态视觉**。专注于动效和高逼格交互组件，提升页面质感。 |
+| [Aceternity UI](https://ui.aceternity.com/) | **现代感利器**。提供极具视觉冲击力的落地页组件。 |
+
+### 📝 内容驱动框架 (Content & SEO)
+
+| 技术栈 | 备注 |
+| --- | --- |
+| [Astro](https://astro.build/) 🏝️ | **性能之王**。Islands 架构，静态性能极致优化，SEO 项目首选。 |
+| [Docusaurus](https://docusaurus.io/) | **文档神器**。Meta 出品，最易于维护和扩展的文档站方案。 |
+| [Next.js (SSG)](https://nextjs.org/) | **全能选手**。强大的静态生成模式，兼顾性能与全栈扩展性。 |
+
+### 🤖 AI 应用开发栈 (AI Development)
+
+| 技术栈 | 备注 |
+| --- | --- |
+| [Vercel AI SDK](https://sdk.vercel.ai/) 🌟 | **工业标准**。支持主流 LLM 的流式渲染与统一调用。 |
+| [LangChain.js](https://js.langchain.com/) | **复杂链式**。处理 RAG、代理 (Agents) 等复杂逻辑的核心框架。 |
+| [MCP](https://modelcontextprotocol.io/) | **协议标准**。由 Anthropic 推出的模型上下文协议，连接数据与 AI 模型。 |
+
+### ☁️ 后端云/BaaS (Backend as a Service)
+
+| 技术栈 | 备注 |
+| --- | --- |
+| [Supabase](https://supabase.com/) 🔥 | **开源首选**。基于 PostgreSQL，支持 Edge Functions 和向量数据库。 |
+| [Convex](https://www.convex.dev/) | **实时同步**。无需手动管理状态，后端数据自动实时推送到前端。 |
+| [Appwrite](https://appwrite.io/) | **全栈平台**。提供认证、数据库、存储及云函数的一站式开源方案。 |
+
+### 💾 数据库与 ORM (Database & ORM)
+
+| 技术栈 | 备注 |
+| --- | --- |
+| [Drizzle ORM](https://orm.drizzle.team/) ⚡ | **极致轻量**。零开销且原生 SQL 体验，边缘计算 (Edge) 环境的最佳搭档。 |
+| [Prisma](https://www.prisma.io/) | **开发体验最好**。自动生成的类型定义，极大地提升了后端建模效率。 |
+| [Turso](https://turso.tech/) | **边缘 SQLite**。基于 LibSQL，为分布式应用提供极低延迟的数据访问。 |
+
+## 🌐 开放平台与商业生态 (Open Platforms)
+
+### 🛠️ 能力开放平台 (Capability & API Platforms)
+
+| 平台名称 | 备注 |
+| --- | --- |
+| [腾讯开放平台](https://open.tencent.com/) | **社交连接器**。提供微信/QQ 登录、社交关系链及小程序核心能力。 |
+| [支付宝开放平台](https://open.alipay.com/) | **商业支付**。深耕支付、生活缴费及金融级安全风控能力。 |
+| [火山引擎](https://www.volcengine.com/) | **算法驱动**。开放字节跳动同款的推荐算法、音视频及 AI 模型能力。 |
+| [Twilio](https://www.twilio.com/) 🚀 | **全球通信**。国际化项目首选，提供短信、语音及验证码的全球标准 API。 |
+
+### 📊 数据开放平台 (Data & Insights Platforms)
+
+| 平台名称 | 备注 |
+| --- | --- |
+| [阿里云数据资源平台](https://www.google.com/search?q=https://www.aliyun.com/product/dataworks) | **全链路治理**。集成数据开发、集成与开放共享的企业级数据中台。 |
+| [百度数据开放平台](https://www.google.com/search?q=https://ext.baidu.com/) | **流量画像**。基于搜索与地图大数据，提供趋势分析与群体画像支持。 |
+| [Google Cloud Public Datasets](https://cloud.google.com/datasets) | **全球视野**。涵盖气候、医疗、经济等海量公共数据集，支持 BigQuery 调用。 |
+| [聚合数据](https://www.juhe.cn/) | **开发者超市**。提供违章查询、天气、快递等细分行业标准化 API 接口。 |
+
+### 📣 营销开放平台 (Marketing & Ad Platforms)
+
+| 平台名称 | 备注 |
+| --- | --- |
+| [巨量引擎](https://www.oceanengine.com/) 🌟 | **流量霸主**。抖音/今日头条官方广告平台，支持深度转化监控 API。 |
+| [腾讯广告 (AMS)](https://ad.oceanengine.com/) | **全场景覆盖**。打通微信朋友圈、视频号及公众号的生态闭环营销。 |
+| [HubSpot](https://www.hubspot.com/) | **入站营销**。全球最成熟的 CRM 与自动化营销平台，生态插件极其丰富。 |
+| [飞书工作台](https://open.feishu.cn/) | **企业协同营销**。利用机器人和工作流实现企业内部及 B2B 场景的精准触达。 |
+
+### 📦 商品分销开放平台 (Distribution & E-commerce)
+
+| 平台名称 | 备注 |
+| --- | --- |
+| [淘宝联盟 (淘宝客)](https://pub.alimama.com/) 💰 | **分销标杆**。国内覆盖面最广、佣金体系最成熟的电商分销开放平台。 |
+| [京东联盟](https://union.jd.com/) | **品质分销**。主打物流履约优势，提供高转化率的家电及数码产品 API。 |
+| [Shopify Partners](https://www.shopify.com/partners) | **跨境独立站**。通过 App 或分销模式，连接全球数百万独立站卖家。 |
+| [有赞开放平台](https://doc.youzanyun.com/) | **私域经营**。深度开放订单、库存及会员系统，支持定制化的社交电商分销。 |
 
 
 ## 写给0-1岁的初创公司合伙人-创业入门书
