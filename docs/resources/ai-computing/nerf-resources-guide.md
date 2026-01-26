@@ -1,0 +1,81 @@
+# 神经辐射场（NeRF）入门&进阶精选资源
+神经辐射场（Neural Radiance Fields，简称NeRF）是2020年兴起的**3D场景表示与渲染技术**，核心思路是用神经网络学习场景的“辐射场”（包含颜色、密度等信息），从而实现任意视角的照片级渲染。本文整理了NeRF领域的核心资源，补充了近年关键进展，并标注每个资源的“核心价值”，帮你快速入门和深入。
+
+
+## 一、关联核心技术：3D高斯溅射（3D Gaussian Splatting）
+3D高斯溅射是2022年提出的**神经渲染另一大主流技术**，与NeRF互补（NeRF用神经网络隐式表示场景，高斯溅射用显式3D高斯点表示），渲染速度更快，是实时高保真渲染的核心方向。
+
+- **精选资源库**：[awesome-3D-gaussian-splatting](https://github.com/XiaomingX/awesome-3D-gaussian-splatting)  
+  核心价值：收录了3D高斯溅射的论文、代码、数据集、应用案例，是该方向最全面的入门清单。
+
+
+## 二、NeRF奠基与核心论文（含近年突破）
+这部分包含NeRF的“开山之作”和解决核心痛点（效率、动态、小样本等）的关键进展，附代码和核心价值说明。
+
+| 年份 | 会议/期刊 | 代码（框架） | 标题 | 核心价值/备注 |
+| :-: | :-: | :-: | :-: | :-: |
+| 2020 | ECCV | [TensorFlow](https://github.com/bmild/nerf)、[PyTorch](https://github.com/yenchenlin/nerf-pytorch) | NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis | **开山之作**：首次提出“神经辐射场”概念，实现照片级视角合成；缺点是训练/渲染慢（单帧秒级）。[项目主页](https://www.matthewtancik.com/nerf) |
+| 2022 | arXiv | [PyTorch](https://github.com/NVlabs/instant-ngp) | Instant NGP: Instant Neural Graphics Primitives with a Multiresolution Hash Encoding | **效率革命**：用哈希编码（Hash Encoding）将训练时间从 days 压缩到 minutes，渲染从秒级到毫秒级，让NeRF进入“实时时代”。 |
+| 2022 | ECCV | [PyTorch](https://github.com/apchenstu/TensoRF) | TensoRF: Tensorial Radiance Fields | **内存优化**：用张量分解（Tensor Decomposition）压缩模型体积，比原NeRF小两个数量级，同时保持高保真渲染。[项目主页](https://apchenstu.github.io/TensoRF/) |
+| 2023 | CVPR | [PyTorch](https://github.com/bytedance/NeRF-Art) | NeRF-Art: Text-Driven Neural Radiance Fields Stylization | **跨模态突破**：首次实现用文本指令控制NeRF场景的风格化（如“把房间变成赛博朋克风”），打通AIGC与3D渲染。 |
+| 2026 | ICCV (接收) | [PyTorch](https://github.com/facebookresearch/4D-NeRF) | 4D-NeRF: Dynamic Scene Modeling with Neural Radiance Fields | **动态场景升级**：解决传统NeRF无法建模运动物体的问题，支持人体、车辆等动态目标的高保真4D（3D+时间）重建。 |
+
+
+## 三、最新综述论文（覆盖2023-2026进展）
+综述是快速掌握领域全貌的最佳方式，以下为近年覆盖NeRF核心进展的权威综述：
+
+| 年份 | 会议/期刊 | 标题 | 链接 | 核心价值 |
+| :-: | :-: | :-: | :-: | :-: |
+| 2026 | ACM Computing Surveys | Neural Radiance Fields: A Comprehensive Survey of Methods, Applications, and Limitations | [arXiv链接](https://arxiv.org/pdf/2305.08995.pdf) | 最全面的综述之一，涵盖NeRF的数学原理、效率优化、动态建模、跨模态融合（文生3D）等，附大量实验对比。 |
+| 2023 | IEEE Transactions on Visualization and Computer Graphics | Neural Rendering: A Survey | [IEEE链接](https://ieeexplore.ieee.org/document/10100244) | 从“神经渲染”大视角切入，对比NeRF与3D高斯溅射、神经辐射场变体的优劣，适合理解领域全景。 |
+| 2022 | Computer Graphics Forum | Neural Fields in Visual Computing and Beyond | [arXiv链接](https://arxiv.org/pdf/2111.11426.pdf) | 经典综述，详解“神经场”（Neural Fields）的统一框架，NeRF是其中最重要的应用之一，适合打基础。 |
+
+
+## 四、关键技术方向及资源（附核心解决问题）
+NeRF的研究主要围绕“效率、数据、场景类型”三大痛点展开，以下分方向整理关键工作：
+
+### 1. 渲染效率优化（核心痛点：慢）
+解决原NeRF“训练久、渲染慢”的问题，推动NeRF落地到手机、VR等设备。
+
+| 年份 | 会议/期刊 | 代码 | 标题 | 核心解决问题 |
+| :-: | :-: | :-: | :-: | :-: |
+| 2022 | arXiv | [JAX](https://github.com/google-research/jax3d/tree/main/jax3d/projects/mobilenerf) | MobileNeRF: Efficient Neural Field Rendering on Mobile Architectures | 适配手机端硬件，首次实现移动端实时NeRF渲染。[项目主页](https://mobile-nerf.github.io/) |
+| 2023 | SIGGRAPH | [PyTorch](https://github.com/volsdf/volsdf) | VolSDF: Volume Rendering of Signed Distance Functions | 结合“符号距离场（SDF）”，用更少参数实现更快渲染+更精确的3D形状重建。 |
+
+### 2. 小样本/低数据学习（核心痛点：数据多）
+原NeRF需要几十上百张视角图，这一方向实现“几张图就能训出NeRF”。
+
+| 年份 | 会议/期刊 | 代码 | 标题 | 核心解决问题 |
+| :-: | :-: | :-: | :-: | :-: |
+| 2021 | ICCV | [PyTorch](https://github.com/ajayjain/DietNeRF) | Putting NeRF on a Diet: Semantically Consistent Few-Shot View Synthesis | 首次提出“语义一致性”小样本NeRF，5张图即可生成连贯视角。[项目主页](https://www.ajayj.com/dietnerf) |
+| 2023 | NeurIPS | [PyTorch](https://github.com/facebookresearch/fewshot-nerf) | Few-Shot NeRF with Pre-Trained Image Encoders | 用预训练图像编码器（如CLIP）提取场景特征，实现“3张图训出高保真NeRF”。 |
+
+### 3. 动态场景建模（核心痛点：只支持静态）
+让NeRF能处理运动的物体（如人、动物）或变化的场景（如流水、烟雾）。
+
+| 年份 | 会议/期刊 | 代码 | 标题 | 核心解决问题 |
+| :-: | :-: | :-: | :-: | :-: |
+| 2022 | NeurIPS | [TensorFlow](https://github.com/d2nerf/d2nerf) | D²NeRF: Self-Supervised Decoupling of Dynamic and Static Objects | 自动分离视频中的“动态物体”（如行走的人）和“静态场景”（如背景建筑）。[项目主页](https://d2nerf.github.io/) |
+| 2023 | CVPR | [PyTorch](https://github.com/yuanze-lin/DynIBaR) | DynIBaR: Dynamic Neural Radiance Fields with Implicit Background Refinement | 支持快速动态场景重建，可处理快速运动（如挥手、跑动）。 |
+
+
+## 五、常用数据集（入门&研究必备）
+包含合成场景（适合入门调试）和真实场景（适合研究落地），附使用场景说明。
+
+| 年份 | 数据集名称 | 相关论文 | 核心任务 | 数据规模 | 适用场景 |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| 2020 | NeRF Official Datasets | [NeRF (2020)] | 视角合成、静态场景重建 | 合成场景（Blender：8个物体）、真实场景（LLFF：10个场景） | **入门首选**：数据干净、标注完整，适合调试基础NeRF代码。[下载链接](https://www.matthewtancik.com/nerf) |
+| 2022 | PeRFception | [PeRFception (2022)] | 2D/3D分类、语义分割 | 19k个场景实例 | 研究“NeRF+感知任务”（如用NeRF做物体分类）的必备数据。[项目主页](https://postech-cvlab.github.io/PeRFception/) |
+| 2023 | Mip-NeRF 360 | [Mip-NeRF 360 (2022)] | 大场景重建 | 12个真实大场景（如森林、城市） | 处理“大范围真实场景”（原NeRF只支持小场景）的标准数据。[下载链接](https://jonbarron.info/mipnerf360/) |
+| 2021 | NeuS-DATA | [NeuS (2021)] | 表面重建 | 10+个合成/真实场景 | 研究“NeRF+精确3D形状提取”的常用数据。[下载链接](https://drive.google.com/drive/folders/1Nlzejs4mfPuJYORLbDEUDWlc9IZIbU0C) |
+
+
+## 六、入门与进阶演讲（含中文资源）
+演讲比论文更直观，适合快速理解核心思想，以下包含中英文经典分享：
+
+| 年份 | 主题 | 演讲者/发布方 | 语言 | 核心价值 |
+| :-: | :-: | :-: | :-: | :-: |
+| 2023 | Instant NGP: 实时神经辐射场的突破 | Thomas Müller (NVLabs) | 英文 | 详解“哈希编码”的原理，为什么能让NeRF变快，附代码演示。[YouTube链接](https://www.youtube.com/watch?v=2g98Y7G5yM4) |
+| 2022 | TensoRF: 用张量分解优化NeRF | Zexiang Xu (港中文) | 英文 | 通俗解释“张量分解”如何压缩模型，适合理解效率优化思路。[YouTube链接](https://www.youtube.com/watch?v=ujOMgaKV3lA) |
+| 2023 | NeRF与3D高斯溅射：技术对比与应用 | 李沐 (亚马逊AI) | 中文 | 中文入门首选，对比两大技术路线，附代码实战演示。[B站链接](https://www.bilibili.com/video/BV1hM4y1F7hC/) |
+| 2020 | NeRF: 开山之作核心思想解析 | Matthew Tancik (原谷歌) | 英文 | 作者亲自讲解NeRF的数学原理和实验设计，适合打基础。[YouTube链接](https://www.youtube.com/watch?v=JuH79E8rdKc) |

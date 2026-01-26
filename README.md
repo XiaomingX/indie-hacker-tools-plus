@@ -20,8 +20,6 @@
 🐰 http://roborabbit.com data extraction 
 🖊️ http://laper.ai - AI剧作
 🎬 http://motherbase.app - 应用出海母舰服务
-🍅 http://bellybook.cn - 胃之书
-🧑‍🎓 love.chunxiang.sapce - VibeCoding入门
 💼 http://chunxiang.ai
 ```
 
@@ -43,7 +41,7 @@
 
 📋 [100k-us-domains:ai导航站点数据集](https://github.com/XiaomingX/100k-us-domains)
 
-🧠 [世界上覆盖最全的优秀Qwen提示语大全](https://github.com/XiaomingX/awesome-qwen-prompt-insight)
+🧠 [世界上覆盖最全的优秀Qwen（千问）提示语大全](https://github.com/XiaomingX/awesome-qwen-prompt-insight)
 
 ## 🚀 Web 开发模板 (2026 精选版)
 
