@@ -289,6 +289,23 @@
 | **Dify / Coze** | 国内外 LLM 应用开发的主流 LLMops 平台，支持工作流编排。 |
 | **PyTorch** | 工业界和学术界的绝对主流框架（TensorFlow 份额持续萎缩）。 |
 
+### 📖 主流大模型官方文档 (LLM Documentation)
+
+| 模型/平台 | 官方文档链接 |
+| --- | --- |
+| **OpenAI** | [platform.openai.com](https://platform.openai.com/docs/api-reference) |
+| **Coze (扣子)** | [国内文档](https://docs.coze.cn/dev_how_to_guides/api_call_methods_overview) / [国际文档](https://www.coze.com/open/docs/developer_guides) |
+| **Qwen (通义千问)** | [help.aliyun.com](https://help.aliyun.com/zh/model-studio/use-qwen-by-calling-api) |
+| **火山方舟 (豆包)** | [volcengine.com](https://www.volcengine.com/docs/82379/1302013) |
+| **文心一言** | [cloud.baidu.com](https://cloud.baidu.com/doc/WENXINWORKSHOP/s/clntwmv7t) |
+| **腾讯混元** | [cloud.tencent.com](https://cloud.tencent.com/document/api/1729/117861) |
+| **Claude (Anthropic)** | [docs.anthropic.com](https://docs.anthropic.com/en/docs/quickstart-guide) |
+| **Gemini (Google)** | [ai.google.dev](https://ai.google.dev/gemini-api/docs/quickstart) |
+| **MiniMax** | [platform.minimaxi.com](https://platform.minimaxi.com/docs/api-reference/api-overview) |
+| **GLM (智谱 AI)** | [docs.bigmodel.cn](https://docs.bigmodel.cn/cn/guide/start/quick-start) |
+| **Kimi (Moonshot AI)** | [platform.moonshot.cn](https://platform.moonshot.cn/docs/guide/quickstart) |
+| **Suno** | [docs.sunoapi.org](https://docs.sunoapi.org/cn/suno-api/quickstart) |
+
 ### 📊 数据科学与自动化 (精简版)
 
 | 工具名 | 备注 |
