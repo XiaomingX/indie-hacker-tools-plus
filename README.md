@@ -340,3 +340,44 @@
 | **📊 评价/薪资** | **Glassdoor**：全球最权威的公司点评平台。在申请外企前，通过它查看真实的面试经验、内部薪资水平和公司文化口碑。 |
 | **🎓 校园招聘** | **Handshake / 实习僧**：Handshake 适合海外留学生，国内学生则建议结合“实习僧”或“牛客网”进行针对性的互联网实习与校招准备。 |
 | **🔍 聚合搜索** | **Indeed / Google for Jobs**：作为全球最大的招聘搜索引擎，它们能抓取全网的招聘信息，适合作为“查漏补缺”的工具。 |
+
+## 🛠️ 本仓库配套项目索引 (Project Index)
+
+为了方便开发者快速上手实战，我们为本仓库配套了一系列开源工具和 Demo。你可以根据需求直接进入对应的目录查看源码和使用说明。
+
+### 🤖 AI & 大语言模型工具 (AI & LLM Tools)
+- [Deep Research](docs/projects/deep-research/README.md): 结合搜索与推理的自动化研究助手，支持 o3-mini/R1 等模型。
+- [Open Manus](docs/projects/open-manus-autonomous-agent/README.md): 轻量级 Manus 交互系统，演示基础 LLM 任务交互能力。
+- [Leaked Prompts](docs/projects/leaked-llm-prompts-collection): 汇总各大 AI 厂商（OpenAI, Anthropic 等）的系统提示词，助力提示词工程。
+- [AI Resume Analyzer](docs/projects/openai-resume-analyzer/README.md): 基于 AI 的简历智能分析与优化建议工具。
+- [PDF Chat Assistant](docs/projects/pdf-chat-assistant/README.md): 实现与 PDF 文件的智能对话交互。
+
+### ⚙️ 自动化与机器人 (Automation & Bots)
+- [Automated Job Finder](docs/projects/automated-job-application-bot/README.md): 基于 `browser-use` 的自动化职位搜索与投递助手。
+- [Twitter Auto-Bot](docs/projects/twitter-automation-bot/README.md): 社交媒体自动推文与交互工具。
+- [WeChat Read Auto](docs/projects/wechat-read-automation): 微信读书自动化助手，提升阅读效率。
+- [Labubu Bot](docs/projects/labubu-telegram-bot/README.md): 趣味角色模拟交互机器人（Telegram/Discord）。
+- [Google Login Auto](docs/projects/google-login-automation/README.md): 谷歌账号自动登录与授权自动化脚本。
+
+### 🎬 媒体与内容创作 (Media & Content Creation)
+- [AI Movie Clipper](docs/projects/ai-movie-clipper/README.md): 智能视频剪辑、场景识别与自动字幕生成。
+- [Faceless Video Gen](docs/projects/faceless-video-generator/README.md): 自动化生成无人出镜视频，适合自媒体快速产出。
+- [Whisper Transcriber](docs/projects/whisper-video-transcriber/README.md): 高效率视频语音转文字与字幕提取。
+- [Wikipedia to Video](docs/projects/wikipedia-to-video-converter/README.md): 将维基百科词条自动转换为可视化视频内容。
+
+### 📈 SEO 与营销 (SEO & Marketing)
+- [SEO Backlink Gen](docs/projects/seo-backlink-generator/README.md): 自动化外链发布工具，助力提升网站 SEO 排名。
+- [SEO Prompt Gen](docs/projects/seo-content-prompt-generator/README.md): 专为 content marketing 设计的 AI 提示词生成器。
+- [URL Cluster Analyzer](docs/projects/url-cluster-analyzer/README.md): 用于网址聚类与竞争对手分析的实用工具。
+
+### 📦 其他实用工具 (Utilities)
+- [URL Shortener](docs/projects/url-shortener-service/README.md): 轻量级短链接生成与管理服务。
+- [Fake GitHub Activity](docs/projects/fake-github-activity-generator): 模拟 GitHub 提交记录的趣味工具。
+- [Video Subtitle SDK](docs/projects/video-subtitle-sdk/README.md): 开发者友好的视频字幕处理 SDK。
+
+---
+
+> [!TIP]
+> **关于本项目**: 本仓库（Indie Hacker Tools Plus）致力于为全球独立开发者（Indie Hackers）提供最实用的出海技术栈、AI 工具及实战项目。我们不仅推荐工具，更提供可运行的代码示例，帮助你从 0 到 1 快速构建自己的产品。
+>
+> 欢迎 [提交 Issue](https://github.com/XiaomingX/indie-hacker-tools-plus/issues) 推荐更多好工具！
