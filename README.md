@@ -111,6 +111,7 @@
 | [支付宝开放平台](https://open.alipay.com/) | **商业支付**。深耕支付、生活缴费及金融级安全风控能力。 |
 | [火山引擎](https://www.volcengine.com/) | **算法驱动**。开放字节跳动同款的推荐算法、音视频及 AI 模型能力。 |
 | [Twilio](https://www.twilio.com/) 🚀 | **全球通信**。国际化项目首选，提供短信、语音及验证码的全球标准 API。 |
+| [GitHub Incentives](docs/yc-advice/github-community-incentives.md) 🎁 | **开发者福利**。涵盖 GitHub for Startups、Sponsors 及各类开源基金申请指南。 |
 
 ### 📊 数据开放平台 (Data & Insights Platforms)
 
@@ -192,6 +193,7 @@
 | [FastAPI](https://fastapi.tiangolo.com/) | Python 后端首选，原生支持异步，AI/数据科学集成最强。 |
 | [LangChain / LlamaIndex](https://www.langchain.com/) | 构建 AI Agent 和 RAG 应用的核心框架。 |
 | [Chainlit](https://docs.chainlit.io/) | 快速构建 AI 聊天交互界面的 Python 框架。 |
+| [SillyTavern](docs/hot/sillytavern.md) 🎭 | **角色交互首选**。支持角色卡 (V2)、动态世界书与向量存储。 |
 
 #### 🗄️ 数据库与 ORM (Database & ORM)
 
@@ -371,9 +373,43 @@
 - [URL Cluster Analyzer](docs/projects/url-cluster-analyzer/README.md): 用于网址聚类与竞争对手分析的实用工具。
 
 ### 📦 其他实用工具 (Utilities)
-- [URL Shortener](docs/projects/url-shortener-service/README.md): 轻量级短链接生成与管理服务。
-- [Fake GitHub Activity](docs/projects/fake-github-activity-generator): 模拟 GitHub 提交记录的趣味工具。
-- [Video Subtitle SDK](docs/projects/video-subtitle-sdk/README.md): 开发者友好的视频字幕处理 SDK。
+- [URL Shortener](docs/projects/url-shortener-service/README.md): 轻量级短链接生成与管理服务.
+- [Fake GitHub Activity](docs/projects/fake-github-activity-generator): 模拟 GitHub 提交记录的趣味工具.
+- [Video Subtitle SDK](docs/projects/video-subtitle-sdk/README.md): 开发者友好的视频字幕处理 SDK.
+
+---
+
+## 🏗️ 选型决策指南 (2026 深度版)
+
+为了帮助开发者在复杂的技术海洋中做出最理性的决策，我们整理了深度的选型逻辑与配置策略：
+
+### 🎨 现代化框架选型逻辑
+- **追求人才生态与落地效率**：首选 **Next.js** 或 **Nuxt**。
+- **追求内容驱动与极速 SEO**：首选 **Astro**。
+- **追求极简与边缘 API 性能**：首选 **Hono**。
+- **追求大型组织架构稳定**：首选 **Angular**。
+- 👉 [查看前端框架深度评审](docs/tech-stack/frameworks.md)
+
+### ☁️ 云服务全球配置策略
+在 2026 年，理性的云资产配置应遵循“基础稳固 + 效率先行”：
+- **核心算力与存储 (50%)**：ECS/OSS, EC2/S3, S3/Blob。
+- **自动化运维服务 (30%)**：ACK/EKS/AKS, RDS/SQL Database。
+- **AI 基础设施 (20%)**：PAI, Bedrock, 豆包大模型。
+- 👉 **各大厂商深度选型参考**：
+  - [Amazon Web Services (AWS)](docs/tech-stack/aws.md)
+  - [Microsoft Azure](docs/tech-stack/azure.md)
+  - [Google Cloud (GCP)](docs/tech-stack/gcp.md)
+  - [Alibaba Cloud (阿里云)](docs/tech-stack/aliyun.md)
+  - [Volcengine (火山引擎)](docs/tech-stack/volcengine.md)
+  - [Cloudflare (边缘加速与存储)](docs/tech-stack/cloudflare.md)
+
+### 🎭 AI 角色交互深度选型
+针对沉浸式角色扮演与创意写作：
+- **逻辑底座**：角色卡 (V2) 与 动态世界书 (Lorebook)。
+- **长效体验**：必须配置基于向量数据库的 RAG 系统。
+- 👉 [查看 SillyTavern 核心功能分析](docs/hot/sillytavern.md)
+
+---
 
 ---
 
