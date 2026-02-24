@@ -368,6 +368,9 @@
 - [Wikipedia to Video](docs/projects/wikipedia-to-video-converter/README.md): 将维基百科词条自动转换为可视化视频内容。
 
 ### 📈 SEO 与营销 (SEO & Marketing)
+- [Redirect Checker](https://github.com/brancogao/redirect-checker): 开源 HTTP 重定向链分析器，检测 301/302 重定向循环，助力 SEO 排名。
+- [SSL Certificate Monitor](https://github.com/brancogao/ssl-certificate-monitor): SSL/TLS 证书到期监控工具，避免证书过期影响 SEO。
+- [DNS Propagation Checker](https://github.com/brancogao/dns-propagation-checker): 全球 DNS 传播检查工具，监控 DNS 解析状态。
 - [SEO Backlink Gen](docs/projects/seo-backlink-generator/README.md): 自动化外链发布工具，助力提升网站 SEO 排名。
 - [SEO Prompt Gen](docs/projects/seo-content-prompt-generator/README.md): 专为 content marketing 设计的 AI 提示词生成器。
 - [URL Cluster Analyzer](docs/projects/url-cluster-analyzer/README.md): 用于网址聚类与竞争对手分析的实用工具。
