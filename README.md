@@ -371,6 +371,7 @@
 - [SEO Backlink Gen](docs/projects/seo-backlink-generator/README.md): 自动化外链发布工具，助力提升网站 SEO 排名。
 - [SEO Prompt Gen](docs/projects/seo-content-prompt-generator/README.md): 专为 content marketing 设计的 AI 提示词生成器。
 - [URL Cluster Analyzer](docs/projects/url-cluster-analyzer/README.md): 用于网址聚类与竞争对手分析的实用工具。
+- [GEO Boost](https://geo-boost.makesall.cn): AI 可见性与 Agent 优化平台，检测你的品牌是否被 ChatGPT、Gemini、Perplexity 等 AI 搜索引擎推荐。提供 GEO/AEO 评分、JSON-LD 结构化数据审计。
 
 ### 📦 其他实用工具 (Utilities)
 - [URL Shortener](docs/projects/url-shortener-service/README.md): 轻量级短链接生成与管理服务.
