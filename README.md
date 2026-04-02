@@ -70,6 +70,7 @@
 | [Aceternity UI](https://ui.aceternity.com/) | **现代感利器**。提供极具视觉冲击力的落地页组件。 |
 
 ### 📝 内容驱动框架 (Content & SEO)
+- [submission-site-discovery](https://github.com/SeeleAI/submission-site-discovery) - Automated discovery of product submission sites, launch directories, and distribution channels for indie hackers.
 
 | 技术栈 | 备注 |
 | --- | --- |
