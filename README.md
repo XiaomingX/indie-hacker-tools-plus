@@ -84,6 +84,7 @@
 | [Vercel AI SDK](https://sdk.vercel.ai/) 🌟 | **工业标准**。支持主流 LLM 的流式渲染与统一调用。 |
 | [LangChain.js](https://js.langchain.com/) | **复杂链式**。处理 RAG、代理 (Agents) 等复杂逻辑的核心框架。 |
 | [MCP](https://modelcontextprotocol.io/) | **协议标准**。由 Anthropic 推出的模型上下文协议，连接数据与 AI 模型。 |
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 AI agent system prompts for Claude Code. Open-source indie hacker tool for building production multi-agent AI systems. MIT licensed.
 
 ### ☁️ 后端云/BaaS (Backend as a Service)
 
