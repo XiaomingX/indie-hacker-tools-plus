@@ -353,6 +353,7 @@
 - [Leaked Prompts](docs/projects/leaked-llm-prompts-collection): 汇总各大 AI 厂商（OpenAI, Anthropic 等）的系统提示词，助力提示词工程。
 - [AI Resume Analyzer](docs/projects/openai-resume-analyzer/README.md): 基于 AI 的简历智能分析与优化建议工具。
 - [PDF Chat Assistant](docs/projects/pdf-chat-assistant/README.md): 实现与 PDF 文件的智能对话交互。
+- [CCHub](https://github.com/Moresl/cchub) - A desktop control panel for the Claude Code / Codex / Gemini CLI ecosystem. Manage MCP servers, config profiles, agent skills, CLAUDE.md, hooks, and workflow templates from a single Tauri app (Windows / macOS / Linux).
 
 ### ⚙️ 自动化与机器人 (Automation & Bots)
 - [Automated Job Finder](docs/projects/automated-job-application-bot/README.md): 基于 `browser-use` 的自动化职位搜索与投递助手。
