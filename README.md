@@ -15,6 +15,7 @@
 欢迎大家提PR和issues，帮助我们一起完善这个工具库，让每一位开发者都能从中受益，获取最精粹的技术支持！✨
 
 ```
+🛠️ https://formatho.com/Tools - 100+ privacy-first developer utilities (all client-side, no signup)
 🐻 http://bannerbear.com image generation 
 🐱 http://clipcat.com video rendering 
 🐰 http://roborabbit.com data extraction 
@@ -22,6 +23,7 @@
 🎬 http://motherbase.app - 应用出海母舰服务
 💼 http://chunxiang.ai
 ```
+🛠️ https://formatho.com/Tools - 100+ privacy-first developer utilities (all client-side, no signup)
 
 
 
@@ -143,6 +145,7 @@
 
 ## 写给0-1岁的初创公司合伙人-创业入门书
 ```
+🛠️ https://formatho.com/Tools - 100+ privacy-first developer utilities (all client-side, no signup)
 写给 0-1 岁的初创公司合伙人 (0)：什么是 MAU 指标，什么是 ARR、PMF - https://blog.csdn.net/2408_89348881/article/details/154359112?spm=1001.2014.3001.5501
 写给 0-1 岁的初创公司合伙人 (1)：可转债和可转换优先股区别 - https://juejin.cn/post/7569810118169690127
 写给 0-1 岁的初创公司合伙人 (2)：新型融资工具 SAFE 的定义和方案 - https://juejin.cn/post/7570184234070573056
@@ -170,6 +173,7 @@
 写给 0-1 岁的初创公司合伙人 (29)：复盘与决策日志 —— 如何避免认知偏差（Bias） - https://juejin.cn/post/7574382925762215974
 写给 0-1 岁的初创公司合伙人 (30)：长期贪婪 —— 建立基于诚信的商业声誉 - https://juejin.cn/post/7574584245152399411
 ```
+🛠️ https://formatho.com/Tools - 100+ privacy-first developer utilities (all client-side, no signup)
 
 ### 🚀 更新后的清单 (2026 版)
 
