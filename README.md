@@ -112,6 +112,12 @@
 | [火山引擎](https://www.volcengine.com/) | **算法驱动**。开放字节跳动同款的推荐算法、音视频及 AI 模型能力。 |
 | [Twilio](https://www.twilio.com/) 🚀 | **全球通信**。国际化项目首选，提供短信、语音及验证码的全球标准 API。 |
 | [GitHub Incentives](docs/yc-advice/github-community-incentives.md) 🎁 | **开发者福利**。涵盖 GitHub for Startups、Sponsors 及各类开源基金申请指南。 |
+| [QRMint](https://qrmint.dev) | **免费二维码**。免费二维码生成器，支持多种样式和自定义选项，完全免费使用。 |
+| [LinkShrink](https://linkshrink.dev) | **免费短链接**。免费URL短链接生成工具，支持自定义短链接，完全免费使用。 |
+| [FreeKit](https://freekit.dev) | **开发者工具集**。7个免费API合一的开发者工具包，涵盖常用开发工具，完全免费使用。 |
+| [PageShot](https://pageshot.dev) | **免费截图API**。免费网页截图API，支持多种截图选项和格式，完全免费使用。 |
+| [PDFSpark](https://pdfspark.dev) | **免费PDF API**。免费PDF生成API，支持HTML转PDF等多种PDF处理功能，完全免费使用。 |
+| [OGForge](https://ogforge.dev) | **免费OG图片**。免费OG图片生成API，支持多种模板和自定义品牌，完全免费使用。 |
 
 ### 📊 数据开放平台 (Data & Insights Platforms)
 
