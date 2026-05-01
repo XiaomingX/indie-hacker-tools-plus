@@ -193,6 +193,7 @@
 | [FastAPI](https://fastapi.tiangolo.com/) | Python 后端首选，原生支持异步，AI/数据科学集成最强。 |
 | [LangChain / LlamaIndex](https://www.langchain.com/) | 构建 AI Agent 和 RAG 应用的核心框架。 |
 | [Chainlit](https://docs.chainlit.io/) | 快速构建 AI 聊天交互界面的 Python 框架。 |
+| [KubeStellar Console](https://github.com/kubestellar/console) | **多集群管理利器**。为独立开发者简化 Kubernetes 集群管理，支持跨云边缘部署的实时可观测性与 AI 增强运维。 |
 | [SillyTavern](docs/hot/sillytavern.md) 🎭 | **角色交互首选**。支持角色卡 (V2)、动态世界书与向量存储。 |
 
 #### 🗄️ 数据库与 ORM (Database & ORM)
