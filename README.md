@@ -371,6 +371,7 @@
 - [SEO Backlink Gen](docs/projects/seo-backlink-generator/README.md): 自动化外链发布工具，助力提升网站 SEO 排名。
 - [SEO Prompt Gen](docs/projects/seo-content-prompt-generator/README.md): 专为 content marketing 设计的 AI 提示词生成器。
 - [URL Cluster Analyzer](docs/projects/url-cluster-analyzer/README.md): 用于网址聚类与竞争对手分析的实用工具。
+- [toprank](https://github.com/nowork-studio/toprank): **开源 Claude Code 插件**，提供 9 个 SEO 和 Google Ads 技能。连接 Google Search Console、PageSpeed Insights、Google Ads API，自动重写 meta 标签、生成 JSON-LD 结构化数据，并将修改直接推送到 WordPress/Strapi/Contentful/Ghost。MIT 许可，107 stars。
 
 ### 📦 其他实用工具 (Utilities)
 - [URL Shortener](docs/projects/url-shortener-service/README.md): 轻量级短链接生成与管理服务.
