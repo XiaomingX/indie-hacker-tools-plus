@@ -85,6 +85,8 @@
 | [LangChain.js](https://js.langchain.com/) | **复杂链式**。处理 RAG、代理 (Agents) 等复杂逻辑的核心框架。 |
 | [MCP](https://modelcontextprotocol.io/) | **协议标准**。由 Anthropic 推出的模型上下文协议，连接数据与 AI 模型。 |
 
+- [Drevon](https://drevon.dev) - Mac desktop workspace for GTM engineers. Run parallel AI agents powered by Claude Code, Codex, or Copilot to build target lists, score accounts, and pull prospect intel.
+
 ### ☁️ 后端云/BaaS (Backend as a Service)
 
 | 技术栈 | 备注 |
