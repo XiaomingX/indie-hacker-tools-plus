@@ -259,6 +259,12 @@
 | [Tally.so](https://tally.so/) | **【新增】** 类似 Notion 体验的无代码表单工具，免费额度极高，深受初创团队喜爱。 |
 | [Qualtrics](https://www.qualtrics.com/) | 企业级专业调研首选，适合深度数据分析。 |
 
+### 🌐 网站健康监控 (Website Health Monitoring)
+
+| 工具 | 备注 |
+| --- | --- |
+| [PageGuard](https://pageguard.org) | **【推荐】** 免费网站健康扫描器，基于 Cloudflare Workers AI。一次扫描覆盖 SEO、性能、无障碍与最佳实践，提供 AI 修复建议。无需注册，REST API 可用。 |
+
 ### 🛡️ 基础设施、安全与 CDN (整合版)
 
 | 平台 | 备注 |
