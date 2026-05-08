@@ -84,6 +84,7 @@
 | [Vercel AI SDK](https://sdk.vercel.ai/) 🌟 | **工业标准**。支持主流 LLM 的流式渲染与统一调用。 |
 | [LangChain.js](https://js.langchain.com/) | **复杂链式**。处理 RAG、代理 (Agents) 等复杂逻辑的核心框架。 |
 | [MCP](https://modelcontextprotocol.io/) | **协议标准**。由 Anthropic 推出的模型上下文协议，连接数据与 AI 模型。 |
+| [OfoxAI](https://ofox.ai) | **LLM 聚合网关**。一个 API Key 调用 100+ 大模型（GPT/Claude/Gemini/DeepSeek 等），兼容 OpenAI 协议，按量计费无月费。 |
 
 ### ☁️ 后端云/BaaS (Backend as a Service)
 
