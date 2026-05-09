@@ -370,6 +370,7 @@
 ### 📈 SEO 与营销 (SEO & Marketing)
 - [SEO Backlink Gen](docs/projects/seo-backlink-generator/README.md): 自动化外链发布工具，助力提升网站 SEO 排名。
 - [SEO Prompt Gen](docs/projects/seo-content-prompt-generator/README.md): 专为 content marketing 设计的 AI 提示词生成器。
+- [Embercore](https://github.com/embercore-labs/embercore) - Open-source AI CMO that generates marketing plans from product briefs. Self-hostable, BYOK, MCP-native.
 - [URL Cluster Analyzer](docs/projects/url-cluster-analyzer/README.md): 用于网址聚类与竞争对手分析的实用工具。
 
 ### 📦 其他实用工具 (Utilities)
