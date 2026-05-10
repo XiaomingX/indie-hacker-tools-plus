@@ -43,377 +43,234 @@
 
 🧠 [世界上覆盖最全的优秀Qwen（千问）提示语大全](https://github.com/XiaomingX/awesome-qwen-prompt-insight)
 
-## 🚀 Web 开发模板 (2026 精选版)
+## Web 开发模板 (2026 精选版)
 
-### ⚡ 全栈 SaaS 启动器 (SaaS Starters)
+### 全栈 SaaS 启动器 (SaaS Starters)
 
 | 技术栈 | 备注 |
 | --- | --- |
-| [ShipFast](https://shipfa.st/) 💰 | **变现首选**。独立开发者最快的全栈变现模板，集成支付与邮件。 |
-| [OpenSaaS](https://opensaas.sh/) | **免费开源**。基于 Wasp 框架，极大简化了全栈样板代码逻辑。 |
 | [T3 Stack](https://create.t3.gg/) | **类型安全**。Next.js + TypeScript + tRPC 的极致开发体验。 |
+| [Marblism](https://www.marblism.com/) | **AI 生成全栈**。通过 Prompt 直接生成包含后端、数据库和前端的完整 SaaS。 |
 
-### 🛠️ 管理后台 (Admin Panels)
-
-| 技术栈 | 备注 |
-| --- | --- |
-| [Refine](https://refine.dev/) 🏆 | **黑马工具**。无头 (Headless) 后台框架，支持自由组合各类 UI 库。 |
-| [Vben Admin](https://vvbin.com/) | **Vue 生态尖端**。基于 Vue3 + Vite + Ant Design 的大型后台方案。 |
-| [Ant Design Pro](https://pro.ant.design/) | **企业级标准**。React 生态下最成熟、最稳健的中后台架构。 |
-
-### 🎨 现代 UI 组件体系 (Modern UI)
+### 管理后台 (Admin Panels)
 
 | 技术栈 | 备注 |
 | --- | --- |
-| [shadcn/ui](https://ui.shadcn.com/) 🚀 | **行业标准**。不再安装组件库，而是直接复制代码块，拥有 100% 控制权。 |
-| [Magic UI](https://magicui.design/) | **动态视觉**。专注于动效和高逼格交互组件，提升页面质感。 |
-| [Aceternity UI](https://ui.aceternity.com/) | **现代感利器**。提供极具视觉冲击力的落地页组件。 |
+| [Refine](https://refine.dev/) | **黑马工具**。无头 (Headless) 后台框架，支持自由组合各类 UI 库。 |
+| [shadcn-admin](https://github.com/satnaing/shadcn-admin) | **简洁美观**。基于 shadcn/ui 的仪表盘模板，目前非常流行。 |
 
-### 📝 内容驱动框架 (Content & SEO)
+### 现代 UI 组件体系 (Modern UI)
+
+| 技术栈 | | 备注 |
+| --- | --- | --- |
+| [shadcn/ui](https://ui.shadcn.com/) | | **行业标准**。不再安装组件库，而是直接复制代码块，拥有 100% 控制权。 |
+| [Magic UI](https://magicui.design/) | | **动态视觉**。专注于动效和高逼格交互组件，提升页面质感。 |
+| [Aceternity UI](https://ui.aceternity.com/) | | **现代感利器**。提供极具视觉冲击力的落地页组件。 |
+| [v0.dev](https://v0.dev/) | | **AI 生成 UI**。Vercel 出品，通过自然语言直接生成可用的 React 组件代码。 |
+
+### 内容驱动框架 (Content & SEO)
 
 | 技术栈 | 备注 |
 | --- | --- |
-| [Astro](https://astro.build/) 🏝️ | **性能之王**。Islands 架构，静态性能极致优化，SEO 项目首选。 |
-| [Docusaurus](https://docusaurus.io/) | **文档神器**。Meta 出品，最易于维护和扩展的文档站方案。 |
 | [Next.js (SSG)](https://nextjs.org/) | **全能选手**。强大的静态生成模式，兼顾性能与全栈扩展性。 |
+| [Hono](https://hono.dev/) | **极致性能**。支持边缘计算（Cloudflare Workers, Edge），是构建高性能 Content API 与极速 SEO 页面的首选。 |
+| [Astro](https://astro.build/) | **孤岛架构**。极致的静态性能，SEO 与内容站点的王者。 |
 
-### 🤖 AI 应用开发栈 (AI Development)
+### AI 知识、调研与笔记 (AI Knowledge & Research)
+
+| 工具名 | 备注 |
+| --- | --- |
+| [NotebookLM](https://notebooklm.google.com/) | **Google 出品**。基于上传源文件的 AI 笔记与调研神器，支持生成播客、思维导图、幻灯片等。 |
+| [Perplexity.ai](https://www.perplexity.ai/) | **AI 搜索**。结合实时搜索与模型推理，是技术调研、市场研究的最佳信息源。 |
+| [Afforai](https://afforai.com/) | **论文/文档研究**。专为学术和深度研究设计，支持对海量文献进行交叉引用与分析。 |
+
+### 后端云/BaaS (Backend as a Service)
 
 | 技术栈 | 备注 |
 | --- | --- |
-| [Vercel AI SDK](https://sdk.vercel.ai/) 🌟 | **工业标准**。支持主流 LLM 的流式渲染与统一调用。 |
-| [LangChain.js](https://js.langchain.com/) | **复杂链式**。处理 RAG、代理 (Agents) 等复杂逻辑的核心框架。 |
-| [MCP](https://modelcontextprotocol.io/) | **协议标准**。由 Anthropic 推出的模型上下文协议，连接数据与 AI 模型。 |
-
-### ☁️ 后端云/BaaS (Backend as a Service)
-
-| 技术栈 | 备注 |
-| --- | --- |
-| [Supabase](https://supabase.com/) 🔥 | **开源首选**。基于 PostgreSQL，支持 Edge Functions 和向量数据库。 |
+| [Supabase](https://supabase.com/) | **开源首选**。基于 PostgreSQL，支持 Edge Functions 和向量数据库。 |
 | [Convex](https://www.convex.dev/) | **实时同步**。无需手动管理状态，后端数据自动实时推送到前端。 |
 | [Appwrite](https://appwrite.io/) | **全栈平台**。提供认证、数据库、存储及云函数的一站式开源方案。 |
 
-### 💾 数据库与 ORM (Database & ORM)
+### 数据库与 ORM (Database & ORM)
 
 | 技术栈 | 备注 |
 | --- | --- |
-| [Drizzle ORM](https://orm.drizzle.team/) ⚡ | **极致轻量**。零开销且原生 SQL 体验，边缘计算 (Edge) 环境的最佳搭档。 |
+| [Drizzle ORM](https://orm.drizzle.team/) | **极致轻量**。零开销且原生 SQL 体验，边缘计算 (Edge) 环境的最佳搭档。 |
 | [Prisma](https://www.prisma.io/) | **开发体验最好**。自动生成的类型定义，极大地提升了后端建模效率。 |
-| [Turso](https://turso.tech/) | **边缘 SQLite**。基于 LibSQL，为分布式应用提供极低延迟的数据访问。 |
 
 ## 🌐 开放平台与商业生态 (Open Platforms)
 
-### 🛠️ 能力开放平台 (Capability & API Platforms)
+### 能力开放平台 (Capability & API Platforms)
 
 | 平台名称 | 备注 |
 | --- | --- |
 | [腾讯开放平台](https://open.tencent.com/) | **社交连接器**。提供微信/QQ 登录、社交关系链及小程序核心能力。 |
 | [支付宝开放平台](https://open.alipay.com/) | **商业支付**。深耕支付、生活缴费及金融级安全风控能力。 |
 | [火山引擎](https://www.volcengine.com/) | **算法驱动**。开放字节跳动同款的推荐算法、音视频及 AI 模型能力。 |
-| [Twilio](https://www.twilio.com/) 🚀 | **全球通信**。国际化项目首选，提供短信、语音及验证码的全球标准 API。 |
-| [GitHub Incentives](docs/yc-advice/github-community-incentives.md) 🎁 | **开发者福利**。涵盖 GitHub for Startups、Sponsors 及各类开源基金申请指南。 |
-
-### 📊 数据开放平台 (Data & Insights Platforms)
-
-| 平台名称 | 备注 |
-| --- | --- |
-| [阿里云数据资源平台](https://www.google.com/search?q=https://www.aliyun.com/product/dataworks) | **全链路治理**。集成数据开发、集成与开放共享的企业级数据中台。 |
-| [百度数据开放平台](https://www.google.com/search?q=https://ext.baidu.com/) | **流量画像**。基于搜索与地图大数据，提供趋势分析与群体画像支持。 |
-| [Google Cloud Public Datasets](https://cloud.google.com/datasets) | **全球视野**。涵盖气候、医疗、经济等海量公共数据集，支持 BigQuery 调用。 |
-| [聚合数据](https://www.juhe.cn/) | **开发者超市**。提供违章查询、天气、快递等细分行业标准化 API 接口。 |
-
-### 📣 营销开放平台 (Marketing & Ad Platforms)
-
-| 平台名称 | 备注 |
-| --- | --- |
-| [巨量引擎](https://www.oceanengine.com/) 🌟 | **流量霸主**。抖音/今日头条官方广告平台，支持深度转化监控 API。 |
-| [腾讯广告 (AMS)](https://ad.oceanengine.com/) | **全场景覆盖**。打通微信朋友圈、视频号及公众号的生态闭环营销。 |
-| [HubSpot](https://www.hubspot.com/) | **入站营销**。全球最成熟的 CRM 与自动化营销平台，生态插件极其丰富。 |
-| [飞书工作台](https://open.feishu.cn/) | **企业协同营销**。利用机器人和工作流实现企业内部及 B2B 场景的精准触达。 |
-
-### 📦 商品分销开放平台 (Distribution & E-commerce)
-
-| 平台名称 | 备注 |
-| --- | --- |
-| [淘宝联盟 (淘宝客)](https://pub.alimama.com/) 💰 | **分销标杆**。国内覆盖面最广、佣金体系最成熟的电商分销开放平台。 |
-| [京东联盟](https://union.jd.com/) | **品质分销**。主打物流履约优势，提供高转化率的家电及数码产品 API。 |
-| [Shopify Partners](https://www.shopify.com/partners) | **跨境独立站**。通过 App 或分销模式，连接全球数百万独立站卖家。 |
-| [有赞开放平台](https://doc.youzanyun.com/) | **私域经营**。深度开放订单、库存及会员系统，支持定制化的社交电商分销。 |
-
-
-## 写给0-1岁的初创公司合伙人-创业入门书
-```
-写给 0-1 岁的初创公司合伙人 (0)：什么是 MAU 指标，什么是 ARR、PMF - https://blog.csdn.net/2408_89348881/article/details/154359112?spm=1001.2014.3001.5501
-写给 0-1 岁的初创公司合伙人 (1)：可转债和可转换优先股区别 - https://juejin.cn/post/7569810118169690127
-写给 0-1 岁的初创公司合伙人 (2)：新型融资工具 SAFE 的定义和方案 - https://juejin.cn/post/7570184234070573056
-写给 0-1 岁的初创公司合伙人 (3)：出海产品运营的推广渠道 - https://juejin.cn/post/7569960869959417902
-写给 0-1 岁的初创公司合伙人 (4)：应用发布上线启动前的自查清单 - https://juejin.cn/post/7570213477949636660
-写给 0-1 岁的初创公司合伙人 (5)：出海常用技术栈组合 - https://juejin.cn/post/7570341520550969359
-写给 0-1 岁的初创公司合伙人 (6)：一文看懂：天使轮、A 轮、B 轮… 创业公司的融资轮次到底是啥？ - https://juejin.cn/post/7571734313923231778
-写给 0-1 岁的初创公司合伙人 (7)：LTV/CAC ＞ 3？详解单位经济模型的健康度 - https://blog.csdn.net/2408_89348881/article/details/155064714?spm=1001.2014.3001.5501
-写给 0-1 岁的初创公司合伙人 (8)：定价权的艺术 —— 从成本加成到价值定价 - https://blog.csdn.net/2408_89348881/article/details/155064842?spm=1001.2014.3001.5501
-写给 0-1 岁的初创公司合伙人 (10)：VIE 架构（可变利益实体）的红线与红利 - https://juejin.cn/post/7574382900860190747
-写给 0-1 岁的初创公司合伙人 (11)：烧钱率（Burn Rate）与 “死亡谷” 的现金流规划 - https://blog.csdn.net/2408_89348881/article/details/155064274?spm=1001.2014.3001.5501
-写给 0-1 岁的初创公司合伙人 (12)：网络效应与规模效应的区别 —— 为何有些 SaaS 无法指数增长 - https://blog.csdn.net/2408_89348881/article/details/155064361?spm=1001.2014.3001.5501
-写给 0-1 岁的初创公司合伙人 (13)：PLG（产品驱动增长）与 SLG（销售驱动增长）的组织基因差异 - https://blog.csdn.net/2408_89348881/article/details/155064459?spm=1001.2014.3001.5501
-写给 0-1 岁的初创公司合伙人 (14)：留存率（Retention）—— 比拉新更重要的 “复利” 指标 - https://blog.csdn.net/2408_89348881/article/details/155064587?spm=1001.2014.3001.5501
-写给 0-1 岁的初创公司合伙人 (15)：GDPR 与 CCPA—— 出海合规的 “核按钮” - https://juejin.cn/post/7574625040659529778
-写给 0-1 岁的初创公司合伙人 (16)：创始人协议与动态股权分配（Dynamic Equity Split） - https://juejin.cn/post/7574568258802139163
-写给 0-1 岁的初创公司合伙人 (17)：ODI（境外直接投资）备案与资金出境合规路径 - https://juejin.cn/post/7574600119749885962
-写给 0-1 岁的初创公司合伙人 (21)：知识产权（IP）布局 —— 商标、专利与开源协议的风险 - https://juejin.cn/post/7574620713228075059
-写给 0-1 岁的初创公司合伙人 (22)：尽职调查（Due Diligence）清单 ——VC 到底在查什么？ - https://juejin.cn/post/7574568258802122779
-写给 0-1 岁的初创公司合伙人 (24)：能力圈边界 —— 什么时候该转型，什么时候该坚持 - https://juejin.cn/post/7574620713227829299
-写给 0-1 岁的初创公司合伙人 (25)：招聘中的 “护城河”—— 如何识别雇佣兵与传教士 - https://juejin.cn/post/7574600119749738506
-写给 0-1 岁的初创公司合伙人 (26)：并购（M&A）与 IPO—— 退出的逻辑与时机选择 - https://juejin.cn/post/7574600119749754890
-写给 0-1 岁的初创公司合伙人 (27)：品牌资产 —— 在算法推荐时代重构用户心智 - https://juejin.cn/post/7574382900860485659
-写给 0-1 岁的初创公司合伙人 (28)：跨文化管理的熵增 —— 如何管理不同时区的团队 - https://juejin.cn/post/7574625040659660850
-写给 0-1 岁的初创公司合伙人 (29)：复盘与决策日志 —— 如何避免认知偏差（Bias） - https://juejin.cn/post/7574382925762215974
-写给 0-1 岁的初创公司合伙人 (30)：长期贪婪 —— 建立基于诚信的商业声誉 - https://juejin.cn/post/7574584245152399411
-```
-
-### 🚀 更新后的清单 (2026 版)
-
-我为你优化了结构，并加入了目前行业内最推崇的“AI 时代全栈工具链”。
-
-#### 🎨 前端 (Frontend)
-
-| 技术栈 | 备注 |
-| --- | --- |
-| [Next.js](https://nextjs.org/) 🌟 | **行业标准**。React 全栈框架，支持 Server Components。 |
-| [Vue.js / Nuxt](https://nuxt.com/) | 易上手，Nuxt 3 是目前 Vue 生态最强大的全栈框架。 |
-| [Shadcn/ui](https://ui.shadcn.com/) 🚀 | **必选**。基于 Tailwind 的组件库，代码所有权归你，高度可定制。 |
-| [Tailwind CSS](https://tailwindcss.com/) | 现代样式的标准写法，原子化 CSS 的统治者。 |
-
-#### 🔧 后端 (Backend & AI)
-
-| 技术栈 | 备注 |
-| --- | --- |
-| [Hono](https://hono.dev/) 🔥 | **新宠**。极速、轻量，完美支持 Cloudflare Workers 和 Node.js。 |
-| [Nest.js](https://docs.nestjs.com/) | 企业级 Node.js 框架，架构严谨，适合大型项目。 |
-| [FastAPI](https://fastapi.tiangolo.com/) | Python 后端首选，原生支持异步，AI/数据科学集成最强。 |
-| [LangChain / LlamaIndex](https://www.langchain.com/) | 构建 AI Agent 和 RAG 应用的核心框架。 |
-| [Chainlit](https://docs.chainlit.io/) | 快速构建 AI 聊天交互界面的 Python 框架。 |
-| [SillyTavern](docs/hot/sillytavern.md) 🎭 | **角色交互首选**。支持角色卡 (V2)、动态世界书与向量存储。 |
-
-#### 🗄️ 数据库与 ORM (Database & ORM)
-
-| 技术栈 | 备注 |
-| --- | --- |
-| [Supabase](https://supabase.com/) 🌟 | **首选**。开源 Firebase 替代品，内置 PostgREST、Auth 和存储。 |
-| [PostgreSQL](https://www.postgresql.org/) | 关系型数据库基石。结合 **pgvector** 可存储向量数据。 |
-| [Drizzle ORM](https://orm.drizzle.team/) 🔥 | 性能极高且类型安全的 ORM，目前在 Next.js 社区极受欢迎。 |
-| [Upstash](https://upstash.com/) | 专为 Serverless 优化的 Redis、Kafka 和向量数据库。 |
-| [MongoDB Atlas](https://www.mongodb.com/atlas) | 依然是文档型数据库的首选云服务。 |
-
-#### 🔐 登录鉴权 (Authentication)
-
-| 技术栈 | 备注 |
-| --- | --- |
-| [Clerk](https://clerk.com/) 🚀 | **最快落地**。体验最好的身份验证，几分钟即可集成登录框。 |
-| [Auth.js (NextAuth)](https://authjs.dev/) | 开源、灵活，深度集成于 Next.js 生态。 |
-| [Logto](https://logto.io/) | 优秀的开源身份基础设施，UI 精美，支持多种语言。 |
-
-#### 🚀 部署与托管 (Deployment)
-
-| 平台 | 备注 |
-| --- | --- |
-| [Vercel](https://vercel.com/) 🌟 | Next.js 项目的最佳部署目的地，Edge Function 支持。 |
-| [Cloudflare](https://www.cloudflare.com/) 🚀 | 通过 Workers 和 Pages 提供极速的边缘计算托管。 |
-| [Railway](https://railway.app/) | Heroku 的最佳替代品，支持一键部署数据库和各类服务。 |
-| [Zeabur](https://zeabur.com/) | 针对亚洲开发者优化，支持多种语言框架的一键部署平台。 |
-
-#### 💳 支付与订阅 (Payments)
-
-| 技术栈 | 备注 |
-| --- | --- |
-| [Stripe](https://stripe.com/) | 全球支付标准，订阅制（SaaS）开发的最佳选择。 |
-| [Lemon Squeezy](https://www.lemonsqueezy.com/) | **Merchant of Record (MoR)**。自动处理全球税务，省去合规烦恼。 |
-| [Paddle](https://www.paddle.com/) | 另一款优秀的 MoR 支付工具，适合出海开发者。 |
-
-
-### 🎨 图标库与设计工具（重点更新）
-
-| 平台/工具名 | 状态更新 | 建议与备注 |
-| --- | --- | --- |
-| **Figma** | 🌟 **行业标准** | 目前全球最主流的协作设计工具。其 **FigJam** 已完美替代了原有的 InVision 功能。 |
-| [Iconify](https://iconify.design/) | 活跃 | 依然是开发者最爱的开源图标集成方案，支持数千个图标库。 |
-| [Sketch](https://www.sketch.com/) | 活跃 | Mac 专精，近期加强了 Web 端的协作能力，仍是苹果生态设计师的首选。 |
-| **Pixso / 即时设计** | ✨ **国产首选** | 如果有国内协作需求，这两款工具是 Figma 的优秀国产替代品，访问更稳定。 |
-| **Framer** | 🚀 **新宠** | 现在的 Framer 已从原型工具转型为“设计即上线”的网站构建器，非常强大。 |
-
-### 📈 主机与云服务
-
-| 平台 | 备注 |
-| --- | --- |
-| [DigitalOcean](https://www.digitalocean.com/) | 适合开发者的简洁云平台，App Platform 极大简化了部署。 |
-| [Vercel / Netlify](https://vercel.com/) | **【新增】** 前端与全栈开发者的首选，提供极致的 CI/CD 和 Edge Functions 体验。 |
-| [AWS](https://aws.amazon.com/) / [Azure](https://azure.microsoft.com/) | 依然是企业级市场的绝对主力，AI 算力服务是其近年核心。 |
-| [火山引擎](https://www.volcengine.com/) | 字节跳动旗下，在 **AI 大模型服务（豆包）** 和视频处理领域具备极强竞争力。 |
-| [腾讯云](https://cloud.tencent.com/) | 在微信生态集成、小程序开发、音视频领域有独特优势。 |
-
-### 📊 客户反馈工具
-
-| 工具 | 备注 |
-| --- | --- |
-| [Typeform](https://www.typeform.com/) | 依然保持交互设计的领先地位，AI 自动生成表单功能表现优秀。 |
-| [Tally.so](https://tally.so/) | **【新增】** 类似 Notion 体验的无代码表单工具，免费额度极高，深受初创团队喜爱。 |
-| [Qualtrics](https://www.qualtrics.com/) | 企业级专业调研首选，适合深度数据分析。 |
-
-### 🛡️ 基础设施、安全与 CDN (整合版)
-
-| 平台 | 备注 |
-| --- | --- |
-| **Cloudflare** | 不只是 CDN，其 **Workers AI** 和 **Zero Trust** 已成为独立开发者标配。 |
-| **Vercel / Netlify** | **【更新】** 前端部署与 Serverless 的首选，比单纯用 CloudFront 更适合快速迭代。 |
-| **Snyk** | 依然是 AppSec 领头羊，现在重点在 **Snyk Code** 的 AI 自动修复。 |
-| **CrowdStrike** | 企业级端点安全霸主，适合有严格合规需求的中大型初创公司。 |
-| **Akamai / AWS** | 适合超大规模企业级流量，初创公司建议优先 Cloudflare。 |
-
-### 🖼️ 图片视频与创意流 (AI 驱动版)
-
-| 平台 | 备注 |
-| --- | --- |
-| **Squoosh** | Google 出品的本地压缩工具，隐私性比 Tinypng 更好，支持 WebP/AVIF。 |
-| **Canva / 可画** | 现在的核心是 **Magic Studio**，AI 生成图片和自动排版非常成熟。 |
-| **CapCut / 剪映** | 依然是短视频第一梯队，新增了 **AI 虚拟人** 口播功能。 |
-| **DaVinci Resolve** | 依然是专业级首选，内置的 AI 隔绝人声和遮罩追踪功能极强。 |
-| **Runway / Luma AI** | **【新增】** 视频生成领域的领头羊，适合制作高质感的 AI 宣传视频。 |
-
-### 🤖 AI 与开发者生产力 (核心清单)
-
-| 工具名 | 备注 |
-| --- | --- |
-| **Hugging Face** | AI 界的基础设施，Transformers 库和 Inference API 是核心。 |
-| **OpenAI / Anthropic** | **【更新】** 除了 GPT-4，**Claude 3.5 Sonnet** 目前在代码和逻辑领域口碑极佳。 |
-| **Groq / Together.ai** | **【更新】** 追求极致推理速度的首选，适合需要秒回的应用场景。 |
-| **Perplexity.ai** | 已经取代了许多开发者的日常搜索，适合技术调研。 |
-| **Cursor** | **【新增/强烈推荐】** 目前最强的 AI 代码编辑器，正在迅速取代单纯的 Copilot 插件。 |
-| **Dify / Coze** | 国内外 LLM 应用开发的主流 LLMops 平台，支持工作流编排。 |
-| **PyTorch** | 工业界和学术界的绝对主流框架（TensorFlow 份额持续萎缩）。 |
-
-### 📖 主流大模型官方文档 (LLM Documentation)
-
-| 模型/平台 | 官方文档链接 |
-| --- | --- |
-| **OpenAI** | [platform.openai.com](https://platform.openai.com/docs/api-reference) |
-| **Coze (扣子)** | [国内文档](https://docs.coze.cn/dev_how_to_guides/api_call_methods_overview) / [国际文档](https://www.coze.com/open/docs/developer_guides) |
-| **Qwen (通义千问)** | [help.aliyun.com](https://help.aliyun.com/zh/model-studio/use-qwen-by-calling-api) |
-| **火山方舟 (豆包)** | [volcengine.com](https://www.volcengine.com/docs/82379/1302013) |
-| **文心一言** | [cloud.baidu.com](https://cloud.baidu.com/doc/WENXINWORKSHOP/s/clntwmv7t) |
-| **腾讯混元** | [cloud.tencent.com](https://cloud.tencent.com/document/api/1729/117861) |
-| **Claude (Anthropic)** | [docs.anthropic.com](https://docs.anthropic.com/en/docs/quickstart-guide) |
-| **Gemini (Google)** | [ai.google.dev](https://ai.google.dev/gemini-api/docs/quickstart) |
-| **MiniMax** | [platform.minimaxi.com](https://platform.minimaxi.com/docs/api-reference/api-overview) |
-| **GLM (智谱 AI)** | [docs.bigmodel.cn](https://docs.bigmodel.cn/cn/guide/start/quick-start) |
-| **Kimi (Moonshot AI)** | [platform.moonshot.cn](https://platform.moonshot.cn/docs/guide/quickstart) |
-| **Suno** | [docs.sunoapi.org](https://docs.sunoapi.org/cn/suno-api/quickstart) |
-
-### 📊 数据科学与自动化 (精简版)
-
-| 工具名 | 备注 |
-| --- | --- |
-| **DataRobot** | 依然是 AutoML 的老牌强项，适合银行、保险等企业级场景。 |
-| **LightGBM** | 结构化数据/表格竞赛的王者，由微软维护。 |
-| **Weights & Biases** | **【新增】** 现代 AI 训练必备的实验跟踪平台，取代了旧式的表格记录。 |
-
-### 📣 信息发布与增长渠道
-
-| 渠道名 | 备注 |
-| --- | --- |
-| **Product Hunt** | 依然是全球首发的最高舞台，现在的规则更看重 Launch Day 的社区互动。 |
-| **Hacker News** | 纯粹的技术硬核社区，极其反感硬广，适合发布技术深度博文。 |
-| **Twitter (X)** | AI 开发者最活跃的阵地，Build in Public (公开构建) 的主战场。 |
-| **Reddit** | 推荐 r/SideProject, r/SaaS, r/SelfHosted 等特定子版块。 |
-| **Indie Hackers** | **【新增】** 独立开发者必入，分享盈利模式和增长心得。 |
-| **小红书 / 抖音 / TikTok** | 流量分发的关键，适合通过“工具演示”视频进行病毒式传播。 |
-| **Crunchbase / F6S** | 主要用于背书，提升公司在资方眼中的可信度。 |
-
-
-## 📈 招聘与求职平台
-
-| 工具类型 | 推荐选项与功能特点 |
-| --- | --- |
-| **🚀 核心推荐** | **jobleap.cn**：提供 AI 模拟面试、高频面试押题、精美简历模板及职位全网搜索。特别适合需要针对性提升面试表现的校招与社招求职者，是职场进阶的“备考神器”。 |
-| **🔥 国内主流** | **BOSS直聘**：开创“直聊模式”，响应速度最快。目前是国内垂直招聘领域的领头羊，涵盖了从互联网到传统行业的全量岗位。 |
-| **💼 中高端/猎头** | **猎聘**：侧重于中高端管理及技术岗位，提供专业的猎头服务，适合有 3-5 年以上工作经验、寻求职级跳跃的专业人士。 |
-| **🌐 国际/大厂** | **LinkedIn (领英)**：虽然其国内社交功能已简化为“领英职场”，但它依然是**外企、跨国公司**以及海外求职的首选平台。 |
-| **🏢 传统门户** | **前程无忧 (51job) / 智联招聘**：老牌大型综合平台，岗位数量庞大，尤其在传统制造业、金融和国企校招方面拥有极高的覆盖率。 |
-| **💻 技术/初创** | **Wellfound (原 AngelList)**：原名 AngelList，是全球初创企业招聘的鼻祖。如果你想加入潜力巨大的**初创公司**或 Web3 团队，这是首选。 |
-| **📊 评价/薪资** | **Glassdoor**：全球最权威的公司点评平台。在申请外企前，通过它查看真实的面试经验、内部薪资水平和公司文化口碑。 |
-| **🎓 校园招聘** | **Handshake / 实习僧**：Handshake 适合海外留学生，国内学生则建议结合“实习僧”或“牛客网”进行针对性的互联网实习与校招准备。 |
-| **🔍 聚合搜索** | **Indeed / Google for Jobs**：作为全球最大的招聘搜索引擎，它们能抓取全网的招聘信息，适合作为“查漏补缺”的工具。 |
-
-## 🛠️ 本仓库配套项目索引 (Project Index)
-
-为了方便开发者快速上手实战，我们为本仓库配套了一系列开源工具和 Demo。你可以根据需求直接进入对应的目录查看源码和使用说明。
-
-### 🤖 AI & 大语言模型工具 (AI & LLM Tools)
-- [Deep Research](docs/projects/deep-research/README.md): 结合搜索与推理的自动化研究助手，支持 o3-mini/R1 等模型。
-- [Open Manus](docs/projects/open-manus-autonomous-agent/README.md): 轻量级 Manus 交互系统，演示基础 LLM 任务交互能力。
-- [Leaked Prompts](docs/projects/leaked-llm-prompts-collection): 汇总各大 AI 厂商（OpenAI, Anthropic 等）的系统提示词，助力提示词工程。
-- [AI Resume Analyzer](docs/projects/openai-resume-analyzer/README.md): 基于 AI 的简历智能分析与优化建议工具。
-- [PDF Chat Assistant](docs/projects/pdf-chat-assistant/README.md): 实现与 PDF 文件的智能对话交互。
-
-### ⚙️ 自动化与机器人 (Automation & Bots)
-- [Automated Job Finder](docs/projects/automated-job-application-bot/README.md): 基于 `browser-use` 的自动化职位搜索与投递助手。
-- [Twitter Auto-Bot](docs/projects/twitter-automation-bot/README.md): 社交媒体自动推文与交互工具。
-- [WeChat Read Auto](docs/projects/wechat-read-automation): 微信读书自动化助手，提升阅读效率。
-- [Labubu Bot](docs/projects/labubu-telegram-bot/README.md): 趣味角色模拟交互机器人（Telegram/Discord）。
-- [Google Login Auto](docs/projects/google-login-automation/README.md): 谷歌账号自动登录与授权自动化脚本。
-
-### 🎬 媒体与内容创作 (Media & Content Creation)
-- [AI Movie Clipper](docs/projects/ai-movie-clipper/README.md): 智能视频剪辑、场景识别与自动字幕生成。
-- [Faceless Video Gen](docs/projects/faceless-video-generator/README.md): 自动化生成无人出镜视频，适合自媒体快速产出。
-- [Whisper Transcriber](docs/projects/whisper-video-transcriber/README.md): 高效率视频语音转文字与字幕提取。
-- [Wikipedia to Video](docs/projects/wikipedia-to-video-converter/README.md): 将维基百科词条自动转换为可视化视频内容。
-
-### 📈 SEO 与营销 (SEO & Marketing)
-- [SEO Backlink Gen](docs/projects/seo-backlink-generator/README.md): 自动化外链发布工具，助力提升网站 SEO 排名。
-- [SEO Prompt Gen](docs/projects/seo-content-prompt-generator/README.md): 专为 content marketing 设计的 AI 提示词生成器。
-- [URL Cluster Analyzer](docs/projects/url-cluster-analyzer/README.md): 用于网址聚类与竞争对手分析的实用工具。
-
-### 📦 其他实用工具 (Utilities)
-- [URL Shortener](docs/projects/url-shortener-service/README.md): 轻量级短链接生成与管理服务.
-- [Fake GitHub Activity](docs/projects/fake-github-activity-generator): 模拟 GitHub 提交记录的趣味工具.
-- [Video Subtitle SDK](docs/projects/video-subtitle-sdk/README.md): 开发者友好的视频字幕处理 SDK.
+| [Twilio](https://www.twilio.com/) | **全球通信**。国际化项目首选，提供短信、语音及验证码的全球标准 API。 |
+| [Google Maps / Mapbox](https://www.mapbox.com/) | **地理位置**。全球最领先的地图、导航及位置搜索服务。 |
+| [高德 / 百度地图开放平台](https://lbs.amap.com/) | **国内 LBS 首选**。提供精准的国内地图渲染、路径规划及 POI 搜索。 |
+| [Aliyun SMS / 腾讯云短信](https://www.aliyun.com/product/sms) | **高可靠触达**。国内最稳定的短信下发通道，支持验证码及营销短信。 |
+| [Auth0 / Okta](https://auth0.com/) | **企业级身份**。针对复杂企业场景的身份认证与单点登录 (SSO) 解决方案。 |
+| [Algolia](https://www.algolia.com/) | **即时搜索**。为应用提供极速的搜索体验，支持毫秒级全文检索与排序。 |
 
 ---
 
-## 🏗️ 选型决策指南 (2026 深度版)
+## AI 时代全栈工具链 (2026 深度更新)
 
-为了帮助开发者在复杂的技术海洋中做出最理性的决策，我们整理了深度的选型逻辑与配置策略：
+### 前端与交互 (Frontend & Design)
 
-### 🎨 现代化框架选型逻辑
+| 技术栈 | 备注 |
+| --- | --- |
+| [Next.js](https://nextjs.org/) | **行业标准**。React 全栈框架，2026 年依然是全栈开发的首选。 |
+| [Shadcn/ui](https://ui.shadcn.com/) | **必选**。基于 Tailwind 的组件库，代码所有权归你。 |
+| [v0 / Bolt.new](https://bolt.new/) | **新工作流**。通过 Prompt 直接生成并部署全栈 Web 应用。 |
+| [Lovart.ai](https://lovart.ai/) | **AI 设计 Agent**。具备“ChatCanvas”无限画布，通过对话方式进行生产级视觉资产设计。 |
+
+### 后端与网关 (Backend & Gateway)
+
+| 技术栈 | 备注 |
+| --- | --- |
+| [Hono](https://hono.dev/) | **性能新宠**。极致轻量，支持所有 JavaScript 运行环境（Node, Bun, Edge）。 |
+| [FastAPI](https://fastapi.tiangolo.com/) | Python AI 开发标配，配合 **Pydantic V2** 性能极大提升。 |
+| **Go-zero / Kratos** | **Golang 微服务**。国内大厂主流选型，内置治理能力的微服务基础框架。 |
+
+### LLM 评测与治理 (LLM Evaluation & Harness)
+
+| 工具名 | 备注 |
+| --- | --- |
+| [LM Eval Harness](https://github.com/EleutherAI/lm-evaluation-harness) | **行业标准**。标准化评测基准，模型研究与对比的首选工具。 |
+| [DeepEval](https://www.confident-ai.com/) | **LLM 界的 Pytest**。将评测集成到 CI/CD 流程中，支持 50+ 指标。 |
+| [RAGAS](https://docs.ragas.io/) | **RAG 评估神器**。专注于检索和生成质量的参考-free 评分框架。 |
+| [Langfuse / LangSmith](https://langfuse.com/) | **全链路观测**。开源/闭源观测与评估平台，支持 Trace、Prompt 管理及评估。 |
+| [Arize Phoenix](https://phoenix.arize.com/) | **开源可观测性**。支持 RAG 可视化、嵌入空间分析及 Agent 追踪。 |
+
+### Agent 协议与 SDK (Agent Protocols & SDKs)
+
+| 工具名 | 备注 |
+| --- | --- |
+| [MCP (Model Context Protocol)](https://modelcontextprotocol.io/) | **行业协议**。Anthropic 发起，旨在统一 AI 模型与外部数据工具的连接标准。 |
+| [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | **微软出品**。支持 C#, Python 和 Java，是构建企业级 Agent 的核心框架。 |
+| [AutoGen](https://microsoft.github.io/autogen/) | **多 Agent 协同**。微软研究院推出的框架，支持多个 Agent 之间进行复杂对话与协作。 |
+| [Firebase Genkit](https://firebase.google.com/docs/genkit) | **Google 原生**。专为开发者设计的框架，用于构建、部署 and 监控 AI 驱动的应用。 |
+| [Hermes Agent](https://github.com/nousresearch/hermes) | **开源标配**。基于 Nous Hermes 模型的 Agent 实现，逻辑推理能力极其出色。 |
+
+### 现代 AI 编辑器与 Agent (Modern IDEs & Agents)
+
+| 工具名 | 备注 |
+| --- | --- |
+| [Cursor](https://www.cursor.com/) | **目前最强**。深度集成 AI 的 VS Code 分叉，Composer 模式极大提升多文件编辑效率。 |
+| [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code) | **终端专家**。Anthropic 官方推出的命令行 Agent，逻辑推理与重构能力惊人。 |
+| [Windsurf](https://codeium.com/windsurf) | **Agentic IDE**。具备强推理能力的 Cascade Agent，擅长自主完成复杂任务。 |
+| [Kilo Code](https://kilo.ai/) | **全能插件**。支持 VS Code 和 JetBrains 的 Agent 插件，支持 500+ 模型连接。 |
+| [OpenCode](https://opencode.ai/) | **开源 Agent**。支持 TUI 和桌面端，强调开发者控制权与极简工作流。 |
+| [Zed](https://zed.dev/) | **极致性能**。Rust 编写，原生支持 AI 协作，启动速度与内存占用极低。 |
+| [Aider](https://aider.chat/) | **命令行标配**。通过终端直接操作 Git 仓库并进行 AI 编程的最佳实践。 |
+
+### CLI 基础框架与 Agent 原型 (CLI & Agent Prototypes)
+
+| 工具名 | 备注 |
+| --- | --- |
+| [Cobra](https://github.com/spf13/cobra) | **Golang 标配**。构建高性能、工业级命令行工具的事实标准框架。 |
+| [Commander.js](https://github.com/tj/commander.js) | **Node.js 选型**。最受欢迎的 JavaScript 命令行界面库，简单易上手。 |
+| [pi-mono (pi)](https://github.com/pi-mono) | **Agent 原型框架**。极简且高性能的 TypeScript 工具集，适合构建自定义 AI 编程 Agent。 |
+| [Oclif](https://oclif.io/) | **Heroku 出品**。适合构建复杂的、包含插件系统的 Node.js CLI 应用。 |
+
+### 数据库与存储 (Database & Vector)
+
+| 技术栈 | 备注 |
+| --- | --- |
+| [Supabase](https://supabase.com/) | **全能王**。内置 pgvector，依然是独立开发者管理向量数据的首选。 |
+| [OpenViking](https://github.com/volcengine/openviking) | **上下文数据库**。火山引擎开源，专为 Agent 长期记忆与分层上下文管理设计。 |
+| [Turso](https://turso.tech/) | **边缘 SQLite**。超低延迟，适合需要全球分布的小型应用。 |
+| [TiDB Serverless](https://pingcap.com/ai) | **大容量首选**。支持 MySQL 协议，具备极强的向量搜索与混合搜索能力。 |
+| [Pinecone](https://www.pinecone.io/) | **托管向量数据库**。支持海量数据的高并发查询，AI 生产环境的常客。 |
+
+### AI 算力与模型网关 (AI Compute & Model Gateways)
+
+| 工具名 | 备注 |
+| --- | --- |
+| [Replicate](https://replicate.com/) | **模型托管**。通过简单 API 运行各种开源 AI 模型（SDXL, Llama 3等），无需管理服务器。 |
+| [OpenRouter](https://openrouter.ai/) | **LLM 聚合网关**。统一 API 访问上百种 LLM 模型，支持最佳价格路由与自动 fallback。 |
+| [Together AI](https://www.together.ai/) | **极速推理**。专注于开源模型的高性能推理服务，适合对延迟极其敏感的应用。 |
+| [Groq](https://groq.com/) | **推理巅峰**。基于自研 LPU，提供目前全球最快的 LLM 推理速度（每秒数百 token）。 |
+
+### AI 创意与媒体流 (Creative AI)
+
+| 平台 | 备注 |
+| --- | --- |
+| **Runway Gen-3 / Luma Dream Machine** | 视频生成领域的领跑者，支持极高质量的物理引擎模拟。 |
+| **Midjourney V6 / Flux.1** | 2026 年图像生成的金标准，Flux 在文字渲染与真实感上更胜一筹。 |
+| **HeyGen** | **数字人视频**。目前最强的 AI 数字人生成、视频翻译与口型同步平台。 |
+| **ElevenLabs** | 依然是语音合成（TTS）的霸主，多语言表现无懈可击。 |
+
+### 值得关注的大语言模型 (LLM Watchlist)
+
+| 模型名称 | 备注 |
+| --- | --- |
+| **Xiaomi MiMo-V2.5** | **小米 Agent 专家**。MoE 架构，在长文推理与 Agent 任务执行上表现惊艳。 |
+| **Hunyuan-3 (Hy3 Preview)** | **腾讯全能王**。融合“快慢思考”架构，256K 上下文，适合复杂逻辑编排。 |
+| **DeepSeek V4 (Pro/Flash)** | **代码统治者**。1.6T MoE 架构，百万 token 上下文，目前全球开源界最强 coding 模型。 |
+| **Claude 3.5 Sonnet / 4** | **逻辑巅峰**。Anthropic 出品，目前在 AI 编程与逻辑推理领域的行业标杆。 |
+| **GPT-5 (Strawberry)** | **推理新高度**。具备更强的自我反思与强化学习能力，处理高难度任务的首选。 |
+
+### 商务办公与电子签章 (Business & E-signature)
+
+| 平台名称 | 备注 |
+| --- | --- |
+| [DocuSign](https://www.docusign.com/) | **全球标准**。不仅是电子签章，其 IAM 平台已覆盖合同全生命周期的智能管理。 |
+| [法大大 (Fadada)](https://www.fadada.com/) | **国内领先**。深耕国内法律合规场景，提供存证、出证及电子签全链路服务。 |
+| [e签宝 (eSign)](https://www.esign.cn/) | **全案解决**。国内市场占有率极高，支持多行业、多场景的电子合同签署。 |
+| [PandaDoc](https://www.pandadoc.com/) | **商务自动化**。更侧重于报价单、合规合同的生成与自动化流转。 |
+
+### 💳 支付与金融基础设施 (Payment & Fintech)
+
+| 技术栈 | 备注 |
+| --- | --- |
+| [Stripe](https://stripe.com/) | **行业标杆**。最全能的支付基础设施，其 Connect 服务是平台型应用的首选。 |
+| [Adyen](https://www.adyen.com/) | **企业级全球支付**。专为大中型企业设计的支付处理平台，支持全球全渠道收款。 |
+| [Payoneer (派安盈)](https://www.payoneer.com/) | **全球收款标准**。深度集成全球主流电商与零工平台，适合管理全球供应商与自由职业者打款. |
+| [Wise Business](https://wise.com/zh-cn/business/) | **透明汇率**。使用中间市场汇率，是小微企业与自由职业者跨境转账、持有外币的性价比之王。 |
+| [WorldFirst (万里汇) / PingPong](https://www.worldfirst.com.cn/) | **电商收款利器**。针对国内跨境卖家优化，支持多平台一键收款，费率极具竞争力。 |
+| [Paddle / Lemon Squeezy](https://paddle.com/) | **Merchant of Record (MoR)**。自动代缴全球税务，极大简化了 SaaS 产品的出海合规。 |
+| [Tipalti](https://tipalti.com/) | **自动化 mass payouts**。适合零工平台或全球分销系统，自动处理全球结算与税务表单。 |
+| [Airwallex (空中云汇)](https://www.airwallex.com/) | **跨境金融**。提供低成本的全球收款、付款及虚拟卡服务，适合出海贸易与跨境电商。 |
+
+### 🚀 零工经济与人才招聘 (Gig Economy & Talent)
+
+| 平台名称 | 备注 |
+| --- | --- |
+| [Fiverr](https://www.fiverr.com/) | **小微任务首选**。采用“Gig”模式，适合快速寻找设计、文案、翻译等一次性小任务。 |
+| [Upwork](https://www.upwork.com/) | **项目制专家**。全球最大的自由职业市场，适合寻找长期协作的开发者或项目经理。 |
+| [Toptal](https://www.toptal.com/) | **精英网络**。只招聘全球前 3% 的顶尖技术人才，适合使命必达的核心项目。 |
+| [Contra](https://contra.com/) | **零佣金新锐**。针对现代自由职业者的社区化平台，UI 精美，强调个人品牌。 |
+| [jobleap.cn](https://jobleap.cn/) | **职场进阶**。国内领先的 AI 面试与职位聚合平台，校招与社招求职必备工具。 |
+
+---
+
+## 选型决策指南 (2026 深度版)
+
+### 现代化框架选型逻辑
 - **追求人才生态与落地效率**：首选 **Next.js** 或 **Nuxt**。
 - **追求内容驱动与极速 SEO**：首选 **Astro**。
 - **追求极简与边缘 API 性能**：首选 **Hono**。
-- **追求大型组织架构稳定**：首选 **Angular**。
-- 👉 [查看前端框架深度评审](docs/tech-stack/frameworks.md)
+- **追求 Golang 高并发网关**：首选 **KrakenD**（配置简单）或 **Tyk**（功能全面）。
 
-### ☁️ 云服务全球配置策略
-在 2026 年，理性的云资产配置应遵循“基础稳固 + 效率先行”：
-- **核心算力与存储 (50%)**：ECS/OSS, EC2/S3, S3/Blob。
-- **自动化运维服务 (30%)**：ACK/EKS/AKS, RDS/SQL Database。
-- **AI 基础设施 (20%)**：PAI, Bedrock, 豆包大模型。
-- 👉 **各大厂商深度选型参考**：
-  - [Amazon Web Services (AWS)](docs/tech-stack/aws.md)
-  - [Microsoft Azure](docs/tech-stack/azure.md)
-  - [Google Cloud (GCP)](docs/tech-stack/gcp.md)
-  - [Alibaba Cloud (阿里云)](docs/tech-stack/aliyun.md)
-  - [Volcengine (火山引擎)](docs/tech-stack/volcengine.md)
-  - [Cloudflare (边缘加速与存储)](docs/tech-stack/cloudflare.md)
+### AI 编程工具怎么选？
+- **新手/全能选手**：首选 **Cursor**，上手最快，体验最丝滑。
+- **重度终端用户**：首选 **Claude Code** 或 **Aider**，适合在 CLI 中快速迭代。
+- **追求极速响应**：首选 **Zed**，虽然 AI 功能还在完善，但性能无敌。
+- **大型项目重构**：**Windsurf** 的 Cascade Agent 在处理跨文件逻辑时表现出色。
 
-### 🎭 AI 角色交互深度选型
-针对沉浸式角色扮演与创意写作：
-- **逻辑底座**：角色卡 (V2) 与 动态世界书 (Lorebook)。
-- **长效体验**：必须配置基于向量数据库的 RAG 系统。
-- 👉 [查看 SillyTavern 核心功能分析](docs/hot/sillytavern.md)
-
----
+### LLM 应用如何测试？
+- **上线前基准测试**：使用 **LM Eval Harness** 跑一遍公认榜单。
+- **RAG 质量检测**：使用 **RAGAS** 评估检索到的文档相关性。
+- **长期生产观测**：部署 **Langfuse** 监控 Token 消耗与模型幻觉。
 
 ---
 
 > [!TIP]
-> **关于本项目**: 本仓库（Indie Hacker Tools Plus）致力于为全球独立开发者（Indie Hackers）提供最实用的出海技术栈、AI 工具及实战项目。我们不仅推荐工具，更提供可运行的代码示例，帮助你从 0 到 1 快速构建自己的产品。
->
+> **关于本项目**: 本仓库（Indie Hacker Tools Plus）致力于为全球独立开发者提供最实用的技术栈、AI 工具及实战项目。
+> 
 > 欢迎 [提交 Issue](https://github.com/XiaomingX/indie-hacker-tools-plus/issues) 推荐更多好工具！
