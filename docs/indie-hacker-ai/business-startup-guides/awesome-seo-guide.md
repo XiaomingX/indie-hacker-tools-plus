@@ -1,69 +1,48 @@
-# awesome-search-engine-optimization
+# SEO & AIO 增长实战 (2026 Checklist)
 
-优质的搜索引擎优化（SEO）策略分享
-
-以下内容总结了一些简单易用、实用的SEO技巧和工具，帮助您快速优化网站的搜索引擎表现。
-
----
-
-## 通用SEO技巧与文章推荐
-
-### 基础知识与重要技巧
-1. **Google搜索必备**：了解[Google搜索核心指南](https://developers.google.com/search/docs/essentials)，掌握网站内容如何在Google搜索中表现良好。
-2. **一致性的重要性**：SEO的成败与一致性密切相关。从页面标题到内部链接，小细节优化决定了SEO的效果。
-3. **长尾关键词策略**：[什么是长尾关键词以及如何利用它获取流量](https://ahrefs.com/blog/long-tail-keywords/)，专注于容易竞争的关键词。
-4. **SEO新手指南**：[初创公司SEO指南](https://getspexia.com/blog/seo-for-startups)（18章节详解）。
-5. **内容页面结构**：[如何创建柱状页面（Pillar Pages）](https://www.linkedin.com/posts/lmckenzie16_how-to-create-a-pillar-page-activity-7216404846399102977-G0-F)。
-
-### 热点与案例
-- **排名算法揭秘**：Google搜索排名算法的[内部工作机制泄露](https://searchengineland.com/google-search-document-leak-ranking-442617)。
-- **SEO案例研究**：了解[10个最佳SEO案例](https://twitter.com/hridoyreh/status/1660898339414765568)。
+> [!IMPORTANT]
+> **2026 SEO 范式转移**：从 **"Search Engine Optimization"** 进化为 **"AIO (AI Optimization)"**。
+> - **SGE 适配**：Google 的搜索生成体验 (SGE) 会直接回答问题。你的目标是出现在 AI 的**引用来源**中。
+> - **EEAT 核心**：AI 时代内容泛滥，Google 极其看重**经验 (Experience)**、**专业 (Expertise)**、**权威 (Authoritativeness)** 和 **信誉 (Trustworthiness)**。
 
 ---
 
-## 内外部链接与反向链接策略
+## 📈 基础建设与核心策略 (Foundations)
 
-1. **内部链接优化**：[5个打造内部链接的关键要点](https://twitter.com/SearchForRyan/status/1722524766139990467)。
-2. **反向链接策略**：学习如何通过Google数据构建反向链接：[详细指南](https://www.linkedin.com/feed/update/urn:li:activity:7193927301238046721/)。
-3. **利用行业资源**：投稿到专业网站如[freeCodeCamp](https://www.freecodecamp.org/)或[SitePoint](https://www.sitepoint.com/write-for-us/)获取高质量链接。
-4. **高效工具推荐**：[Ahrefs反向链接检查器](https://ahrefs.com/backlink-checker)。
-
----
-
-## 技术SEO优化工具推荐
-
-1. **页面加载速度优化**：[Google PageSpeed Insights](https://pagespeed.web.dev/) 和 [WebPagetest](https://www.webpagetest.org/)。
-2. **结构化数据验证**：[Google结构化数据工具](https://developers.google.com/search/docs/appearance/structured-data/search-gallery)。
-3. **链接检查**：[Ahrefs坏链检查器](https://ahrefs.com/broken-link-checker)。
+- [ ] [**Google Search Console**](https://search.google.com/search-console/about) - 监控网站在 Google 表现的唯一权威入口。
+- [ ] [**AIO 适配策略**](https://developers.google.com/search/blog/2024/03/core-update-spam-policies) - 确保内容具有独特的“第一手经验”，避免被识别为纯 AI 垃圾内容。
+- [ ] [**Pillar-Cluster 结构**](https://www.hubspot.com/marketing/topic-clusters-seo) - 构建主题集群，确立你在特定领域的权威度。
+- [ ] [**长尾关键词研究**](https://ahrefs.com/keywords-explorer) - 避开高竞争词汇，通过解决具体的小众问题获取精准流量。
 
 ---
 
-## 本地SEO与小企业优化
+## 🛠️ 技术 SEO 与性能优化 (Technical SEO)
 
-1. **本地SEO指南**：[本地SEO排名因素](https://www.brightlocal.com/learn/local-seo/introduction-to-local-seo/ranking-factors/)。
-2. **优化Google商家资料**：使用[Google我的商家](https://www.google.com/business/)添加重要链接和活动信息。
-
----
-
-## 内容创作与工具支持
-
-1. **生成长尾关键词内容**：[免费关键词工具](https://www.webfx.com/tools/keywordsfx/)。
-2. **AI辅助写作**：[copy.ai](https://copy.ai) 提供快速生成高质量内容的功能。
+- [ ] [**Core Web Vitals**](https://pagespeed.web.dev/) - 确保网站在移动端的加载速度、交互性和稳定性达到优秀。
+- [ ] [**结构化数据 (Schema.org)**](https://validator.schema.org/) - 使用 JSON-LD 标记你的产品、文章和 FAQ，帮助 AI 更好地理解你的网页。
+- [ ] [**Next.js SEO 优化**](https://nextjs.org/docs/app/building-your-application/optimizing/metadata) - 利用 App Router 的 Metadata API 自动生成 TDK 与 OpenGraph。
 
 ---
 
-## 推荐的SEO资源与社区
+## 🔗 链接建设与品牌权威 (Backlinks & E-E-A-T)
 
-### 专家与社区
-- [SEO圈子（Slack社区）](https://docs.google.com/forms/d/e/1FAIpQLSfRAnvSg83SQD8v6zYn69WPw_1SJXdPzr4YvT6jVs1KUH0zwA/viewform)
-- 推荐关注的SEO专家：如[Aleyda Solís](https://www.linkedin.com/in/aleyda/)和[John Mueller](https://www.linkedin.com/in/johnmu/)。
-
-### 重要工具
-1. **SEO工具大全**：[TechnicalSEO工具合集](https://technicalseo.com/tools/)。
-2. **竞争对手分析**：[Similarweb](https://www.similarweb.com/) 评估市场竞争情况。
+- [ ] [**高质量反向链接**](https://ahrefs.com/backlink-checker) - 通过发布深度调研报告或开源工具吸引自然链接。
+- [ ] [**行业资源投稿**](https://www.freecodecamp.org/news/how-to-write-for-freecodecamp/) - 在 freeCodeCamp, SitePoint 等权威技术站点发布内容。
+- [ ] [**社交信号同步**](https://x.com/) - 活跃的 X (Twitter) 或 LinkedIn 互动能加速新页面的收录。
 
 ---
 
-## 小结
+## 🤖 AI 辅助增长工具 (AI Tools)
 
-SEO优化是一个持续改进的过程，以上方法与工具可以帮助您快速入门，并逐步提升网站表现。如果需要更多具体指导，请结合实际情况选择适合的策略。
+- [ ] [**Perplexity**](https://www.perplexity.ai/) - 观察 AI 如何引用你的内容，反向优化 AIO。
+- [ ] [**Surfer SEO**](https://surferseo.com/) - 基于实时搜索数据优化内容结构。
+- [ ] [**KoalaWriter**](https://koala.sh/) - 针对 SEO 优化的 AI 写作工具（需配合人工微调）。
+- [ ] [**Ahrefs / Semrush**](https://ahrefs.com/) - 竞品分析与流量监控的行业标准。
+
+---
+
+## 💡 选型建议
+1. **新站快速冷启动**：专注解决一个极其具体的**长尾问题**。
+2. **应对 AI 搜索冲击**：在文章中加入大量**个人真实案例与图片**。
+3. **技术型产品**：开源核心代码或提供在线 Demo，吸引开发者引用。
+4. **提升收录速度**：集成 **IndexNow** 协议。

@@ -1,158 +1,51 @@
-# Awesome-LLM-RAG [高级检索增强生成（RAG）]
+# 高级检索增强生成 (RAG) 实战指南 (2026 Checklist)
 
-<img width="1180" alt="image" src="https://github.com/user-attachments/assets/68fcb39c-c891-480b-a3ac-a18325574e8e">
+> [!TIP]
+> **Indie Hacker Insight**: 2026 年的 RAG 已进化为 **GraphRAG (图 RAG)** 和 **Agentic RAG**。
+> - **消除幻觉**：简单的向量检索已不够，必须引入知识图谱（KG）来处理复杂的关系查询。
+> - **长文本优势**：利用 Gemini 1.5 Pro 或 Claude 4 的长上下文能力，部分场景下可直接取代传统 RAG。
 
+---
 
-## 重点会议与研讨会
-原内容聚焦“研讨会与教程”，现扩展为“重点会议与研讨会”，新增顶会专题论坛（RAG核心议题）及2026年关键会议，按“顶会专题”“核心研讨会”分类，提升学术时效性与结构性。
+## 🏗️ 核心开发框架 (Frameworks)
 
-### 顶会专题论坛（RAG核心议题）
-- **检索增强生成与知识推理专题论坛**  
-  *NeurIPS 2026 程序委员会*  
-  聚焦RAG与因果推理、符号知识融合的前沿方向，探讨复杂任务下的检索-生成协同机制  
-  NeurIPS 2026 [[链接](https://neurips.cc/Conferences/2026/Schedule?type=Workshop)]
+- [ ] [**LangChain**](https://www.langchain.com/) - 企业级 AI 代理开发标配，支持复杂的 RAG 流水线集成。
+- [ ] [**LlamaIndex**](https://www.llamaindex.ai/) - 专注数据连接与高级索引，是构建私有知识库的最强引擎。
+- [ ] [**GraphRAG (Microsoft)**](https://github.com/microsoft/graphrag) - 利用图机器学习提取文档结构，极大提升复杂问题的回答质量。
+- [ ] [**Haystack**](https://haystack.deepset.ai/) - 模块化 RAG 框架，适合追求极致工程化与性能的项目。
+- [ ] [**Dify**](https://dify.ai/) - 可视化 RAG 编排平台，支持从 PDF 导入到 API 发布的完整闭环。
 
-- **大模型时代的高效检索与生成融合论坛**  
-  *ICML 2026 检索生成专题组*  
-  覆盖轻量化RAG架构、动态检索策略、低资源场景适配三大核心议题  
-  ICML 2026 [[链接](https://icml.cc/Conferences/2026/Schedule?type=Workshop)]
+---
 
-- **多模态检索增强生成（MM-RAG）前沿论坛**  
-  *EMNLP 2026 多模态AI专题委员会*  
-  探索文本、图像、音频跨模态检索与生成的统一框架及评估标准  
-  EMNLP 2026 [[链接](https://2026.emnlp.org/workshops)]
+## 🗄️ 向量数据库与检索 (Vector DB & Retrieval)
 
-- **企业级RAG系统实践与落地专题**  
-  *SIGIR 2026 产业应用分会*  
-  由谷歌、微软等企业研究员主导，分享大规模数据下的RAG工程化挑战与解决方案  
-  SIGIR 2026 [[链接](https://sigir.org/sigir2026/program/industry-tracks/)]
+- [ ] [**Pinecone**](https://www.pinecone.io/) - 托管式向量数据库首选，支持海量数据的高并发检索。
+- [ ] [**Milvus / Zilliz**](https://milvus.io/) - 企业级开源向量数据库，适配分布式架构。
+- [ ] [**Qdrant**](https://qdrant.tech/) - 高性能 Rust 编写，支持地理位置向量与多模态检索。
+- [ ] [**Chroma**](https://www.trychroma.com/) - 极致轻量，适合原型开发与本地部署。
+- [ ] [**Weaviate**](https://weaviate.io/) - 原生支持 GraphQL 的向量数据库，Schema 定义灵活。
 
-### 核心研讨会
-- **个性化生成式人工智能研讨会**  
-  *Zheng Chen 等*  
-  聚焦RAG与用户画像融合的个性化内容生成技术  
-  CIKM 2023 [[链接](https://sites.google.com/view/pgai2023/home)]
+---
 
-- **生成式信息检索研讨会**  
-  *Gabriel Bénédict 等*  
-  探讨生成模型驱动的检索范式革新（如“生成式索引”“检索式生成预处理”）  
-  SIGIR 2023 [[链接](https://coda.io/@sigir/gen-ir)]
+## 🛠️ 优化与评估工具 (Optimization & Eval)
 
-- **Agent与RAG协同优化研讨会**  
-  *Li Zhang 等*  
-  聚焦Agent的“规划-检索-生成”闭环机制，结合DRL实现检索决策自适应  
-  KDD 2026 [[链接](https://kdd2026.kdd.org/workshops/)]
+- [ ] [**RAGAS**](https://github.com/explodinggradients/ragas) - 专注于 RAG 评估的框架，涵盖忠实度、答案相关性等指标。
+- [ ] [**Arize Phoenix**](https://phoenix.arize.com/) - 开源的可观测性工具，支持 RAG 过程的可视化追踪。
+- [ ] [**DeepEval**](https://github.com/confident-ai/deepeval) - 将 RAG 测试集成到 CI/CD 流程中。
+- [ ] [**Jina Reader**](https://r.jina.ai/) - 将网页转为精简 Markdown，极大提升 Web 检索的准确率。
 
-- **AgentIR 2026：Agent驱动的信息检索新边界研讨会**  
-  深度强化学习（DRL）与大语言模型（LLM）在信息检索中的融合应用  
-  SIGIR 2026 [[链接](https://applied-machine-learning-lab.github.io/2nd-AgentIR-Workshop-SIGIR-2026/about)]
+---
 
+## 📚 2026 核心研究与趋势 (Research)
 
-## 推荐论文
-补充2026年顶会核心论文，并为重点论文新增“核心贡献”，帮助快速定位研究价值。
+- [x] **Hybrid RAG**: 结合稀疏检索（BM25）与稠密检索（Embedding）的混合模式已成标配。
+- [x] **Self-RAG**: 赋予模型“自我批判”能力，自主决定何时检索、何时生成。
+- [x] **Long-Context vs RAG**: 针对 1M+ Token 的长文本，研究如何平衡检索成本与推理质量。
 
-### 概览与基准
-- **检索增强生成的大模型基准测试（RGB）**  
-  *Jiawei Chen 等*  
-  核心贡献：构建首个覆盖“检索准确性-生成一致性-效率”的三维基准数据集与评估套件  
-  arXiv 2023 [[论文](https://arxiv.org/abs/2309.01431)][[代码](https://github.com/chen700564/RGB)]
+---
 
-- **RAG-Bench：多场景检索增强生成综合评估基准**  
-  *Minghao Liu 等*  
-  核心贡献：涵盖通用、医疗、法律3大垂直领域，支持静态/动态数据场景下的RAG性能对比  
-  SIGIR 2026 [[论文](https://arxiv.org/abs/2404.08256)][[代码](https://github.com/rag-bench/RAG-Bench)]
-
-### 检索增强大模型
-- **DFA-RAG: 基于有限状态自动机的对话语义路由器**  
-  *Yiyou Sun 等*  
-  核心贡献：通过DFA建模对话状态转移，实现检索上下文的动态过滤与精准匹配  
-  ICML 2026 [[论文](https://arxiv.org/abs/2402.04411)]
-
-- **REST: 基于检索的投机解码**  
-  *Zhenyu He 等*  
-  核心贡献：将检索到的片段作为“投机前缀”，加速LLM生成过程（最高提升30%生成效率）  
-  arXiv 2023 [[论文](https://arxiv.org/abs/2311.08252)][[代码](https://github.com/fasterdecoding/rest)]
-
-- **自反思学习检索与生成**  
-  *Anonymous*  
-  核心贡献：提出“生成-反思-重检索”闭环，通过LLM自我批判优化检索关键词与上下文选择  
-  ICLR 2026 [[论文](https://openreview.net/forum?id=hSyW5go0v8)]
-
-- **DeepRAG：逐步思考检索的RAG方法**  
-  *Xiaoyu Wang 等*  
-  核心贡献：将检索建模为马尔可夫决策过程，通过时序奖励优化多轮检索策略  
-  arXiv 2026 [[论文](https://arxiv.org/pdf/2502.01142)]
-
-- **RAG-Fusion: 多阶段检索融合提升生成质量**  
-  *Sebastian Hofstätter 等*  
-  核心贡献：融合“稀疏检索-稠密检索-生成式重排序”三阶段结果，降低幻觉率15%-20%  
-  SIGIR 2026 [[论文](https://arxiv.org/abs/2401.15884)][[代码](https://github.com/sebastian-hofstaetter/rag-fusion)]
-
-### 应用
-- **大型语言模型在金融领域的不足：对幻觉现象的实证研究**  
-  *Haoqiang Kang, Xiao-Yang Liu*  
-  核心贡献：量化金融RAG中“事实性幻觉”“数值幻觉”的分布特征，提出领域适配的检索过滤策略  
-  arXiv 2023 [[论文](https://arxiv.org/abs/2311.15548)]
-
-- **Clinfo.ai: 开源检索增强医学问答系统**  
-  *Alejandro Lozano 等*  
-  核心贡献：集成医学文献库与电子病历脱敏数据，支持临床决策辅助场景的精准问答  
-  arXiv 2023 [[论文](https://arxiv.org/abs/2310.16146v1)]
-
-- **PEARL: 个性化生成写作助手**  
-  *Sheshera Mysore 等*  
-  核心贡献：通过RAG检索用户历史写作风格与偏好，生成符合个人特质的文本内容  
-  arXiv 2023 [[论文](https://arxiv.org/abs/2311.09180)]
-
-- **LowRes-RAG：低资源地区多语言医疗RAG系统**  
-  *Fatima Zahra Benhaddou 等*  
-  核心贡献：基于小样本学习适配非洲法语/阿拉伯语方言，解决低资源语言医疗信息检索缺口  
-  EMNLP 2026 [[论文](https://arxiv.org/abs/2405.12347)]
-
-
-## 优化与评估
-- **ARES: 检索增强生成系统的自动化评估框架**  
-  *Jon Saad-Falcon 等*  
-  核心贡献：无需人工标注，通过“检索相关性+生成一致性+事实准确性”三维自动评分  
-  arXiv 2023 [[论文](https://arxiv.org/abs/2311.09476)][[代码](https://github.com/stanford-futuredata/ares)]
-
-- **过滤上下文以优化检索增强生成（FilCo）**  
-  *Zhiruo Wang 等*  
-  核心贡献：提出“噪声上下文过滤模块”，基于语义相似度与实体相关性剔除冗余信息  
-  arXiv 2023 [[论文](https://arxiv.org/abs/2311.08377)][[代码](https://github.com/zorazrw/filco)]
-
-- **LLM-RAG 对抗性评估：揭示幻觉与偏见的新方法**  
-  *Weizhe Yuan 等*  
-  核心贡献：构建对抗性测试集（含模糊查询、冲突事实），评估RAG系统的鲁棒性边界  
-  ICML 2026 [[论文](https://arxiv.org/abs/2402.10718)]
-
-
-## 前沿工具与框架
-补充缺失的工具链接，新增RAG专用框架（Haystack），完善工具定位描述。
-
-| 名称            | 简介                                         | 官网                                          | GitHub                                   | 备注                       |
-|-----------------|----------------------------------------------|----------------------------------------------|------------------------------------------|----------------------------|
-| **LangChain**   | 企业级AI代理开发框架，原生支持RAG流水线（检索-过滤-生成）集成 | [官网](https://www.langchain.com/)            | [GitHub](https://github.com/langchain-ai/langchain) | 生态丰富，适配多向量数据库  |
-| **LlamaIndex**  | 大型数据集集成与高级索引框架，专注RAG的“数据接入-索引构建”环节 | [官网](https://www.llamaindex.ai/)            | [GitHub](https://github.com/run-llama/llama_index) | 数据驱动，模块化架构        |
-| **Haystack**    | 开源RAG专用框架，支持端到端流水线（检索-重排-生成-评估） | [官网](https://haystack.deepset.ai/)          | [GitHub](https://github.com/deepset-ai/haystack) | 轻量易用，适合快速落地      |
-| **CrewAI**      | 多代理RAG协同框架，支持代理分工（检索代理/生成代理/评估代理） | [官网](https://crewai.com/)                   | [GitHub](https://github.com/crewAIInc/crewAI) | 多代理协作，适合复杂任务流  |
-| **Botpress**    | AI代理驱动平台，内置RAG模块适配客户服务场景        | [官网](https://botpress.com/)                  | [GitHub](https://github.com/botpress/botpress) | 可视化工作流，多渠道集成    |
-| **MemGPT**      | 增强型RAG记忆工具，结合向量存储与层级记忆管理        | [官网](https://memgpt.ai/)                     | [GitHub](https://github.com/cpacker/MemGPT) | 长上下文适配，记忆持久化    |
-| **Chroma**      | 轻量级向量数据库，优化RAG场景下的低延迟检索        | [官网](https://www.trychroma.com/)             | [GitHub](https://github.com/chroma-core/chroma) | 本地部署友好，适合原型开发  |
-| **Milvus**      | 企业级向量数据库，支持RAG大规模数据（亿级向量）检索  | [官网](https://milvus.io/)                      | [GitHub](https://github.com/milvus-io/milvus) | 高可用，适配分布式部署      |
-| **Qdrant**      | 高性能向量搜索引擎，主打RAG实时检索（毫秒级响应）    | [官网](https://qdrant.tech/)                    | [GitHub](https://github.com/qdrant/qdrant) | 支持地理向量，多模态适配    |
-
-
-## 学术与研究辅助工具
-新增RAG研究专属工具（如论文引用分析、数据集工具），修正统一链接问题。
-
-- **Felo AI**：多语言学术搜索引擎，支持RAG领域论文的自然语言查询与跨语言摘要  
-  [[详情](https://felo.ai/zh-Hans/blog/2026-best-ai-tools-academic-research/)]  
-- **Connected Papers**：RAG论文引用网络分析工具，快速定位领域核心文献与衍生方向  
-  [[详情](https://www.connectedpapers.com/)]  
-- **Paper Digest**：AI驱动的RAG前沿论文推送工具，可自定义关键词（如“多模态RAG”“低资源RAG”）  
-  [[详情](https://paperdigest.org/)]  
-- **ChatGPT**：对话式AI助手，适合RAG研究的头脑风暴、实验方案梳理与论文润色  
-  [[详情](https://openai.com/chatgpt)]  
-- **Typeset.io**：学术论文自动格式化工具，支持RAG相关顶会（SIGIR/ICML）模板适配  
-  [[详情](https://www.typeset.io/)]
+## 💡 选型建议
+1. **快速上线产品**：使用 **Dify** + **OpenRouter**。
+2. **处理海量私有文档**：首选 **LlamaIndex** + **Pinecone**。
+3. **金融/医疗高精度需求**：必须引入 **GraphRAG** 和 **RAGAS** 评估。
+4. **极致性能与低延迟**：推荐 **Qdrant** + **Hono** (Edge Runtime)。

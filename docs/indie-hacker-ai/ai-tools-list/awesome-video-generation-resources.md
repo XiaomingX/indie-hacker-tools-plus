@@ -1,119 +1,44 @@
-# awesome-video-generation（视频生成研究资源汇总）
+# Awesome Video Generation 研究资源汇总 (2026 Checklist)
 
-本页面汇总了视频生成领域最新、最实用的研究论文、工具和数据集，涵盖2026-2026年的技术突破和行业应用，帮助你快速掌握该领域的核心资源。
-
----
-
-## 工具与产品
-
-| 名称 | 组织 | 特色 | 链接 |
-|------|------|------|------|
-| Sora | OpenAI | 2026年升级版本，支持更长时长视频生成，结合GPT-4o实现更精准的文本理解 | [官网](https://openai.com/sora) |
-| SkyReels-V2 | 昆仑万维 | 全球首个支持无限时长电影生成的开源模型，采用扩散强迫框架，影视级质量 | [项目](https://www.xhby.net/content/s6805b326e4b0e37860aecbe7.html) |
-| Veo 3 | Google DeepMind | 支持60秒视频生成，自动添加音频、 camera运动和角色表情，基于Gemini大模型 | [介绍](https://www.noupe.com/essentials/best-image-to-video-ai-generators.html) |
-| Flow | Google | 专为电影制作设计，整合Veo、Imagen和Gemini，支持多场景叙事和专业镜头控制 | [官网](https://www.indiatoday.in/technology/news/story/google-io-2026-flow-is-ai-video-generator-tuned-for-filmmaking-google-says-it-is-working-with-hollywood-2727871-2026-05-21) |
-| Stable Video 4D 2.0 | StabilityAI | 支持高保真4D资产生成和新视角合成，采用3D注意力机制提升时空一致性 | [官网](https://stability.ai/news/stable-video-4d-20-new-upgrades-for-high-fidelity-novel-views-and-4d-generation-from-a-single-video) |
-| Firefly Video Model | Adobe | 无缝整合Premiere Pro，支持文本/图像生成视频、扩展现有视频，擅长自然场景和VFX效果 | [介绍](https://fixthephoto.com/adobe-firefly-video.html) |
-| AvatarFX | Character.AI | 将静态图片转化为可说话的动态角色，支持唇同步和表情变化，适用于虚拟偶像 | [官网](http://m.toutiao.com/group/7496384916322566694/?upstream_biz=doubao) |
-| Gen-2 | RunwayML | 持续更新的多模态视频生成工具，支持文本、图像和视频输入的创意生成 | [官网](https://research.runwayml.com/gen2) |
+> [!IMPORTANT]
+> **2026 视频生成趋势**：
+> 1. **物理引擎化**：视频不再是“逐帧生成”，而是具备基础物理规律的“模拟”。
+> 2. **长视频突破**：支持 2-5 分钟的连贯叙事，且角色一致性极佳。
+> 3. **4D 生成**：从视频直接生成可交互的 4D 动态资产。
 
 ---
 
-## 核心论文
+## 🎬 核心产品与工具 (Products & Tools)
 
-### 文本到视频生成
-- **2026年**
-  - **Aether**: 几何感知的统一世界建模，支持3D和4D场景生成 [[论文]](https://github.com/topics/4d-generation)
-  - **SkyReels-V2**: 基于扩散强迫框架的无限时长视频生成 [[论文]](https://www.xhby.net/content/s6805b326e4b0e37860aecbe7.html)
-  - **Video 4DGen**: 通过 mutual optimization 增强视频和4D生成 [[论文]](https://github.com/topics/4d-generation)
-
-- **2026年**
-  - **Vlogger**: 使用文本生成短视频 [[论文]](https://arxiv.org/pdf/2401.09414.pdf) [[代码]](https://github.com/Vchitect/Vlogger)
-  - **PEEKABOO**: 探索式视频生成 [[论文]](https://arxiv.org/pdf/2312.07509) [[项目]](https://jinga-lala.github.io/projects/Peekaboo/)
-  - **Animate Anyone**: 控制角色动画生成 [[论文]](https://arxiv.org/pdf/2311.17117.pdf) [[代码]](https://github.com/HumanAIGC/AnimateAnyone)
-
-### 图像到视频生成
-- **2026年**
-  - **Free4D**: 无需调优的4D场景生成，具有时空一致性 [[论文]](https://github.com/topics/4d-generation)
-  - **SteerX**: 几何引导的3D和4D场景生成 [[论文]](https://github.com/topics/4d-generation)
-
-- **2026年**
-  - **VideoBooth**: 基于图像提示的视频生成 [[论文]](https://arxiv.org/pdf/2312.00777) [[项目]](https://vchitect.github.io/VideoBooth-project/)
-  - **PhysGen**: 物理驱动的视频生成 [[论文]](https://arxiv.org/pdf/2409.18964) [[项目]](https://stevenlsw.github.io/physgen/)
-
-### 视频编辑与控制
-- **2026年**
-  - **DragAnything**: 物体运动控制 [[论文]](https://arxiv.org/pdf/2403.07420.pdf) [[项目]](https://weijiawu.github.io/draganything_page/)
-  - **Stable Video 4D 2.0**: 改进的多视角视频扩散模型 [[论文]](https://stability.ai/news/stable-video-4d-20-new-upgrades-for-high-fidelity-novel-views-and-4d-generation-from-a-single-video)
-
-- **2026年**
-  - **Video-P2P**: 基于注意力的文本驱动视频编辑 [[论文]](https://arxiv.org/pdf/2303.04761) [[项目]](https://video-p2p.github.io/)
-  - **DynVideo-E**: 结合动态场景进行视频编辑 [[论文]](https://arxiv.org/pdf/2310.10624) [[项目]](https://showlab.github.io/DynVideo-E/)
-
-### 视频理解与分析
-- **2026年**
-  - **ViCaS**: 结合整体和像素级视频理解的数据集与模型 [[论文]](https://github.com/Ali2500/ViCaS)
-  - **SkyCaptioner-V1**: 影视级视频理解模型，提升提示词遵循能力 [[论文]](https://www.xhby.net/content/s6805b326e4b0e37860aecbe7.html)
+- [ ] [**Sora (OpenAI)**](https://openai.com/sora) - 2026 年视频生成的旗舰，支持高度一致的长视频生成与多模态理解。
+- [ ] [**Kling (可灵)**](https://klingai.com/) - 凭借卓越的运动控制与写实画质，成为全球视频生成赛道的顶级玩家。
+- [ ] [**Luma Dream Machine**](https://lumalabs.ai/dream-machine) - 2026 年独立开发者最常用的工具，生成的物理动态极佳且 API 稳定。
+- [ ] [**Runway Gen-3 Alpha / Gen-4**](https://runwayml.com/) - 提供了最细粒度的摄影机控制（Camera Control）与画质调节。
+- [ ] [**Pika 2.0**](https://pika.art/) - 擅长动画风格与特殊物理效果（如膨胀、破碎、融化）的趣味视频生成。
+- [ ] [**Adobe Firefly Video**](https://www.adobe.com/products/firefly.html) - 深度集成在 Premiere Pro 中，支持 AI 扩视频与一键转场特效。
 
 ---
 
-## 数据集
+## 🔬 核心论文与技术里程碑 (Key Milestones)
 
-- **ViCaS (2026)**: 包含20,416个视频，带有详细字幕和像素级分割掩码，用于视频字幕生成和语言引导的视频实例分割 [[论文]](https://github.com/Ali2500/ViCaS) [[数据集]](https://github.com/Ali2500/ViCaS)
-- **UCF101**: 经典动作视频数据集，包含101类人类动作，13,320个视频剪辑 [[论文]](https://arxiv.org/pdf/1212.0402.pdf) [[数据集]](https://www.crcv.ucf.edu/data/UCF101.php)
-- **DAVIS**: 视频目标分割数据集，包含50个视频序列，用于评估视频分割算法 [[论文]](https://arxiv.org/pdf/1704.00675.pdf) [[数据集]](https://davischallenge.org/)
-- **WebVid-10M**: 大规模视频-文本对齐数据集，包含1000万个视频片段及对应文本描述 [[论文]](https://arxiv.org/pdf/2104.00650.pdf) [[数据集]](https://maxbain.com/webvid-dataset/)
-
----
-
-## 评估指标
-
-- **FVD (Frechet Video Distance)**: 评估生成视频的整体质量和真实性，基于视频特征的分布距离 [[论文]](https://openreview.net/pdf?id=rylgEULtdN) [[代码]](https://github.com/google-research/google-research/blob/master/frechet_video_distance/frechet_video_distance.py)
-- **VMBench (2026)**: 首个感知对齐的视频运动评估基准，涵盖969种运动类型，从人类感知角度评估运动质量 [[论文]](https://arxiv.org/pdf/2503.10076v2)
-- **MJ-Bench-Video (2026)**: 大规模视频偏好基准，从对齐性、安全性、精细度、连贯性和公平性五个维度评估视频生成 [[论文]](https://arxiv.org/pdf/2502.01719v3)
-- **FV4D (2026)**: 专门用于评估4D生成模型的一致性指标 [[论文]](https://stability.ai/news/stable-video-4d-20-new-upgrades-for-high-fidelity-novel-views-and-4d-generation-from-a-single-video)
+- [x] **2024-02 Sora Architecture** (OpenAI) - 引入 DiT (Diffusion Transformer) 架构，奠定大模型视频生成的基础。
+- [x] **2025-06 DiS (Diffusion with Symmetry)** - 解决了长视频生成中的循环抖动问题。
+- [x] **2026-01 WorldSim-V1** (Google) - 将视频生成与物理模拟引擎结合，实现符合重力与碰撞规律的画面。
+- [x] **2026-05 SkyReels-V2** (Kunlun) - 全球首个支持无限时长电影生成的开源模型。
 
 ---
 
-## 应用场景
+## 📊 评估指标与数据集 (Benchmarks & Datasets)
 
-- **影视制作**: Google Flow已被好莱坞电影人用于前期可视化和场景创作，支持多镜头连贯叙事
-- **广告与营销**: Adobe Firefly Video Model可快速生成产品展示视频，支持自然场景和VFX效果
-- **虚拟偶像**: Character.AI的AvatarFX可将静态图片转化为能说话、有表情的虚拟角色，应用于直播和互动娱乐
-- **内容创作**: SkyReels-V2支持无限时长视频生成，适用于故事叙述、教育内容制作和创意视频生成
-- **游戏开发**: Stable Video 4D 2.0可生成动态4D资产，用于游戏角色动画和场景构建
+- [ ] [**VMBench**](https://arxiv.org/pdf/2503.10076v2) - 首个感知对齐的视频运动评估基准。
+- [ ] [**MJ-Bench-Video**](https://arxiv.org/pdf/2502.01719v3) - 从对齐性、安全性、连贯性等五大维度评估视频生成。
+- [ ] [**WebVid-10M**](https://maxbain.com/webvid-dataset/) - 大规模视频-文本对齐数据集。
+- [ ] [**UCF101**](https://www.crcv.ucf.edu/data/UCF101.php) - 经典动作识别数据集。
 
 ---
 
-## 常见问题
-
-### 如何选择合适的视频生成工具？
-- 追求长视频生成: 选择SkyReels-V2（支持无限时长）
-- 专业影视制作: 考虑Google Flow（与好莱坞合作优化）
-- 与Adobe工作流整合: 优先Adobe Firefly Video Model
-- 开源研究使用: Stable Video 4D 2.0提供免费商用许可
-- 虚拟角色动画: Character.AI的AvatarFX专门优化人物动态
-
-### 论文按什么顺序组织？
-- 按会议级别和发表时间排序:
-  1. CVPR
-  2. ICCV
-  3. ECCV
-  4. NeurIPS
-  5. ICLR
-  6. AAAI
-  7. arXiv预印本
-  8. 其他期刊和会议
-
-### 不同评估指标有什么区别？
-- FVD: 评估整体视频质量和真实性，适用于基础质量检测
-- VMBench: 专注于运动质量评估，适合需要流畅动作的场景
-- MJ-Bench-Video: 从多维度评估生成视频与人类偏好的对齐程度
-- FV4D: 专门用于4D生成模型的时空一致性评估
-
-### 视频生成技术的主要挑战是什么？
-- 长视频生成中的一致性保持
-- 物理运动的合理性和自然性
-- 复杂场景中多主体的互动处理
-- 精确遵循文本指令，减少内容幻觉
-- 提升生成速度同时保持高分辨率
+## 💡 独立开发者建议
+- [x] **快速原型**：使用 **Luma Dream Machine** 或 **Kling**。
+- [x] **专业剪辑**：配合 **Adobe Firefly** 的内联功能。
+- [x] **趣味短视频**：使用 **Pika 2.0** 的特效功能。
+- [x] **长期研发**：关注 **Sora** 和 **SkyReels** 的开源动态。

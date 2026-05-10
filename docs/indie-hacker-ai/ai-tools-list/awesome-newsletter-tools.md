@@ -1,88 +1,50 @@
-# awesome-newsletter-tools
-### 广告服务与赞助合作
+# 新闻通讯工具精选 (2026 Checklist)
 
-- **[Paved](https://www.paved.com/publishers)**：广告网络平台，支持自动投放广告及连接广告主与创作者的双向匹配。
-- **[Swapstack](https://swapstack.co/)**：新兴广告交易平台，帮助创作者规模化对接品牌赞助，提供数据化匹配功能。
-
----
-
-### 社区资源
-
-- **[Indie Hackers Newsletter Crew](https://www.indiehackers.com/group/newsletter-crew)**：Indie Hackers 社区中专注于新闻通讯的活跃小组。
-- **[Mailing List Hackers](https://www.mailinglisthackers.com/chat)**：新闻通讯创作者的老牌交流社区，持续提供行业洞见。
-- **[Newsletter Crew](https://newslettercrew.com/)**：针对付费新闻通讯创作者的专业社区。
-- **[Discord 新闻通讯社区](https://discord.com/)**：通过 Quaily 或 Mailcord 机器人实现新闻通讯与 Discord 频道的自动同步，主流社区包括 Newsletter Builders 等。
-
-> 注：原 Facebook 群组因活跃度下降转为历史参考，当前社区重心已向 Discord 迁移
+> [!TIP]
+> **Indie Hacker Insight**: 2026 年的新闻通讯已不仅是邮件，更是**私域流量的核心**。
+> - **平台选型**：首选 **Beehiiv**，其内置的推荐系统（Referral Program）是 0 到 1 增长的最快途径。
+> - **开发者友好**：如果是为自己的 SaaS 集成邮件，**Resend** + **React Email** 是目前体验最好的方案。
 
 ---
 
-### 邮件送达工具
+## 🚀 核心发布平台 (Publishing Platforms)
 
-- **[GlockApps](https://glockapps.com/)**：诊断电子邮件送达问题的专业工具。
-- **[GMass](https://www.gmass.co/)**：提升邮件打开率与批量发送效率的平台。
-- **[Heybounce](https://www.heybounce.io)**：验证电子邮件地址有效性，降低退信率的实用工具。
-
----
-
-### 发现新闻通讯资源
-
-#### 目录平台
-
-- **[Find Your Newsletter](https://findnewsletters.com/)**：提供分类和搜索功能的经典新闻通讯目录。
-- **[InboxReads](https://inboxreads.co/)**：按主题精准分类的优质内容目录。
-- **[Substack Discover](https://substack.com/discover)**：Substack 平台内置的创作者发现渠道。
-- **[Letter Bucket](https://letterbucket.com/)**：2026 年新兴的一体化新闻通讯平台，集成目录与增长工具。
+- [ ] [**Beehiiv**](https://www.beehiiv.com/) - 2026 年增长最快的新闻通讯平台，内置强大的 AI 辅助写作与推荐算法。
+- [ ] [**Substack**](https://substack.com/) - 适合内容创作者，内置订阅变现能力，生态极佳。
+- [ ] [**Ghost**](https://ghost.org/) - 追求独立品牌与 100% 所有权的首选，支持自托管。
+- [ ] [**Loops**](https://loops.so/) - 极简且现代化的 SaaS 邮件平台，适合产品更新与用户留存。
+- [ ] [**Buttondown**](https://buttondown.email/) - 轻量、专注隐私且开发者友好的新闻通讯工具。
 
 ---
 
-### 邮件管理工具
+## 🛠️ 发送 API 与技术栈 (Email APIs)
 
-- **[Kill the Newsletter](https://www.kill-the-newsletter.com/)**：将新闻通讯转化为 RSS 订阅的实用工具。
-- **[SaneBox](https://sanebox.com/)**：AI 驱动的邮件分类工具，支持新闻通讯智能整理与优先级排序。
-- **[AnonAddy](https://anonaddy.com/)**：提供匿名邮箱别名服务，保护订阅隐私的现代工具。
-
----
-
-### 平台工具
-
-#### 博客为主
-
-- **[Ghost](https://ghost.org/)**：集成博客与新闻通讯功能的流行 CMS。
-- **[WordPress](https://wordpress.com/)**：通过插件扩展支持新闻通讯功能的建站平台。
-
-#### 编辑工具
-
-- **[Beehiiv](https://www.beehiiv.com/)**：Morning Brew 团队打造的增长型邮件平台，2026 年持续领跑市场。
-- **[Buttondown](https://buttondown.email/)**：轻量化新闻通讯工具，支持自动化工作流。
-- **[Substack](https://substack.com/)**：适合小型出版者的付费订阅平台。
-
-#### 营销工具
-
-- **[Mailchimp](https://mailchimp.com/)**：一体化营销平台，支持全流程邮件自动化。
-- **[ConvertKit](https://convertkit.com/)**：创作者专用邮件营销工具。
-- **[Klaviyo](https://www.klaviyo.com/)**：数据驱动的电商邮件营销平台，2026 年新增 AI 内容生成功能。
-
-#### 开源平台
-
-- **[Keila](https://www.keila.io/)**：支持可视化编辑的开源新闻通讯工具。
-- **[listmonk](https://listmonk.app/)**：自托管的邮件列表管理工具。
-- **[Novu](https://novu.co/)**：开源通知基础设施，支持多渠道消息分发，2026 年推出 Pro 版本。
-
-#### 事务型邮件（API）
-
-- **[Mailgun](https://www.mailgun.com/)**：全功能邮件 API 服务。
-- **[Postmark](https://postmarkapp.com/)**：专注应用程序邮件的高可靠性提供商。
-- **[Resend](https://resend.com/)**：2026 年热门的开发者友好型邮件 API，优化送达率与开发体验。
+- [ ] [**Resend**](https://resend.com/) - 2026 年开发者标配，极佳的 API 体验，完美适配 React 生态。
+- [ ] [**Postmark**](https://postmarkapp.com/) - 以极高送达率著称，适合事务性邮件。
+- [ ] [**Mailgun**](https://www.mailgun.com/) - 全能型选手，适合大规模、高并发邮件发送。
+- [ ] [**listmonk**](https://listmonk.app/) - 最推荐的自托管开源邮件列表管理工具。
 
 ---
 
-### 推荐计划
+## 📈 增长、变现与推荐 (Growth & Monetization)
 
-- **[SparkLoop](https://sparkloop.app/)**：专为新闻通讯设计的推荐奖励系统。
-- **[ViralLoops](http://viral-loops.com/)**：提供模板化推荐计划，支持防欺诈检测。
-- **[ReferralCandy](https://referralcandy.com/)**：自动化推荐奖励工具，适合电商类新闻通讯。
+- [ ] [**SparkLoop**](https://sparkloop.app/) - 行业标准的邮件推荐奖励系统，Beehiiv 已深度集成。
+- [ ] [**Paved**](https://www.paved.com/) - 自动匹配广告主，为你的新闻通讯带来被动收入。
+- [ ] [**Swapstack**](https://swapstack.co/) - 专注于独立创作者的新兴广告交易市场。
+- [ ] [**GlockApps**](https://glockapps.com/) - 邮件到达率（Deliverability）诊断工具，防止进垃圾箱。
 
 ---
 
-> 注：本文基于 2026 年工具运营状态更新，移除了已停止服务的 Megahit、Mux、Supscrib 等工具，新增了符合当前技术趋势的平台与服务。工具选择标准综合考虑了运营活跃度、功能创新性及社区认可度。
+## 🔍 发现与订阅管理 (Discovery & Management)
+
+- [ ] [**InboxReads**](https://inboxreads.co/) - 优质新闻通讯发现目录。
+- [ ] [**Kill the Newsletter**](https://www.kill-the-newsletter.com/) - 将邮件通讯转化为 RSS，保护收件箱整洁。
+- [ ] [**SaneBox**](https://sanebox.com/) - AI 驱动的邮件分类，自动整理非重要通讯。
+
+---
+
+## 💡 选型建议
+1. **纯内容创业/Newsletter 变现**：无脑选 **Beehiiv**。
+2. **SaaS 产品配套邮件**：首选 **Loops** (简单) 或 **Resend** (灵活)。
+3. **极客/隐私主义者**：推荐 **Buttondown** 或 **Ghost**。
+4. **低预算/数据敏感**：使用 **listmonk** 自托管。

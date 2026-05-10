@@ -1,124 +1,53 @@
-# 人工智能音乐创作资源大全
+# AI 音乐创作资源大全 (2026 Checklist)
 
-欢迎来到《人工智能音乐创作资源大全》，这是一个精心整理的资源集合，汇集了人工智能与音乐创作领域的相关项目、研究和框架。多年来，随着机器学习和深度学习技术的飞速发展，生成音乐领域经历了显著的变革。从算法作曲到实时音乐生成，人工智能正在打开新的大门，将创意与自动化完美融合，实现了过去难以想象的可能性。
+> [!TIP]
+> **Indie Hacker Insight**: 2026 年的 AI 音乐生成已经从“玩具”进化为“生产力工具”。
+> - **商业授权**：在使用 Suno 或 Udio 生成音乐时，务必确认你的订阅级别支持商业分发。
+> - **混合创作**：最佳实践是使用 AI 生成基础素材，再通过 Ableton 或 Logic Pro 进行二次混音与母带处理。
 
-本资源旨在为音乐爱好者、研究人员和行业从业者提供一个全面的平台，汇聚引领潮流的项目、具有影响力的研究论文，以及最先进的技术框架，共同推动人工智能音乐创作的未来。不论您是探索数字音乐前沿的音乐人、突破技术极限的研究者，还是希望在应用中集成AI音乐功能的开发者，这份资源都将为您带来丰富的灵感和知识支持。
+---
 
-## GitHub projects
+## 🎵 核心开源项目 (GitHub Projects)
 
-- **[Magenta](https://github.com/magenta/magenta)**：Google开源项目，利用机器学习生成音乐和艺术，支持符号音乐和音频生成，社区活跃，应用广泛。 🎵🖌️（18712 星）
+- [ ] [**Audiocraft (Meta)**](https://github.com/facebookresearch/audiocraft) - 包含 MusicGen, AudioGen, EnCodec，目前最强大的本地可控生成库。
+- [ ] [**Magenta (Google)**](https://github.com/magenta/magenta) - 行业鼻祖，提供大量用于浏览器和本地的音乐生成、补全工具。
+- [ ] [**InspireMusic (Alibaba)**](https://github.com/alibaba/InspireMusic) - 综合性生成框架，支持音乐、歌曲和音频的灵活控制。
+- [ ] [**Muzic (Microsoft)**](https://github.com/microsoft/muzic) - 专注于音乐理解与生成的多任务框架。
+- [ ] [**Stable Audio Open**](https://github.com/Stability-AI/generative-models) - Stability AI 的开源版权重，适合本地部署。
+- [ ] [**MusPy**](https://github.com/salu133445/muspy) - 符号音乐（MIDI）处理与模型评估的 Python 必备工具。
 
-- **[Audiocraft](https://github.com/facebookresearch/audiocraft)**：Facebook研究院的深度学习音频处理与生成库，包含可控音乐生成模型 MusicGen，支持高质量音频生成。 🎧（17044 星）
+---
 
-- **[Muzic](https://github.com/microsoft/muzic)**：微软开发的音乐理解与生成AI，支持多种音乐生成任务。 🎶（3765 星）
+## 🛠️ 主流在线平台 (SaaS Tools)
 
-- **[musiclm-pytorch](https://github.com/lucidrains/musiclm-pytorch)**：基于PyTorch实现的Google MusicLM模型，支持文本到音乐的生成，体现了最新注意力机制。 🎼（2763 星）
+- [ ] [**Suno**](https://suno.com/) - 2026 年音乐生成的行业标杆，支持长达 4 分钟的高保真全曲生成（含人声）。
+- [ ] [**Udio**](https://www.udio.com/) - 艺术家首选，以极高的音质和细腻的情感表达著称。
+- [ ] [**Stable Audio**](https://stableaudio.com/) - 擅长生成环境音、背景配乐及短音频片段。
+- [ ] [**AIVA**](https://www.aiva.ai/) - 专注于影视、游戏配乐，支持导出 MIDI 供专业制作人修改。
+- [ ] [**Soundful**](https://soundful.com/) - 专为内容创作者设计，一键生成免版税背景音乐。
+- [ ] [**Landr**](https://www.landr.com/) - AI 母带处理 (Mastering) 的事实标准，提升成片音质。
 
-- **[riffusion](https://github.com/riffusion/riffusion)**：基于稳定扩散模型的实时音乐生成，支持音频的连续生成和编辑。 🎵（2727 星）
+---
 
-- **[Mubert-Text-to-Music](https://github.com/MubertAI/Mubert-Text-to-Music)**：利用Mubert API通过文本提示生成音乐的示例项目，适合快速集成。 🎵（2674 星）
+## 📖 核心研究与论文 (Articles & Papers)
 
-- **[AudioLDM2](https://github.com/haoheliu/AudioLDM2)**：文本转音频/音乐生成工具，基于扩散模型，支持多样化音频生成。 🎵（1733 星）
+- [ ] [**MusicGen**](https://arxiv.org/abs/2306.05284) - Simple and Controllable Music Generation.
+- [ ] [**AudioLDM 2**](https://arxiv.org/abs/2308.05734) - 基于潜在扩散模型的通用音频生成框架。
+- [ ] [**Noise2Music**](https://arxiv.org/abs/2302.03917) - 高保真文本到音乐生成的代表作。
+- [ ] [**Deep Music Generation Review**](https://arxiv.org/pdf/2011.06801) - 深度学习音乐生成的系统综述。
 
-- **[musegan](https://github.com/salu133445/musegan)**：多轨音乐生成对抗网络，支持符号音乐多轨生成。 🎵（1602 星）
+---
 
-- **[Magenta.js](https://github.com/magenta/magenta-js)**：Magenta的JavaScript版本，支持浏览器端音乐和艺术生成。 🎵🖌️（1899 星）
+## 🎓 学习资源 (Learning)
 
-- **[MusPy](https://github.com/salu133445/muspy)**：用于符号音乐生成的Python工具包，支持数据集管理和模型评估。 🎵🔧（387 星）
+- [ ] [**The Sound of AI**](https://valeriovelardo.com/the-sound-of-ai-accelerator/) - Valerio Velardo 的深度学习音频开发加速器（非常推荐）。
+- [ ] [**Magenta.js Demos**](https://magenta.tensorflow.org/demos) - 通过浏览器实时体验 AI 创作的魅力。
+- [ ] [**AI Music Masterclass**](https://live.rookiesavior.net/course/lyrics-ai) - 涵盖 Suno、Soundraw 等工具实操的现代课程。
 
-- **[InspireMusic](https://github.com/alibaba/InspireMusic)**：阿里巴巴开源的综合音乐、歌曲和音频生成框架，基于最新深度学习模型，支持多种音乐生成任务，提供灵活可控的输出接口。
+---
 
-- **[OpenAI Jukebox](https://github.com/openai/jukebox)**：OpenAI开源的深度学习音乐生成模型，支持生成带有特定风格和艺术家特征的高质量音乐，含元数据支持。
-
-## Articles & Blogs
-
-1. [**简单可控的音乐生成（MusicGen）**](https://arxiv.org/abs/2306.05284)：介绍MusicGen模型，基于单语言模型和压缩离散音乐表示，实现高质量且可控的音乐生成。
-
-2. [**基于AI的情感音乐生成系统综述**](https://arxiv.org/abs/2301.06890)：全面回顾AI情感音乐生成系统的核心算法和模块，探讨情感驱动的音乐生成技术。
-
-3. [**Noise2Music：基于文本条件的音乐扩散生成**](https://arxiv.org/abs/2302.03917)：提出基于扩散模型的文本到音乐生成系统，支持多样化风格和情感表达。
-
-4. [**Music FaderNets：基于高层特征的可控音乐生成**](https://arxiv.org/abs/2007.15474)：通过特征解耦和潜在正则化实现音乐生成的高层次控制。
-
-5. [**基于扩散模型的符号音乐生成**](https://arxiv.org/abs/2103.16091)：首次将扩散模型应用于符号音乐建模，支持条件填充和无条件生成。
-
-6. [**MuseGAN: 多轨序列生成对抗网络**](https://arxiv.org/abs/1709.06298)：提出基于GAN的多轨符号音乐生成模型，考虑轨道间动态和依赖关系。
-
-7. [**JEN-1: 基于文本引导的高保真音乐生成模型**](https://arxiv.org/abs/2308.04729)：结合自回归和非自回归训练，提升文本到音乐的对齐和生成质量。
-
-8. [**Museformer: 处理长音乐序列的Transformer**](https://arxiv.org/abs/2210.10349)：提出精细和粗略注意力机制，提升长序列音乐生成效率和结构捕捉。
-
-9. [**深度音乐生成综述**](https://arxiv.org/pdf/2011.06801)：系统概述音乐生成中的深度学习技术，包括乐谱、表演和音频生成。
-
-10. [**人工智能音乐生成系统性回顾**](https://www.sciencedirect.com/science/article/pii/S0957417422013537)：总结AI自动音乐生成的研究进展和应用趋势。
-
-11. [**2026年AI音乐生成与创作研究进展**](https://www.aisck.com/answer/19052.html)：涵盖多模态生成、情感驱动、合作创作、知识迁移等最新研究热点。
-
-12. [**AI音乐研究算法现状与未来展望**](https://blog.csdn.net/qq_40522090/article/details/138857516)：介绍生成模型（RNN、LSTM、GAN）、分类和聚类算法在音乐生成中的应用。
-
-## 在线课程
-
-- [生成式人工智能课程与认证（Coursera）](https://www.coursera.org/courses?query=generative%20ai)：由顶尖大学和行业专家提供，涵盖生成式AI基础及应用。
-
-- [AI艺术生成全能课程 - 从零基础到大师（Udemy）](https://www.udemy.com/course/complete-ai-art-generation/)：学习最前沿AI算法在语言、艺术、音乐等领域的应用。
-
-- [Andrew Ng深度学习专项课程（Coursera）](https://blog.coursera.org/andrew-ng-announcing-new-deep-learning-specialization-coursera/)：系统学习深度学习基础，适合AI音乐生成的技术铺垫。
-
-- [生成性AI轻松掌握：视频、音频与图像创作（Udemy）](https://www.udemy.com/course/generative-ai-made-easy-video-audio-and-image-creation/)：涵盖多个前沿平台的使用，包含音频创作工具Udio等。
-
-- [AI神器让你成为词曲创作大师（线上课程）](https://live.rookiesavior.net/course/lyrics-ai)：涵盖Suno AI、ChatGPT、Voicemod、Soundraw等AI音乐工具实操。
-
-## 图书推荐
-
-- [《音乐生成的深度学习技术》](https://link.springer.com/book/10.1007/978-3-319-70163-9)：系统介绍深度学习技术在音乐生成中的应用。
-
-- [《算法作曲：自动音乐生成范式》](https://link.springer.com/book/10.1007/978-3-211-75540-2)：详细讲解算法作曲的流程和原理。
-
-- [《Magenta音乐生成实战指南》](https://www.amazon.com/Hands-Music-Generation-Magenta-composition/dp/1838824413)：结合Magenta项目，介绍深度学习辅助作曲实战。
-
-- [《机器学习与音乐生成》](https://www.amazon.com/Machine-Learning-Music-Generation-I%C3%B1esta/dp/0367892855)：全面解析机器学习在音乐创作中的应用。
-
-## 工具与软件
-
-- **[Stable Audio](https://alternativeto.net/news/2023/9/stability-ai-unveils-stable-audio--a-versatile-platform-for-ai-music-generation/)**：Stability AI推出的AI音乐生成平台，基于潜在扩散模型，支持元数据和时间条件控制，推理速度快。
-
-- **[Soundful](https://www.producthunt.com/products/soundful)**：AI音乐生成器，快速生成免版税高质量音乐，适合内容创作者。
-
-- **[Boomy](https://boomy.com/)**：流行的AI音乐生成器，支持多种风格音乐创作，可生成纯音乐并融合人声，作品可发布至Spotify等平台。
-
-- **[AIVA](https://www.aiva.ai/)**：AI虚拟艺术家，专注于多种风格原创音乐创作，广泛应用于电影配乐和游戏音乐。
-
-- **[Soundraw](https://soundraw.io/)**：为EDM创作者量身定制的生成式AI音乐工具，支持电子节拍生成。
-
-- **[Suno AI](https://www.suno.ai/)**：新一代音乐大模型，支持文本到音乐生成，包含人声合成功能。
-
-- **[MyEdit](https://myedit.ai/)**：AI音效生成工具，支持多样化音效创作。
-
-- **[威力导演 AI音乐生成器](https://tw.cyberlink.com/)**：集成AI音乐生成，支持多风格、多情绪、长度可调，生成音乐可商用。
-
-- **[OpenAI Jukebox](https://openai.com/blog/jukebox/)**：深度学习音乐生成模型，支持多风格和歌手特征的音乐生成。
-
-## 会议与活动
-
-- **ICMC波士顿2026“人工智能与计算机音乐日”**  
-  2026年6月10日，国际计算机音乐大会（ICMC）设立专门的AI音乐日，展示全球AI音乐创作最新成果，促进国际交流与合作。
-
-## 视频资源
-
-- **[使用 Magenta 进行音乐生成](https://www.youtube.com/watch?v=O4uBa0KMeNY)**：介绍如何用机器学习辅助音乐创作。
-
-- **[MusicGen 解释](https://www.youtube.com/watch?v=5xqUoseyffw)**：讲解MusicGen模型的原理与应用。
-
-- **[Audiocraft 本地音乐生成教程](https://www.youtube.com/watch?v=Ga6zRaVgMDU)**：详细展示如何使用Audiocraft进行AI音乐生成与混音。
-
-- **[2026年10大AI音乐生成工具介绍](https://www.youtube.com/watch?v=7uyE9YwSh_c)**：涵盖Suno、Mubert、Soundful等主流工具，介绍免费无版权音乐生成。
-
-## 幻灯片与演讲
-
-- **[算法音乐生成 | PPT](https://www.slideshare.net/sunitabhagwat/algorithmic-music-generation)**：算法音乐生成基础介绍。
-
-- **[深度学习音乐生成 | PPT](https://www.slideshare.net/JinxiLeviGuo/music-generation-with-deep-learning)**：深度学习在音乐生成中的应用。
-
-- **[MuseGAN：多轨生成对抗网络 | PPT](https://www.slideshare.net/HermanDong/musegan-multitrack-sequential-generative-adversarial-networks-for-symbolic-music-generation-and-accompaniment-aaai-2018)**：AAAI 2018会议幻灯片。
-
-- **[使用变换器的自动音乐创作 | PPT](https://www.slideshare.net/affige/automatic-music-composition-with-transformers-jan-2021)**：Transformer在音乐生成中的应用。
+## 💡 选型建议
+1. **快速成曲/个人娱乐**：选 **Suno**。
+2. **专业编曲辅助**：选 **AIVA (MIDI)** + **Logic Pro**。
+3. **本地开发/商业应用**：使用 **Audiocraft** 权重进行微调。
+4. **提升听感**：最后一步务必经过 **Landr** 或 **Adobe Podcast Enhance** 处理。

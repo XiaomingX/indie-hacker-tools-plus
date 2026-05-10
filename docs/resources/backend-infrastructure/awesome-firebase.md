@@ -1,50 +1,48 @@
-# awesome-firebase
-## 精选推荐
+# Firebase 全栈开发资源精选 (2026 Checklist)
 
-### Firebase 必备工具和文档
-- 📖 [Firebase 文档](https://firebase.google.com/docs) - 官方 Firebase 使用文档，覆盖各大功能模块。
-- 📖 [Firebase 快速上手](https://github.com/firebase?q=quickstart) - Firebase 官方的快速入门示例。
-- 🔧 [Firebase CLI 工具](https://github.com/firebase/firebase-tools) - Firebase 命令行工具，支持项目管理和部署。
-- 🔧 [Firebase 状态监控](https://status.firebase.google.com) - 实时查看 Firebase 服务状态。
-
-### 核心功能扩展
-- 🔧 [Firebase 扩展](https://firebase.google.com/products/extensions) - 免代码扩展，轻松添加 Stripe、Algolia、Mailchimp 等服务。
-- 🔧 [Stripe 扩展](https://github.com/stripe/stripe-firebase-extensions) - 用于订阅和发票的官方扩展。
-- 🔧 [Firestore 数据包](https://firebase.google.com/docs/firestore/bundles) - 使用 CDN 缓存静态查询结果，加快页面加载速度。
+> [!TIP]
+> **Indie Hacker Insight**: 2026 年，Firebase 依然是独立开发者实现 **"一人公司"** 的顶级利器。
+> - **无服务器化**：利用 **Genkit** 快速将 AI 模型集成到你的 Firebase 工作流中。
+> - **数据分析**：务必开启 **BigQuery** 导出，AI 时代的竞争本质上是数据颗粒度的竞争。
+> - **成本控制**：关注 **App Check**，防止 API 被盗刷导致天价账单。
 
 ---
 
-## 开发工具与框架集成
+## 🏗️ 核心框架与入门 (Core & Getting Started)
 
-### Web 相关
-- 🔌 [ReactFire](https://github.com/FirebaseExtended/reactfire) - Firebase 的官方 React 集成，支持 Hooks 和 Context Providers。
-- 🔌 [VueFire](https://github.com/vuejs/vuefire) - 为 Vue.js 提供 Firebase 数据绑定。
-- 🔌 [React Firebase Hooks](https://github.com/CSFrequency/react-firebase-hooks) - Firebase 服务的 React Hooks 支持。
-- 🔌 [Firebase UI](https://github.com/firebase/firebaseui-web) - 提供简单、可定制的 UI 绑定，减少样板代码。
-
-### 移动端开发
-- 📖 [Firebase Flutter 文档](https://firebase.google.com/docs/flutter/setup) - 官方 Flutter 集成指南。
-- 🔌 [React Native Firebase](https://github.com/invertase/react-native-firebase) - 功能丰富的模块化 Firebase 实现，支持 iOS 和 Android。
-- 🔧 [Firebase App Distribution](https://firebase.google.com/products/app-distribution/) - 快速将测试版本分发给测试者。
+- [ ] [**Firebase 官方文档**](https://firebase.google.com/docs) - **[权威]** 包含从身份验证到高性能数据库的所有模块指南。
+- [ ] [**Firebase CLI**](https://github.com/firebase/firebase-tools) - **[工具]** 管理、部署及运行模拟器 (Emulators) 的核心命令行工具。
+- [ ] [**Firebase 模拟器套件**](https://firebase.google.com/docs/emulator-suite) - **[推荐]** 在本地完成开发与测试，节省云端配额且响应极快。
+- [ ] [**Firebase Genkit**](https://firebase.google.com/docs/genkit) - **2026 重点**。Google 推出的 AI 开发框架，支持在 Firebase 中快速编排 Agent。
 
 ---
 
-## 服务端与云功能
+## ⚡ 前端集成与 SDK (Frontend Integrations)
 
-- 📖 [Firebase Admin 文档](https://firebase.google.com/docs/admin/setup) - 服务器端集成 Firebase 的官方指南。
-- 💡 [Cloud Functions 示例](https://github.com/firebase/functions-samples) - 展示如何用 Cloud Functions 实现常见用例。
-- 🔧 [BigQuery 数据分析](https://firebase.google.com/docs/analytics/bigquery) - 结合 BigQuery 深入分析 Firebase 数据。
+- [ ] [**ReactFire**](https://github.com/FirebaseExtended/reactfire) - 官方出品，为 React 提供 Suspense 支持和极致的 Hooks 体验。
+- [ ] [**React Native Firebase**](https://rnfirebase.io/) - 移动端全栈开发的金标准，完美适配 iOS 与 Android 的各种系统能力。
+- [ ] [**VueFire**](https://vuefire.vuejs.org/) - 为 Vue 3 提供实时响应式绑定。
+- [ ] [**AngularFire**](https://github.com/angular/angularfire) - 针对 Angular 的官方封装。
+
+---
+
+## 🚀 云函数与扩展 (Functions & Extensions)
+
+- [ ] [**Firebase Extensions**](https://firebase.google.com/products/extensions) - **[提效]** 一键部署 Stripe 支付、Algolia 搜索、图片缩略图生成等功能。
+- [ ] [**Firebase Functions 示例**](https://github.com/firebase/functions-samples) - 涵盖从触发器到自定义 API 的各种实战场景。
+- [ ] [**Firebase App Distribution**](https://firebase.google.com/products/app-distribution) - 极速分发 iOS/Android 测试包给种子用户。
 
 ---
 
-## 社区与资源
+## 🎓 学习与社区 (Learning)
 
-### 官方资源
-- 📹 [Firebase YouTube](https://www.youtube.com/user/Firebase) - 官方频道，包含教程与产品更新。
-- 📝 [Firebase 博客](https://firebase.googleblog.com/) - 深入解读 Firebase 产品与最佳实践。
-
-### 社区资源
-- 🔊 [Fireship](https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA) - 优质教程频道，覆盖 Firebase 等热门技术。
-- :fire: [Firebase 开发者 Discord](https://discord.gg/BN2cgc3) - 讨论与分享的开发者社区。
+- [ ] [**Fireship (YouTube)**](https://www.youtube.com/@Fireship) - 全网公认最好的 Firebase 教程频道，风格极简高效。
+- [ ] [**Firebase 官方 YouTube**](https://www.youtube.com/user/Firebase) - 了解产品路线图与底层技术的最佳窗口。
 
 ---
+
+## 💡 选型建议
+1. **快速上线个人 SaaS**：选 **Next.js** + **ReactFire** + **Firestore** + **Stripe Extension**。
+2. **需要处理海量社交数据**：选 **Realtime Database** (极低延迟)。
+3. **构建 AI 驱动的应用**：重点参考 **Genkit** 教程。
+4. **节省预算**：在开发阶段全程使用 **Emulator Suite**。

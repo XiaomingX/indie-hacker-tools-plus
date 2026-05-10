@@ -1,73 +1,45 @@
-# More Resources? 💃🕺
+# GitHub 全方位开发与效率资源 (2026 Checklist)
 
-<img width="976" alt="Screenshot 2026-04-16 at 3 55 53 PM" src="https://github.com/github/GitHub-for-Startups-HQ/assets/104146251/f23b5f5b-a327-4cc0-b956-e5045a0334e9">
+> [!TIP]
+> **Indie Hacker Insight**: 2026 年，GitHub 已不仅仅是一个代码托管平台。
+> - **AI 伴侣**：**GitHub Copilot** 已进化为全栈 AI 代理，能帮你自动完成 PR 评审和文档生成。
+> - **云端开发**：利用 **GitHub Codespaces**，你可以在任何地方一键开启配置好的云端 IDE。
+> - **自动化治理**：通过 **GitHub Actions**，将你的 CI/CD 与部署流水线实现 100% 自动化。
 
+---
 
-## Overview
-Here to enhance your experience with GitHub. On this page, you'll find:
+## 🏗️ 快速上手与入门 (Getting Started)
 
-* Project boards to guide you through onboarding your organization to the GitHub platform 
-* Shortcuts to resources such as GitHub Docs, GitHub Community, and more 
-* Opportunities to chat with Copilot in GitHub Support or use our powerful search engine to explore GitHub resources
+- [ ] [**GitHub 官方文档**](https://docs.github.com/en/get-started) - **[权威]** 包含从 Git 基础到企业级云端管理的所有操作手册。
+- [ ] [**GitHub Skills (交互式)**](https://skills.github.com/) - 通过在真实仓库中进行交互式练习，快速掌握核心技能。
+- [ ] [**Microsoft Learn - GitHub 专题**](https://learn.microsoft.com/en-us/training/github/) - 系统化的视频课程，涵盖从初学者到高级架构师的所有路径。
 
-Take a look around and if you are new to GitHub, check out these useful links: [GitHub Docs](https://docs.github.com/en/get-started)
+---
 
+## ⚡ 认证与技能进阶 (Certifications)
 
-## Onboarding Project Boards
-For guidance on accelerating your onboarding journey, check out our project boards specialized for each feature. Our project boards offer a visual representation of the tasks, issues, and milestones related to onboarding to each feature. To access these project boards, click the **Projects** tab in your GitHub for Startups HQ repo 👇.
+- [ ] [**GitHub Certifications**](https://resources.github.com/learn/certifications/) - 获取官方认证（Foundations, Actions, Security 等），提升职业竞争力。
+- [ ] [**Certifications Handbook**](https://examregistration.github.com/handbook) - 备考必备手册，涵盖考试大纲与实战要求。
 
-<img width="995" alt="Screenshot 2026-04-16 at 4 07 54 PM" src="https://github.com/github/GitHub-for-Startups-HQ/assets/104146251/a33d74a6-5ee2-480f-8982-9ffaa28b55fe">
+---
 
+## 🚀 社区、交流与排障 (Community & Support)
 
-If you're new to GitHub project boards, you might find this [Project Board Training](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects) to be helpful.
+- [ ] [**GitHub Community Discussions**](https://github.com/orgs/community/discussions) - 全球最大的开发者自救与交流社区，涵盖 Copilot、Actions 等专题。
+- [ ] [**Copilot in GitHub Support**](https://support.github.com/) - **[2026 推荐]** 利用 AI 直接在支持页面解决你的技术配置问题。
+- [ ] [**GitHub Blog**](https://github.blog/) - 掌握最新产品特性发布、安全通报与技术洞察的第一站。
 
-## Enablement
-Expand your knowledge of GitHub by exploring our learning pathways and training modules. They offer a diverse range of resources designed to build your skills from the ground up.
+---
 
-- [GitHub Skills - Interactive](https://skills.github.com/)
-- [GitHub content hosted on Microsoft Learn](https://learn.microsoft.com/en-us/training/github/)
-  - [Beginner](https://learn.microsoft.com/en-us/training/browse/?products=github&levels=beginner)
-  - [Intermediate](https://learn.microsoft.com/en-us/training/browse/?products=github&levels=intermediate)
-  - [Advanced](https://learn.microsoft.com/en-us/training/browse/?products=github&levels=intermediate)
-- [GitHub Learning Pathways](https://resources.github.com/learn/pathways/)
+## 📂 进阶效能工具 (Advanced Tooling)
 
-## Certification
-Getting GitHub certified validates your skills, credibility, trust, and knowledge of the technologies and developer tools that are used by more than 100 million developers worldwide.
+- [ ] [**GitHub Projects**](https://docs.github.com/en/issues/planning-and-tracking-with-projects) - 现代化的看板工具，用于管理你的产品开发周期。
+- [ ] [**Community-in-a-box**](https://github.com/orgs/community/discussions/86520) - 一键搭建你自己的组织内部社区模版。
 
-You can find all the information you need at the [GitHub Certifications site](https://resources.github.com/learn/certifications/), in the [Certifications handbook](https://examregistration.github.com/handbook), and the [Certifications FAQ](https://examregistration.github.com/faq)
+---
 
-
-## Community & Other Useful Pages
-
-[Join Enterprise Admins in Community Discussions.](https://github.com/orgs/community/discussions?discussions_q=is%3Aopen+label%3A%22Enterprise+Admin%22+label%3A%22enterprise%22) This is a dedicated forum for self help, including Q&A, official GitHub announcements, best practices, and to provide product feedback. Your entire team can benefit from Community Discussions to self serve and solve problems.
-
-### Additional Community spaces
-- 👨‍✈ [Copilot](https://github.com/orgs/community/discussions/categories/copilot):  Conversations related to GitHub Copilot and supported IDEs like Visual Studio Code, Neovim, Visual Studio, and Jetbrains. GitHub Copilot is an AI pair programmer that offers autocomplete-style suggestions as you code.
-- 📚 [Discover](https://github.com/orgs/community/discussions/categories/discover): Blogs, articles, best practices, and tips & tricks from GitHub employees and users.
-- 🆕 [New to GitHub](https://github.com/orgs/community/discussions/categories/new-to-github): Conversations related to getting started using GitHub and the community. This site is useful for GitHub beginners, Community on Discussions, and those new to different areas of the product alike!
-
-### Want to launch your own Discussions community? 
-
-Created by GitHub Community professionals, [Community-in-a-box](https://github.com/orgs/community/discussions/86520) packages up tooling, resources, and knowledge, for organizations of all sizes to set up internal communities at scale.
-
-## Need Help? 🤔
-
-[GitHub Support](https://support.github.com/): Access a wealth of articles and troubleshooting guides to address common issues and questions.
-
-If you have questions or need assistance while using GitHub Enterprise Cloud, you can use Copilot in GitHub Support for help. 
-
-<p align="center" style="padding: 20px 0;">
-  <a href="https://gh.io/AAp5zqv">
-    <img src="https://img.shields.io/badge/Copilot%20in%20GitHub%20Support-Click%20Here-brightgreen" alt="Chat with Copilot in GitHub Support" style="height: 30px">
-  </a>
-</p>
-
-## Additional resources
-
-Here are some helpful resources to assist you in your GitHub Enterprise Cloud journey:
-
-- [GitHub Enterprise Cloud documentation](https://docs.github.com/en/enterprise-cloud@latest): Explore the official documentation for GitHub Enterprise Cloud, which includes comprehensive guides, tutorials, and reference materials.
-- [GitHub YouTube Channel](https://www.youtube.com/github): Watch video tutorials and webinars on GitHub features, best practices, and more.
-- [GitHub Blog](https://github.blog/): Stay updated with the latest news, announcements, and insights from GitHub.
-
-Feel free to explore these resources to enhance your GitHub Enterprise Cloud skills and knowledge. 
+## 💡 选型建议
+1. **构建全新的微服务项目**：选 **GitHub Actions** + **Codespaces** + **Copilot for Business**。
+2. **需要进行多团队协作管理**：熟练使用 **GitHub Projects** 看板与 **Discussions**。
+3. **追求最高级别的代码安全**：开启 **Dependabot** 和 **Advanced Security (CodeQL)**。
+4. **提升团队个人技能**：强制完成 **GitHub Skills** 的核心认证课程。
