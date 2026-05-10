@@ -1,43 +1,50 @@
-# awesome-chrome-extensions ( 通用工具 )
-- **[App Launcher in popup](https://chrome.google.com/webstore/detail/ngoeookbfpbhhmhaidcejfbfpgalaafc):** 快速启动 Chrome 应用。
-- **[Awesome Screenshot](https://chrome.google.com/webstore/detail/nlipoenfbbikpbjkfpfillcgkoblgpmj):** 截图和视频录制工具。
-- **[Authenticator](https://chrome.google.com/webstore/detail/bhghoamapcdpbohphigoooaddinpkbai):** Google 服务的二次验证工具。
-- **[Google Translate](https://chrome.google.com/webstore/detail/aapbdbdomjkkjkaonfhkkikfgjllcleb):** 快速翻译网页或文字。
-- **[Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/padekgcemlokbadohgkifijomclgjgif):** 方便切换网络代理工具。
-- **[OneTab](https://chrome.google.com/webstore/detail/chphlpgkkbolifaimnlloiipkdnihall):** 一键保存和恢复浏览器标签页，节省内存。
-- **[Save to Pocket](https://chrome.google.com/webstore/detail/niloccemoadcdkdjlinkgdfekeahmflj):** 保存网页内容，随时同步阅读。
+# 独立开发者 Chrome 插件精选 (2026 Checklist)
 
-### 提高效率
-- **[Automa](https://chrome.google.com/webstore/detail/automa/infppggnoaenmfagbfknfkancpbljcca):** 自动化浏览器操作，如表单填充、截图等。
-- **[Bitwarden](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb):** 免费密码管理器，支持团队协作。
-- **[RSSHub-Radar](https://chrome.google.com/webstore/detail/rsshub-radar/kefjpfngnndepjbopdmoebkipbgkggaa):** 快速发现和订阅网站 RSS。
-- **[Urlify](https://chrome.google.com/webstore/detail/urlify-%E7%9F%AD%E9%93%BE%E6%8E%A5%E5%B7%A5%E5%85%B7/nkjhpeaddieapfonodmgbcaebclooknd):** 生成短链接的实用工具。
-- **[微信公众号同步助手](https://chrome.google.com/webstore/detail/hchobocdmclopcbnibdnoafilagadion):** 轻松同步公众号内容到多个平台。
+> [!TIP]
+> **Indie Hacker Insight**: 2026 年，Chrome 插件不仅仅是工具，更是**生产力的延伸**。
+> - **自动化**：利用 **Automa** 实现重复劳动的自动化，效率提升 10 倍。
+> - **AI 集成**：**沉浸式翻译** 和 **Monica** 等 AI 助手已成为出海开发者的标配。
+> - **安全第一**：不要安装来源不明的插件，优先选择开源且在 GitHub 上有高 Star 的项目。
 
-### 安全保护
-- **[Avast Online Security](https://chrome.google.com/webstore/detail/gomekmidlodglbbmalcneegieacbdmki):** 检测恶意链接，保护浏览安全。
-- **[LastPass](https://chrome.google.com/webstore/detail/hdokiejnpimakedhajhdlcegeplioahd):** 在线密码管理工具，支持多设备同步。
+---
 
-### 娱乐辅助
-- **[Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb):** 阻止网页广告，提供清爽体验。
-- **[Coplay](https://chrome.google.com/webstore/detail/heolgpojkkeacaokbpolhalhlaidpkkc):** 支持多人同步播放视频。
+## 🛠️ 开发者核心工具 (Developer Essentials)
 
-### 个性化首页
-- **[Momentum](https://chrome.google.com/webstore/detail/laookkfknpbbblfpciffpaejjkokdgca):** 自定义浏览器首页，添加天气和备忘录功能。
-- **[Panda 5](https://chrome.google.com/webstore/detail/haafibkemckmbknhfkiiniobjpgkebko):** 为设计师和开发者提供灵感。
-- **[Daily.Dev](https://chrome.google.com/webstore/detail/dailydev-the-homepage-dev/jlmpjdjjbgclbocgajdjefcidcncaied):** 开发者专属技术订阅工具。
+- [ ] [**React Developer Tools**](https://chrome.google.com/webstore/detail/fmkadmapgofadopljbjfkapdkoienihi) - React 开发调试必装。
+- [ ] [**Wappalyzer**](https://www.wappalyzer.com/) - 快速查看任何网站的技术栈（框架、数据库、支付方式等）。
+- [ ] [**FeHelper (前端助手)**](https://www.baidufe.com/fehelper) - 集合了 JSON 格式化、正则表达式测试、二维码生成等常用工具。
+- [ ] [**Tampermonkey (油猴)**](https://www.tampermonkey.net/) - 脚本管理神器，通过脚本实现网页功能的无限扩展。
+- [ ] [**VisBug**](https://chrome.google.com/webstore/detail/visbug/ndhinffnnkeebbebeebfejggnmbogoog) - 像编辑设计稿一样修改网页元素，调试 UI 的神作。
 
-### 开发者工具
-- **[React Developer Tools](https://chrome.google.com/webstore/detail/fmkadmapgofadopljbjfkapdkoienihi):** React 项目调试插件。
-- **[Redux DevTools](https://github.com/zalmoxisus/redux-devtools-extension):** Redux 状态管理工具。
-- **[Lighthouse](https://chrome.google.com/webstore/detail/blipmdconlkpinefehnmjammfjpmpbjk):** 网站性能优化分析工具。
-- **[Vue.js devtools](https://chrome.google.com/webstore/detail/nhdogjmejiglipccpnnnanhbledajbpd):** Vue 项目调试插件。
-- **[Tampermonkey](https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo):** 用户脚本管理工具，支持多种定制脚本。
+---
 
-### 前端设计
-- **[Fontface Ninja](https://www.fontface.ninja/):** 快速识别网站字体，提供购买链接。
-- **[PerfectPixel](https://chrome.google.com/webstore/detail/dkaagdgjmgdmbnecmcefdhjekcoceebi):** 精准对比网页设计与开发效果。
+## 🤖 AI 增强与效率 (AI & Productivity)
 
-### 实用小工具
-- **[UC Qr Code](https://chrome.google.com/webstore/detail/nhelohnehpahakjoklmodmogclacjgdj):** 快速生成二维码。
-- **[WEB前端助手](https://www.baidufe.com/fehelper):** 集合多种实用工具，如JSON格式化、二维码生成等。
+- [ ] [**沉浸式翻译**](https://immersivetranslate.com/) - **[强烈推荐]** 双语对照阅读，支持 PDF、Epub、字幕翻译，开发者查阅英文文档的最佳搭档。
+- [ ] [**Monica**](https://monica.im/) - 侧边栏 AI 助手，支持联网搜索、阅读总结、写作增强。
+- [ ] [**Automa**](https://www.automa.site/) - 零代码自动化工具，像拼积木一样实现表单自动填充、数据抓取。
+- [ ] [**OneTab**](https://www.one-tab.com/) - 节省 95% 内存，将所有打开的标签页合并成一个列表。
+
+---
+
+## 🔒 安全、网络与代理 (Security & Networking)
+
+- [ ] [**Proxy SwitchyOmega**](https://github.com/FelisCatus/SwitchyOmega) - 灵活切换网络代理，出海开发者的生存工具。
+- [ ] [**Bitwarden**](https://bitwarden.com/) - 开源且免费的密码管理器，多端同步，安全可靠。
+- [ ] [**Authenticator**](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai) - 在浏览器中直接获取二次验证 (2FA) 代码。
+
+---
+
+## 🎨 视觉灵感与设计 (Design & Inspo)
+
+- [ ] [**Awesome Screenshot**](https://www.awesomescreenshot.com/) - 截图、整页长图及视频录制的最佳工具。
+- [ ] [**Daily.dev**](https://daily.dev/) - 开发者专属的个性化首页，汇集全球最新的技术资讯。
+- [ ] [**ColorZilla**](https://www.colorzilla.com/) - 高级吸色器，快速获取网页上的任何颜色值。
+
+---
+
+## 💡 选型建议
+1. **构建出海 SaaS 应用**：必装 **沉浸式翻译** + **Wappalyzer** (调研对手)。
+2. **重度 UI 开发**：必装 **VisBug** + **PerfectPixel**。
+3. **日常办公省心**：必装 **OneTab** + **Bitwarden**。
+4. **处理繁琐数据任务**：学习并使用 **Automa**。

@@ -1,111 +1,58 @@
-# FastAPI 最佳实践笔记（2026年最新）
+# FastAPI 最佳实践与资源精选 (2026 Checklist)
 
-## 管理后台（Admin）
+> [!TIP]
+> **Indie Hacker Insight**: 2026 年，FastAPI 是 Python 后端的绝对统治者。
+> - **异步优先**：确保你的数据库驱动和外部请求都是异步的 (async/await)，否则将无法发挥 FastAPI 的高并发优势。
+> - **Pydantic V2**：充分利用 Pydantic V2 的性能提升和模型验证能力。
+> - **依赖注入**：将业务逻辑从路由处理器中抽离，通过依赖注入实现可测试、可扩展的代码。
 
-- [fastapi-admin](https://github.com/fastapi-admin/fastapi-admin) :star: 3400+ :fork_and_knife: 420+  
-  基于 FastAPI 和 TortoiseORM 结合 Tabler UI 的管理后台，灵感源自 Django Admin。近期有更新，支持 Redis、MySQL、PostgreSQL。
+---
 
-- [sqladmin](https://github.com/aminalaee/sqladmin) :star: 700+ :fork_and_knife: 90+  
-  基于 SQLAlchemy, FastAPI 和 Starlette 的现代异步管理后台，功能丰富且活跃，适合大多数生产环境。
+## 🏗️ 核心框架与基础 (Core)
 
-- [fastapi_amis_admin](https://github.com/amisadmin/fastapi_amis_admin) :star: 400+ :fork_and_knife: 40+  
-  高性能且易扩展的管理后台，结合阿里巴巴 AMIS 前端框架，界面美观且功能强大。
+- [ ] [**FastAPI**](https://github.com/tiangolo/fastapi) - 高性能 Python ASGI 框架，2026 年依然是首选。
+- [ ] [**Starlette**](https://github.com/encode/starlette) - FastAPI 的底层，如果你需要极简、极高性能的异步服务，可直接使用。
+- [ ] [**uv**](https://github.com/astral-sh/uv) - **2026 推荐**。用 uv 管理你的 Python 环境与依赖，速度比 pip/poetry 快一个量级。
+- [ ] [**Uvicorn / Granian**](https://github.com/emmett-framework/granian) - 高性能 ASGI 服务器。Granian 是 2026 年更快的 Rust 替代方案。
 
-- [piccolo_admin](https://github.com/piccolo-orm/piccolo_admin) :star: 200+ :fork_and_knife: 30+  
-  轻量且强大的数据库管理后台，支持多种数据库，适合轻量项目的后台需求。
+---
 
-- [vue-element-admin-fastapi](https://github.com/heyfavour/vue-element-admin-fastapi) :star: 160+ :fork_and_knife: 30+  
-  前端基于 vue-element-admin，后端采用FastAPI + PostgreSQL 的全栈解决方案。
+## 🛠️ 管理后台 (Admin Panels)
 
-***
+- [ ] [**SQLAdmin**](https://github.com/aminalaee/sqladmin) - 基于 SQLAlchemy 的异步管理后台，功能成熟且活跃。
+- [ ] [**FastAPI AMIS Admin**](https://github.com/amisadmin/fastapi_amis_admin) - 结合百度 AMIS 前端，通过 JSON 即可生成极其复杂的后台界面。
+- [ ] [**Piccolo Admin**](https://github.com/piccolo-orm/piccolo_admin) - 轻量且现代化的数据库管理后台。
 
-## API 相关
+---
 
-- [fastapi-crudrouter](https://github.com/awtkns/fastapi-crudrouter) :star: 900+ :fork_and_knife: 110+  
-  自动为模型生成 CRUD 路由，极大提升 API 开发效率。
+## 📂 数据库与 ORM (Databases & ORM)
 
-- [titiler](https://github.com/developmentseed/titiler) :star: 320+ :fork_and_knife: 90+  
-  动态光栅地图瓦片服务构建工具，适合地理信息系统 (GIS) 相关应用。
+- [ ] [**SQLAlchemy (2.0+)**](https://github.com/sqlalchemy/sqlalchemy) - 工业级标准，支持完整的异步操作。
+- [ ] [**Tortoise ORM**](https://github.com/tortoise/tortoise-orm) - 语法类似 Django ORM 的异步 ORM，非常适合中小型项目。
+- [ ] [**Prisma for Python**](https://github.com/RobertCraigie/prisma-client-py) - 强类型的 ORM 体验，生成代码非常优雅。
+- [ ] [**Beanie**](https://github.com/roman-right/beanie) - 针对 MongoDB 的异步 ODM，完美适配 Pydantic。
 
-- [fastapi-gino-arq-uvicorn](https://github.com/leosussan/fastapi-gino-arq-uvicorn) :star: 320+ :fork_and_knife: 40+  
-  结合 GINO ORM、异步任务队列 Arq 和 Uvicorn 的高性能异步 REST API 模板。
+---
 
-- [fastapi-tortoise](https://github.com/prostomarkeloff/fastapi-tortoise) :star: 150+ :fork_and_knife: 15+  
-  基于 FastAPI 和 TortoiseORM 的可扩展 Web API 模板，适合熟悉 TortoiseORM 的开发者。
+## ⚡ 性能提升与扩展 (Performance & Extensions)
 
-- [freddie](https://github.com/tinkoffjournal/freddie) :star: 50+ :fork_and_knife: 3+  
-  FastAPI 上类似 Django REST Framework 风格的声明式视图集库。
+- [ ] [**FastAPI Cache**](https://github.com/long2ice/fastapi-cache) - 简单好用的函数级/装饰器级缓存，支持 Redis/Memcached。
+- [ ] [**SlowAPI**](https://github.com/laurentS/slowapi) - 基于限流器，保护你的 API 免受滥用。
+- [ ] [**FastAPI Events**](https://github.com/melvinkcx/fastapi-events) - 优雅地处理异步事件订阅与发布。
+- [ ] [**Loguru**](https://github.com/Delgan/loguru) - 现代、易用的日志管理，替代 Python 标准库日志。
 
-***
+---
 
-## 异步相关（Async）
+## 🚀 项目模板与部署 (Boilerplates & Deployment)
 
-- [fastapi](https://github.com/tiangolo/fastapi) :star: 53000+ :fork_and_knife: 4500+  
-  高性能 Python ASGI 框架，易学且适用于生产。
+- [ ] [**Full Stack FastAPI PostgreSQL**](https://github.com/tiangolo/full-stack-fastapi-postgresql) - 官方出品的全栈模板（Next.js + FastAPI）。
+- [ ] [**FastAPI Best Practices Repo**](https://github.com/zhanymkanov/fastapi-best-practices) - 值得反复阅读的项目结构与代码风格指南。
+- [ ] [**Pydantic to TypeScript**](https://github.com/phillipdupuis/pydantic-to-typescript) - 自动同步前后端类型定义。
 
-- [starlette](https://github.com/encode/starlette) :star: 7200+ :fork_and_knife: 650+  
-  轻量且功能强大的 ASGI 框架，FastAPI 的底层基础。
+---
 
-- [slowapi](https://github.com/laurentS/slowapi) :star: 550+ :fork_and_knife: 45+  
-  基于 Starlette/FastAPI 的速率限制器。
-
-- [fastapi-events](https://github.com/melvinkcx/fastapi-events) :star: 250+ :fork_and_knife: 12+  
-  异步事件调度和处理库，适合基于事件驱动的应用。
-
-- [fastapi-limiter](https://github.com/long2ice/fastapi-limiter) :star: 110+ :fork_and_knife: 25+  
-  请求速率限制器，结合 Redis 实现。
-
-- [agraffe](https://github.com/odd12258053/agraffe) :star: 30+ :fork_and_knife: 2+  
-  适合无服务器架构（AWS Lambda、GCF、Azure Functions）的基于 ASGI 的 API 构建。
-
-***
-
-## 缓存相关（Caching）
-
-- [fastapi-cache2](https://github.com/OMLab-python/fastapi-cache2) :star: 300+ :fork_and_knife: 50+  
-  活跃的缓存解决方案，支持 Redis 和 Memcached，支持多种缓存策略。
-
-- [fastapi-redis-cache](https://github.com/a-luna/fastapi-redis-cache) :star: 90+ :fork_and_knife: 12+  
-  基于 Redis 的高速缓存库，支持请求头和响应头缓存解析。
-
-- [cache-house](https://github.com/Turall/cache-house) :star: 20+ :fork_and_knife: 3+  
-  支持 Redis 单实例和集群模式的 Python 缓存工具。
-
-***
-
-## 命令行工具（Commands）
-
-- [manage-fastapi](https://github.com/ycd/manage-fastapi) :star: 950+ :fork_and_knife: 65+  
-  FastAPI CLI 工具，快捷生成项目结构和模板。
-
-- [restish](https://github.com/danielgtaylor/restish) :star: 320+ :fork_and_knife: 40+  
-  功能丰富的 REST API 命令行交互工具。
-
-- [pydantic-to-typescript](https://github.com/phillipdupuis/pydantic-to-typescript) :star: 120+ :fork_and_knife: 12+  
-  将 Pydantic 模型转换为 TypeScript 类型定义。
-
-***
-
-## 配置管理（Configuration）
-
-- [dynaconf](https://github.com/dynaconf/dynaconf) :star: 2800+ :fork_and_knife: 220+  
-  多环境、动态配置管理，支持多种格式。
-
-***
-
-## 项目模板和实战
-
-- [full-stack-fastapi-postgresql](https://github.com/tiangolo/full-stack-fastapi-postgresql) :star: 5500+ :fork_and_knife: 1200+  
-  Tiangolo 官方生产级全栈项目模板，含前端、后台、数据库迁移、Docker 支持。
-
-- [fastapi-sqlalchemy](https://github.com/tiangolo/fastapi-sqlalchemy) :star: 950+ :fork_and_knife: 150+  
-  展示 SQLAlchemy 及 Alembic 集成的规范实践。
-
-***
-
-# 说明
-
-- 本笔记聚焦项目活跃度、通用性和现代实践，剔除或弱化了多年未更新、社区较冷的项目。  
-- 推荐项目均有良好的文档支持，便于快速入门和深度定制。  
-- 鼓励结合官方 FastAPI 示例和项目模板来搭建高质量的应用架构。  
-- 如需定制化解决方案，例如基于特定 ORM 的后台，建议评估项目活跃度和社区支持后选用。  
+## 💡 选型建议
+1. **企业级复杂业务**：选 **SQLAlchemy** + **Alembic** + **SQLAdmin**。
+2. **AI 原生应用**：选 **FastAPI** + **Pydantic V2** + **uv** 环境管理。
+3. **极速验证 MVP**：选 **Tortoise ORM** + **FastAPI Admin**。
+4. **地理信息系统 (GIS)**：选 **TiTiler** 基于 FastAPI 的地图瓦片服务。

@@ -1,104 +1,59 @@
-### 中文版：游戏开发者必备的 AI 工具大合集
+# 游戏开发者必备的 AI 工具大合集 (2026 Checklist)
 
-## 素材生成 🪄
-
-➡️ 用于**创建 2D 或 3D 游戏素材**。
-
-- [Scenario.com](https://www.scenario.com/)：支持训练自定义风格，批量生成符合艺术方向的高质量2D/3D游戏素材，适合快速产出统一风格的角色、场景和道具（需注册，免费/付费）。  
-- [PrometheanAI](https://www.prometheanai.com/?via=topaitools)：通过自然语言描述生成虚拟环境和场景细节，适合中大型游戏环境构建（需注册，免费/付费）。  
-- [Ready Player Me](https://readyplayer.me/)：快速生成并集成跨平台游戏角色，支持多种3D引擎（需注册，免费）。  
-- [Genie](https://lumalabs.ai/genie)：基于文本描述自动生成3D游戏素材，适合快速原型设计（需注册，免费）。  
-- [Rosebud AI](https://play.rosebud.ai/home)：AI辅助生成2D/3D游戏资产及代码，支持智能NPC和动画制作（需注册，免费）。  
-- [Layer](https://layer.ai/)：AI驱动的3D图层生成工具，支持多类型环境图层定制，提升环境设计效率（需注册，免费/付费）。  
-- [Hotpot.ai](https://hotpot.ai/)：多功能AI创意平台，支持游戏资产、图形和文本生成，包含丰富模板，适合快速制作专业级图形（需注册，免费/付费）。  
+> [!IMPORTANT]
+> **2026 趋势**：游戏开发已进入 **AI 原生**时代。重点关注：
+> 1. **全自动资产流水线**：从文本直接到 3D 绑定模型。
+> 2. **智能 NPC (ACE)**：实时语音驱动的 NPC 交互。
+> 3. **神经网络渲染**：利用 AI 提升画质并降低性能消耗。
 
 ---
 
-## 贴图生成 🖼️🖌️
+## 🎨 3D 素材与资产生成 (3D Assets)
 
-➡️ 用于**为素材生成贴图**。
-
-- [Charmed Texture Generator](https://charmed.ai/splash/texture-generator)：生成复杂3D对象贴图，支持多种材质类型（需注册，免费）。  
-- [DreamTextures](https://github.com/carson-katri/dream-textures)：开源文本驱动贴图生成工具，适合自定义纹理制作（开源，免费）。  
-- [Stable Diffusion](https://huggingface.co/spaces/stabilityai/stable-diffusion)：强大的开源文本到图像模型，支持贴图和背景图生成（开源，免费）。  
-
----
-
-## 图片生成 🖼️🪄
-
-➡️ 用于创建游戏角色、背景图片等。
-
-- [Midjourney](https://www.midjourney.com/home/)：业界领先的高质量AI图像生成工具，支持复杂指令，适合视觉内容创作（需注册，免费/付费）。  
-- [Stable Diffusion](https://huggingface.co/spaces/stabilityai/stable-diffusion)：开源且灵活的图像生成模型，适合定制化需求（开源，免费）。  
-- [Leonardo AI](https://app.leonardo.ai/)：专注于游戏资源和3D纹理生成，支持自定义模型训练和角色一致性，适合专业游戏开发者（需注册，免费/付费）。  
-- [ControlNet](https://github.com/lllyasviel/ControlNet-v1-1-nightly)：基于Stable Diffusion的精确图像控制扩展，适合复杂场景和细节控制（开源，免费）。  
-- [Flux.1](https://flux1.ai/)：新锐AI图像生成工具，擅长人物细节和透视表现，适合角色设计（需付费）。  
+- [ ] [**Meshy**](https://www.meshy.ai/) - 2026 年最强 3D 资产生成器，支持 Text-to-3D、Image-to-3D 及高精贴图生成。
+- [ ] [**Luma Genie**](https://lumalabs.ai/genie) - Luma 旗下的实时 3D 建模工具，生成的模型拓扑结构优良，适合直接进引擎。
+- [ ] [**Deemos / Rodin**](https://hyperhuman.deemos.com/) - 专注于超写实数字人与 3D 资产，支持 4K 材质与 PBR 渲染。
+- [ ] [**Scenario.com**](https://www.scenario.com/) - 训练自定义风格模型，批量产出风格统一的 2D/3D 游戏道具。
+- [ ] [**Ready Player Me**](https://readyplayer.me/) - 跨平台 Avatar 系统的标杆，2026 年已支持 AI 驱动的动作表情同步。
 
 ---
 
-## 代码生成助手 👩‍💻
+## 🖼️ 2D 图像与材质贴图 (2D & Textures)
 
-➡️ 用于**协助编写代码或调试问题**。
-
-- [StarCoder](https://huggingface.co/bigcode/starcoder)：开源代码生成模型，支持多语言编程辅助（需注册，免费）。  
-- [ChatGPT](https://chat.openai.com/)：强大的通用AI助手，支持代码生成、调试和优化建议，适合多场景开发（需注册，免费/付费）。  
-- [Copilot](https://github.com/features/copilot)：GitHub官方AI代码助手，集成IDE，提升编码效率（需注册，付费）。  
-- [通义灵码](https://developer.aliyun.com/topic/lingma/activities/202603)：阿里云基于通义大模型的国产AI编码助手，支持跨文件上下文感知，适配多IDE，提升代码质量和效率（需注册，免费）。  
-- [Rosebud AI](https://play.rosebud.ai/home)：结合代码和资产生成的综合平台，支持Unity/C#代码辅助（需注册，免费）。  
+- [ ] [**Leonardo.ai**](https://app.leonardo.ai/) - 依然是游戏资产设计的首选，具备极强的画布编辑与角色一致性控制能力。
+- [ ] [**Midjourney v7**](https://www.midjourney.com/) - 视觉概念设计的巅峰，提供最高质量的原画参考。
+- [ ] [**Flux.1 / 2**](https://flux1.ai/) - 开源界的新王，擅长处理复杂的透视与人体结构，适合立绘设计。
+- [ ] [**Polycam / Charmed**](https://charmed.ai/) - 快速生成 PBR 贴图，支持法线、粗糙度、金属度图层自动提取。
 
 ---
 
-## 动画捕捉 💃📹
+## 👩‍💻 编程与逻辑辅助 (Dev & Scripting)
 
-➡️ 用于**从普通视频生成3D动画**。
-
-- [Plask](https://motion.plask.ai/)：AI驱动的动画捕捉与编辑工具，支持多平台导出（需注册，免费/付费）。  
-- [RadicalMotion](https://radicalmotion.com/)：快速生成高质量3D动画，适合游戏角色动作捕捉（需注册，免费/付费）。  
-
----
-
-## 语音生成 🗣️
-
-➡️ 用于**为游戏角色生成语音对话**。
-
-- [Coqui Studio](https://coqui.ai/)：开源且支持情感化语音合成，适合多语言游戏语音（需注册，免费）。  
-- [Bark](https://github.com/suno-ai/bark)：开源多语言语音及背景音效生成，适合多样化声音需求（开源，免费）。  
-- [Replica Studios](https://replicastudios.com/)：专业AI语音演员，适合高质量游戏配音（需注册，免费）。  
+- [ ] [**Cursor**](https://www.cursor.com) - 编写 Unity C# 或 C++ (UE5) 的神器，支持深度的代码上下文理解。
+- [ ] [**Rosebud AI**](https://play.rosebud.ai/home) - 2026 年进化的“Prompt-to-Game”平台，直接生成游戏逻辑与完整代码包。
+- [ ] [**Cline (Devin)**](https://github.com/cline/cline) - 自主解决 GitHub Issue，可自动化修复游戏中的 Bug 或实现新功能模块。
+- [ ] [**通义灵码**](https://lingma.aliyun.com/) - 阿里云出品，对国产自研引擎有较好适配。
 
 ---
 
-## 语音识别 💬
+## 🎭 智能 NPC 与语音交互 (NPCs & Voice)
 
-➡️ 用于**玩家通过语音控制游戏**。
-
-- [OpenAI Whisper](https://huggingface.co/openai/whisper-base)：领先的自动语音识别和翻译模型，支持多语言（开源，免费）。  
-- [Facebook Wav2Vec2](https://huggingface.co/facebook/wav2vec2-large-xlsr-53)：多语言语音识别模型，适合实时语音交互（开源，免费）。  
-
----
-
-## 对话模型
-
-➡️ 用于**为 NPC 提供对话功能**。
-
-- [ChatGPT](https://chat.openai.com/)：高级多轮对话模型，支持复杂NPC交互（需注册，免费/付费）。  
-- [HuggingChat 🤗](https://huggingface.co/chat/)：开源对话模型，适合自定义和本地部署（需注册，免费）。  
-- [NVIDIA ACE](https://www.nvidia.cn/geforce/news/nvidia-ace-autonomous-ai-companions-pubg-naraka-bladepoint/)：基于RTX加速的自主意识游戏角色AI，支持多模态感知和智能决策，推动游戏AI革命（需集成，前沿技术）。  
+- [ ] [**NVIDIA ACE**](https://www.nvidia.com/en-us/geforce/news/nvidia-ace-autonomous-ai-companions-pubg-naraka-bladepoint/) - 行业标准，让 NPC 具备实时理解、语音对话与情绪反应。
+- [ ] [**Convai / Inworld AI**](https://convai.com/) - 提供 NPC 智能大脑，集成简单的 API 即可实现多模态对话。
+- [ ] [**ElevenLabs**](https://elevenlabs.io/) - 2026 年游戏配音的统治级工具，支持实时情感调节。
+- [ ] [**Bark (Suno)**](https://github.com/suno-ai/bark) - 开源语音生成的佼佼者，适合生成各种非人生物的怪异声效。
 
 ---
 
-## 故事创作模型
+## 📽️ 动作捕捉与动画 (MoCap & Animation)
 
-➡️ 用于**生成游戏背景故事和文本**。
-
-- [MPT-7B-StoryWriter-65k+](https://huggingface.co/mosaicml/mpt-7b-storywriter)：开源长文本故事生成模型，适合复杂剧情创作（开源，免费）。  
-- [Claude 100k](https://www.anthropic.com/index/100k-context-windows)：支持超长上下文的高级文本生成工具，适合大规模故事叙述（需申请）。  
-- [GPT-4 32k](https://platform.openai.com/docs/models/overview)：支持超长上下文文本生成，适合深度剧情和复杂对话（需申请）。  
+- [ ] [**Wonder Dynamics**](https://wonderdynamics.com/) - 无需穿戴设备，直接将视频中的人物替换为 3D 角色并保留动作。
+- [ ] [**DeepMotion**](https://www.deepmotion.com/) - 业内领先的 AI 动捕方案，支持手部抓取与物理碰撞检测。
+- [ ] [**Plask**](https://plask.ai/) - 浏览器内的动捕工具，适合小型独立团队。
 
 ---
 
-## 游戏设计 🎮
-
-➡️ 用于**生成游戏机制、角色设定、物品设计等**。
-
-- [Ludo.ai](https://ludo.ai/)：结合文本和图片生成游戏设计方案，支持玩法模拟和数值平衡测试（需注册，免费/付费）。  
-- [Rosebud AI](https://play.rosebud.ai/home)：从概念到完整游戏开发的综合AI平台，支持角色、剧情和代码生成（需注册，免费）。  
+## 💡 选型建议
+- **初创团队**：优先配置 **Cursor** + **Leonardo.ai** + **ElevenLabs**。
+- **重度 3D 游戏**：必须关注 **Meshy** 和 **NVIDIA ACE** 的集成。
+- **快节奏原型**：使用 **Rosebud AI** 快速验证核心玩法。

@@ -1,77 +1,48 @@
-# awesome-webgpu ( WebGPU 学习资源精选 )
+# WebGPU 高性能前端开发资源精选 (2026 Checklist)
 
-以下内容筛选出与 WebGPU 学习和实践最相关的资源，方便快速入门和实用。
-
----
-
-## 官方资源
-
-- **[GPUWeb 官方 GitHub 仓库](https://github.com/gpuweb/gpuweb)** - 了解 WebGPU 标准的开发进展。
-- **[WebGPU 官方说明文档](https://gpuweb.github.io/gpuweb/explainer/)** - 简明的 WebGPU 概念说明。
-- **[WebGPU API 参考 (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API)** - WebGPU API 的详细文档。
+> [!TIP]
+> **Indie Hacker Insight**: 2026 年，WebGPU 已彻底取代 WebGL，成为浏览器端高性能渲染与 **"端侧 AI 推理"** 的核心引擎。
+> - **超越渲染**：不要只把 WebGPU 当作 3D 引擎，它的 **Compute Shader** 才是真正的杀手锏，能让你的浏览器应用直接调用本地 GPU 进行复杂的矩阵运算。
+> - **跨平台统一**：通过 **wgpu (Rust)**，你可以编写一套代码，同时在 Web、桌面和移动原生端以近乎原生的性能运行。
+> - **端侧 AI**：配合 **WebLLM** 或 **Transformers.js**，可以在不依赖后端算力的情况下，在用户浏览器中本地运行 LLM。
 
 ---
 
-## 规范文档
+## 🏗️ 官方标准与核心文档 (Core & Standards)
 
-- **[WebGPU 最新草案](https://gpuweb.github.io/gpuweb/)** - W3C 官方编辑版。
-- **[WGSL 最新草案](https://gpuweb.github.io/gpuweb/wgsl/)** - WebGPU 着色语言规范。
-
----
-
-## 浏览器支持
-
-- **[WebGPU 支持状态 (CanIUse)](https://caniuse.com/webgpu)** - 各大浏览器支持情况一览。
-- **Chrome/Edge** - 已默认支持 WebGPU。
-- **Firefox Nightly** - 需在 `about:config` 中开启 `dom.webgpu.enabled`。
-- **Safari 技术预览版 (macOS)** - 默认支持 WebGPU。
+- [ ] [**WebGPU 官方说明 (Explainer)**](https://gpuweb.github.io/gpuweb/explainer/) - 快速理解 WebGPU 的设计理念与核心概念。
+- [ ] [**WebGPU API 参考 (MDN)**](https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API) - **[必备]** 详细的接口定义与参数说明。
+- [ ] [**WGSL 着色语言规范**](https://gpuweb.github.io/gpuweb/wgsl/) - 学习 WebGPU 专用的着色语言，语法现代且类型安全。
 
 ---
 
-## 教程与指南
+## ⚡ 框架、引擎与 AI 集成 (Engines & AI)
 
-- **[WebGPU 基础教程](https://web.dev/gpu-compute/)** - 使用 WebGPU 进行非图形应用的快速入门。
-- **[学习 WGSL (中文)](https://google.github.io/tour-of-wgsl/)** - 了解 WebGPU 着色语言。
-- **[LearningWebGPU 教程 (中文)](https://github.com/hjlld/LearningWebGPU)** - 国内开发者整理的入门资源。
-- **[从 WebGL 到 WebGPU](https://developer.chrome.com/blog/from-webgl-to-webgpu/)** - 迁移指南。
-
----
-
-## 实用工具
-
-- **[WebGPU Samples](https://webgpu.github.io/webgpu-samples/)** - 官方示例，涵盖基本功能。
-- **[Online WGSL Editor](https://takahirox.github.io/online-wgsl-editor/)** - 在线 WGSL 着色器编辑器。
+- [ ] [**Babylon.js**](https://www.babylonjs.com/) - 对 WebGPU 支持最完善的商业级 3D 引擎，开箱即用。
+- [ ] [**Three.js (WebGPURenderer)**](https://threejs.org/examples/?q=webgpu) - 轻量级 Web 3D 事实标准，现已全面转向 WebGPU 渲染器。
+- [ ] [**wgpu (Rust)**](https://github.com/gfx-rs/wgpu) - 跨平台的 WebGPU 原生实现，支持 Rust 开发者构建高性能游戏与工具。
+- [ ] [**WebLLM**](https://github.com/mlc-ai/web-llm) - 利用 WebGPU 在浏览器中本地运行像 Llama 3 或 Mistral 这样的大模型。
 
 ---
 
-## 开源库
+## 🛠️ 效率工具与学习资源 (Tooling & Learning)
 
-- **[Babylon.js](https://doc.babylonjs.com/setup/support/webGPU)** - 支持 WebGPU 的 3D 引擎。
-- **[Three.js](https://threejs.org/)** - 简单易用的轻量级 3D 库。
-- **[wgpu](https://github.com/gfx-rs/wgpu)** - Rust 的 WebGPU 实现。
-
----
-
-## 演示与实验
-
-- **[WebGPU Particles](https://hsimpson.github.io/webgpu-particles/)** - 粒子计算与渲染示例。
-- **[WebGPU Fluid Simulation](https://kishimisu.github.io/WebGPU-Fluid-Simulation/)** - 实时流体仿真。
-- **[WebGPU Playground](https://06wj.github.io/WebGPU-Playground/)** - 在线实验环境。
+- [ ] [**WebGPU Samples**](https://webgpu.github.io/webgpu-samples/) - **[必看]** 官方示例集，涵盖从基础渲染到复杂计算的所有核心场景。
+- [ ] [**Tour of WGSL**](https://google.github.io/tour-of-wgsl/) - 交互式的 WGSL 学习路径，非常适合初学者。
+- [ ] [**Online WGSL Editor**](https://takahirox.github.io/online-wgsl-editor/) - 浏览器中的着色器实验沙箱，实时预览效果。
+- [ ] [**WebGPU Inspector**](https://github.com/brendan-duncan/webgpu-inspector) - 浏览器扩展插件，深度调试 WebGPU 资源、管线与命令流。
 
 ---
 
-## 社区与讨论
+## 🔬 实验性案例 (Experiments)
 
-- **[GPU for the Web 社区](https://www.w3.org/community/gpu/)** - 参与讨论和提问。
-- **[WebGPU Matrix 频道](https://matrix.to/#/#WebGPU:matrix.org)** - 开发者交流。
-
----
-
-## 视频教程
-
-- **[从 WebGL 到 WebGPU 的演变](https://www.youtube.com/watch?v=A2FxeEl4nWw)** - Babylon.js 作者讲解。
-- **[WebGPU 编程基础](https://www.youtube.com/playlist?list=PL_UrKDEhALdKh0118flOjuAnVIGKFUJXN)** - 由 Dr. Xu 提供的分步教程。
+- [ ] [**WebGPU Fluid Simulation**](https://kishimisu.github.io/WebGPU-Fluid-Simulation/) - 展示超高性能的实时物理流体仿真。
+- [ ] [**WebGPU Particles**](https://hsimpson.github.io/webgpu-particles/) - 演示如何利用 Compute Shader 处理百万级粒子的实时渲染。
 
 ---
 
-精选的内容聚焦常用资源，去除了繁杂的信息，适合中国开发者快速了解和实践 WebGPU！
+## 💡 选型建议
+1. **构建高性能 3D Web 应用**：选 **Babylon.js** 或 **Three.js**。
+2. **构建浏览器端 AI 推理工具**：选 **WebLLM** 或 **Transformers.js (v3+)**。
+3. **开发高性能跨端桌面工具**：选 **Rust** + **wgpu**。
+4. **从 WebGL 迁移**：参考 **Chrome 官方迁移指南**。

@@ -1,68 +1,57 @@
-# 精选生成式AI指南
+# 生成式 AI (Generative AI) 核心指南 (2026 Checklist)
 
-生成式人工智能（Generative AI）是一项通过大规模数据训练的机器学习算法，用来生成原创内容的技术，包括图像、声音和文本。它能够创作出具有独特风格的作品，广泛应用于艺术、娱乐、营销、教育和计算机科学领域。
-
----
-
-## 推荐阅读
-
-- [生成式AI的创造性新时代](https://www.sequoiacap.com/article/generative-ai-a-creative-new-world/) - 详细分析生成式AI的产业生态及发展潜力。
-- [ChatGPT预示智力革命](https://www.wsj.com/articles/artificial-intelligence-generative-ai-chatgpt-kissinger-84512912) - Henry Kissinger 等人的深度探讨文章。
-- [生成式AI的崛起](https://www.nytimes.com/2022/10/21/technology/generative-ai.html) - 探索生成式AI如何快速发展并引发争议。
+> [!TIP]
+> **Indie Hacker Insight**: 2026 年的生成式 AI 不再仅仅是 "Prompting"，而是 **"Agentic Workflows"**。
+> - **思维转变**：从“让 AI 写一段话”转变为“让 AI 代理（Agent）执行一个完整的业务流程”。
+> - **核心能力**：掌握 **MCP (Model Context Protocol)**，让你的 AI 能够实时访问本地工具与数据。
 
 ---
 
-## 重要里程碑
+## 🏗️ 核心语言与思维模型 (Language & Reasoning)
 
-- [GitHub Copilot](https://github.blog/2021-06-29-introducing-github-copilot-ai-pair-programmer/) - 基于OpenAI Codex的AI编程助手。
-- [Stable Diffusion公开发布](https://stability.ai/blog/stable-diffusion-public-release) - 免费开源的AI图像生成模型。
-- [ChatGPT发布](https://openai.com/blog/chatgpt/) - 能够进行对话式交互的生成式语言模型。
-
----
-
-## 核心工具
-
-### 文本生成模型
-
-- [OpenAI GPT系列](https://openai.com/api/) - 支持多种自然语言任务和代码生成。
-- [Claude](https://claude.ai/) - Anthropic开发的AI助手。
-- [Llama 2](https://ai.meta.com/llama/) - Meta的开源大型语言模型。
-
-### 图像生成
-
-- [DALL·E 2](https://openai.com/dall-e-2/) - 自然语言描述生成高质量图像。
-- [Stable Diffusion](https://huggingface.co/CompVis/stable-diffusion-v1-4) - 支持开源的文本到图像模型。
-- [Midjourney](https://www.midjourney.com/) - 高质量艺术生成工具。
-
-### 视频生成
-
-- [RunwayML](https://runwayml.com/) - 下一代内容创作工具。
-- [Synthesia](https://www.synthesia.io/) - 通过文本生成高质量视频。
-
-### 音频与音乐
-
-- [Eleven Labs](https://beta.elevenlabs.io/) - AI语音生成工具。
-- [Stable Audio](https://stability.ai/stable-audio) - 稳定音频生成技术。
-- [AIVA](https://www.aiva.ai/) - AI音乐创作助手。
-
-### 编程助手
-
-- [GitHub Copilot](https://github.com/features/copilot) - 提供实时代码建议。
-- [tabnine](https://www.tabnine.com/) - 智能代码补全工具。
-- [CodiumAI](https://www.codium.ai/) - 在IDE内生成单元测试。
+- [ ] [**GPT-5 / o3 (OpenAI)**](https://openai.com/gpt-5) - 推理能力的巅峰，适合复杂逻辑与多步任务。
+- [ ] [**Claude 4 (Anthropic)**](https://claude.ai/) - 依然是“最有灵魂”的模型，代码与长文写作的首选。
+- [ ] [**DeepSeek-V4**](https://www.deepseek.com/) - 极致性价比，中文语境与代码能力的强力竞争者。
+- [ ] [**Llama 4 (Meta)**](https://ai.meta.com/llama/) - 开源界的领头羊，适合私有化部署与精细微调。
 
 ---
 
-## 学习资源
+## 🎨 视觉与创意生成 (Visual & Creative)
 
-- [Learn Prompting](https://learnprompting.org/) - 免费课程，教你如何与AI高效沟通。
-- [OpenAI Cookbook](https://github.com/openai/openai-cookbook) - 使用OpenAI API的实用案例与指南。
-- [Prompt Engineering Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) - Prompt工程技巧指南。
+- [ ] [**Midjourney v7**](https://www.midjourney.com/) - 艺术审美与画质的绝对霸主。
+- [ ] [**Stable Diffusion 3 / Flux**](https://stability.ai/) - 灵活性极高的开源图像生成方案。
+- [ ] [**Sora / Kling (可灵)**](https://klingai.com/) - 2026 年视频生成的顶级标准。
+- [ ] [**Canva Magic Studio**](https://www.canva.com/) - 将 AI 深度集成到日常设计工作流中。
 
 ---
 
-## 更多工具与清单
+## 🎙️ 语音与音频 (Audio & Voice)
 
-- [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts) - ChatGPT的优秀Prompt集合。
-- [PromptBase](https://promptbase.com/) - 高质量Prompt交易市场。
-- [FlowGPT](https://flowgpt.com/) - 最佳Prompt集合和工具。
+- [ ] [**ElevenLabs**](https://elevenlabs.io/) - 拟人化程度最高、多语言支持最强的语音合成工具。
+- [ ] [**Suno / Udio**](https://suno.com/) - 只需一句话即可生成 4K 高保真完整歌曲。
+- [ ] [**Whisper (OpenAI)**](https://github.com/openai/whisper) - 语音转文字（ASR）的行业标准开源模型。
+
+---
+
+## 💻 编程助手与 Agent 开发 (Dev & Agents)
+
+- [ ] [**Cursor**](https://www.cursor.com) - 改变编程范式的 IDE，深度集成全仓库级 AI。
+- [ ] [**Bolt.new / v0.dev**](https://bolt.new/) - 通过 Prompt 直接生成、预览并部署全栈 Web 应用。
+- [ ] [**Dify / LangFlow**](https://dify.ai/) - 零代码构建 AI Agent 与工作流的企业级引擎。
+- [ ] [**Mem0**](https://github.com/mem0ai/mem0) - 为 AI Agent 提供个性化记忆层的开源框架。
+
+---
+
+## 📚 学习与进阶资源 (Learning)
+
+- [x] **Learn Prompting**: 从零基础到高级 Prompt 工程的系统课程。
+- [x] **OpenAI Cookbook**: 官方提供的 API 实战代码片段与最佳实践。
+- [x] **Prompt Engineering Guide**: 持续更新的 Prompt 技巧手册。
+
+---
+
+## 💡 选型建议
+1. **构建自动化业务 Agent**：使用 **Dify** + **Claude 4** + **MCP**。
+2. **快速发布高质量内容**：集成 **ElevenLabs** + **Midjourney**。
+3. **开发 AI 原生应用**：使用 **Cursor** + **v0.dev**。
+4. **降低长期的 API 成本**：考虑私有化部署 **Llama 4**。

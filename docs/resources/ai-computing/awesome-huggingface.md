@@ -1,62 +1,50 @@
-# awesome-huggingface
-## 🤗 官方库
-**Hugging Face 官方推出的实用工具：**
-- [transformers](https://github.com/huggingface/transformers) - 支持 Jax、PyTorch 和 TensorFlow 的最先进 NLP 库。
-- [datasets](https://github.com/huggingface/datasets) - 最大的 NLP 数据集中心，提供高效的数据操作工具。
-- [tokenizers](https://github.com/huggingface/tokenizers) - 快速高效的分词工具，适用于研究和生产。
-- [accelerate](https://github.com/huggingface/accelerate) - 简化多 GPU、TPU 和混合精度训练的工具。
-- [huggingface_hub](https://github.com/huggingface/huggingface_hub) - 用于管理和下载 Hugging Face 模型与文件的客户端库。
+# Hugging Face 生态实战手册 (2026 Checklist)
 
-## 👩‍🏫 教程
-**快速入门 Hugging Face 工具：**
-- [官方课程](https://huggingface.co/course) - Hugging Face 官方推出的系列课程。
+> [!TIP]
+> **Indie Hacker Insight**: 2026 年，Hugging Face 已成为 AI 界的 **"GitHub + Docker Hub"**。
+> - **不要重新发明轮子**：在开始训练前，先在 [HF Models](https://huggingface.co/models) 寻找是否已有经过微调的 SOTA 模型。
+> - **Serverless 优先**：利用 [HF Inference Endpoints](https://huggingface.co/inference-endpoints) 实现秒级部署，按量计费。
 
-## 🧰 NLP 工具
-**基于 Transformers 的实用 NLP 工具：**
-- [AllenNLP](https://github.com/allenai/allennlp) - 一个开放源码的 NLP 研究工具库。
-- [Lightning Transformers](https://github.com/PyTorchLightning/lightning-transformers) - 基于 PyTorch Lightning 的 Transformers 接口。
-- [Adapter Transformers](https://github.com/Adapter-Hub/adapter-transformers) - 集成 Adapter 的 Transformers 扩展库。
+---
 
-## 🥡 文本表示
-**将句子转化为向量：**
-- [Sentence Transformers](https://github.com/UKPLab/sentence-transformers) - 生成句子、段落和图片的稠密向量表示。
-- [SimCSE](https://github.com/princeton-nlp/SimCSE) - 使用对比学习生成最先进的句子嵌入。
+## 🛠️ 核心官方库 (Core Libraries)
 
-## ⚙️ 推理引擎
-**优化 Transformer 模型的推理效率：**
-- [TurboTransformers](https://github.com/Tencent/TurboTransformers) - 腾讯推出的高效推理引擎。
-- [FasterTransformer](https://github.com/NVIDIA/FasterTransformer) - NVIDIA 优化的 Transformer 推理工具。
+- [ ] [**Transformers**](https://github.com/huggingface/transformers) - 2026 年依然是 AI 开发的核心，支持 Jax, PyTorch 和 TensorFlow 的统一接口。
+- [ ] [**Datasets**](https://github.com/huggingface/datasets) - 极速加载海量数据，支持流式读取（Streaming），解决硬盘不足问题。
+- [ ] [**Tokenizers**](https://github.com/huggingface/tokenizers) - Rust 编写的高性能分词器，支持现代 LLM 的所有编码需求。
+- [ ] [**Accelerate**](https://github.com/huggingface/accelerate) - 仅需数行代码即可让代码在多 GPU、TPU 或混合精度下运行。
+- [ ] [**PEFT**](https://github.com/huggingface/peft) - **必选**。参数高效微调（LoRA, QLoRA），让消费级显卡也能微调百亿参数模型。
+- [ ] [**TRL (Transformer Reinforcement Learning)**](https://github.com/huggingface/trl) - 训练 DPO, PPO 等对齐任务的标准库。
 
-## 🌗 模型可扩展性
-**大规模模型的训练和部署：**
-- [Deepspeed](https://github.com/microsoft/DeepSpeed) - Microsoft 提供的零优化训练技术。
-- [ColossalAI](https://github.com/hpcaitech/colossalai) - 支持 1D、2D、3D 并行的统一深度学习系统。
+---
 
-## 🏎️ 模型压缩与加速
-**提升推理速度的模型优化工具：**
-- [torchdistill](https://github.com/yoshitomo-matsubara/torchdistill) - 基于 PyTorch 的知识蒸馏框架。
-- [TextBrewer](https://github.com/airaria/TextBrewer) - 压缩语言模型的知识蒸馏工具。
+## 🚀 推理与部署优化 (Inference & Deployment)
 
-## 🗺 翻译
-**基于深度学习的翻译工具：**
-- [EasyNMT](https://github.com/UKPLab/EasyNMT) - 基于 Transformers 的简单高效翻译库。
+- [ ] [**TGI (Text Generation Inference)**](https://github.com/huggingface/text-generation-inference) - 官方高性能推理后端，支持流式输出与连续批处理。
+- [ ] [**Sentence Transformers**](https://github.com/UKPLab/sentence-transformers) - RAG 应用的基石，生成高质量的语义向量。
+- [ ] [**vLLM**](https://github.com/vllm-project/vllm) - 兼容 HF 格式的最强推理引擎，极致的吞吐量优化。
+- [ ] [**Optimum**](https://github.com/huggingface/optimum) - 针对 ONNX, OpenVINO, TensorRT 等特定硬件的加速接口。
 
-## 🎙 语音处理
-**支持语音任务的工具库：**
-- [speechbrain](https://github.com/speechbrain/speechbrain) - 基于 PyTorch 的语音工具包。
+---
 
-## ❓ 问答系统
-**开发和部署问答系统：**
-- [Haystack](https://haystack.deepset.ai/) - 构建端到端问答系统的框架。
+## 🏗️ 应用与架构 (Application Frameworks)
 
-## 💁 推荐系统
-**推荐系统工具：**
-- [Transformers4Rec](https://github.com/NVIDIA-Merlin/Transformers4Rec) - 用于序列和会话推荐的高效工具。
+- [ ] [**Gradio**](https://github.com/gradio-app/gradio) - 几行代码生成 AI 演示 Web UI，并可一键部署至 HF Spaces。
+- [ ] [**Haystack**](https://github.com/deepset-ai/haystack) - 构建企业级问答系统与 Agent 的成熟框架。
+- [ ] [**LangChain / LlamaIndex**](https://huggingface.co/docs/transformers/index) - 虽然是外部项目，但与 HF 深度集成，是构建 RAG 的首选。
 
-## 🔍 神经搜索
-**基于神经网络的搜索工具：**
-- [ColBERT](https://github.com/stanford-futuredata/ColBERT) - 一个快速精准的基于 BERT 的检索工具。
+---
 
-## ☁ 云服务
-**云端训练与部署：**
-- [Amazon SageMaker](https://huggingface.co/transformers/sagemaker.html) - 在 SageMaker 上轻松训练 Transformer 模型。
+## 🎓 学习与社区 (Community)
+
+- [ ] [**Hugging Face Course**](https://huggingface.co/course) - 官方免费课程，从基础到进阶的最佳路径。
+- [ ] [**HF Hub**](https://huggingface.co/hub) - 掌握模型版本管理、数据集托管及 Space 应用预览。
+- [ ] [**Daily Papers**](https://huggingface.co/papers) - 每日必看，追踪 AI 领域最新的学术动态。
+
+---
+
+## 💡 选型建议
+1. **构建 RAG 系统**：选 **Sentence Transformers (Embedding)** + **vLLM (Inference)**。
+2. **在 4090 上微调 70B 模型**：选 **Accelerate** + **PEFT (QLoRA)**。
+3. **快速展示 Demo**：选 **Gradio** + **HF Spaces**。
+4. **边缘设备部署**：使用 **Optimum** 转化为 **ONNX** 格式。

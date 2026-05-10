@@ -1,89 +1,61 @@
-高价值：否
+# Rerank 检索增强排序指南 (2026 Checklist)
 
-标题：
-《Together Rerank API：优化搜索与RAG，提升相关性》
+> [!TIP]
+> **Indie Hacker Insight**: 2026 年，RAG 的成败在于 **"Rerank"**。
+> - **质量把关**：初始检索（Vector Search）往往会带入大量噪声，Rerank 模型能对候选文档进行深度语义重排，确保喂给 LLM 的上下文是最精准的。
+> - **降本增效**：通过 Rerank 过滤掉不相关的文档，可以显著减少 LLM 的上下文消耗，降低 API 费用。
 
-### Rerank：提升搜索与RAG系统相关性的利器
+---
 
-#### 开篇：主题与背景
-在信息爆炸的时代，提升搜索结果的相关性至关重要。Reranker就是这样一种专门用于优化搜索相关性的工具。它能对已检索的文档重新评估排序，筛选出更相关的信息，在检索增强生成（RAG）流程中起着关键的质量过滤作用，帮助优化语言模型生成的文档选择，提升生成质量并降低成本。
+## 🏗️ 核心概念与工作流 (The Flow)
 
-#### 一、Reranker是什么
-Reranker是一种模型，它的主要作用是提升搜索相关性。具体来说，它对已检索的文档重新评估并重新排序，根据查询的相关性给每个文档分配分数，从而筛选出最重要的信息。在RAG流程里，它处于初始检索步骤和最终生成步骤之间，就像一个质量把关的角色，优化用于语言模型生成的文档选择，让生成结果更精准，还能减少处理成本。打个比方，它就像是一个精准的分拣员，把最相关的文档挑出来给后续的生成步骤。
+- [ ] **什么是 Reranker**：一种专门用于评估“查询 (Query)”与“文档 (Document)”语义相关性的交叉编码模型 (Cross-Encoder)。
+- [ ] **RAG 最佳实践**：
+    1. **粗筛 (Retrieve)**：利用向量数据库快速检索出 Top 50-100 个候选文档。
+    2. **精排 (Rerank)**：利用 Reranker 模型对候选集进行重新打分，选出最相关的 Top 3-5 个文档。
+    3. **生成 (Generate)**：将精排后的文档作为上下文传递给 LLM。
 
-#### 二、Together的Rerank API如何工作
-1. **基本功能与兼容性**
-Together的无服务器Rerank API能轻松把支持的rerank模型集成到企业应用中。它接收查询和一组文档，输出每个文档的相关性评分和排序索引，还支持筛选出前n个最相关的文档。这个API兼容Cohere Rerank，方便用户在现有应用中尝试其Reranker模型。它有几个主要功能：支持Salesforce的旗舰Reranker模型LlamaRank；支持JSON和表格数据；每个文档支持最长8K的上下文；低延迟，适合快速查询；与Cohere Rerank API完全兼容。
-2. **文本示例**
-    - **请求**：用Python代码示例，首先导入Together模块，创建客户端，指定查询“ What animals can I find near Peru?”以及相关文档，然后调用rerank.create方法，指定模型、查询、文档和要返回的前n个文档数量。例如：
-```python
-from together import Together
+---
 
-client = Together()
+## 🛠️ Together AI Rerank 实战 (Together Rerank API)
 
-query = "What animals can I find near Peru?"
+- [ ] [**Llama-Rank-V1**](https://api.together.xyz/models/Salesforce/Llama-Rank-V1) - Salesforce 出品的旗舰级精排模型，支持 8K 上下文。
+- [ ] **Python 极速上手**:
+  ```python
+  from together import Together
 
-documents = [
-    "The giant panda is endemic to China.",
-    "The llama is a domesticated camelid from South America.",
-    "The wild Bactrian camel is native to Northwest China and Mongolia.",
-    "The guanaco, native to South America, is closely related to the llama.",
-]
+  client = Together()
+  query = "秘鲁附近有哪些特有的动物？"
+  documents = [
+      "大熊猫是中国的国宝。",
+      "大羊驼是南美洲的一种驯化骆驼科动物。",
+      "原驼原产于南美洲，与大羊驼亲缘关系很近。"
+  ]
 
-response = client.rerank.create(
-    model="Salesforce/Llama-Rank-V1",
-    query=query,
-    documents=documents,
-    top_n=2
-)
+  response = client.rerank.create(
+      model="Salesforce/Llama-Rank-V1",
+      query=query,
+      documents=documents,
+      top_n=2
+  )
 
-for result in response.results:
-    print(f"Document Index: {result.index}")
-    print(f"Document: {documents[result.index]}")
-    print(f"Relevance Score: {result.relevance_score}")
-```
-    - **结果**：这个查询会把文档按与问题的相关性从高到低排序，返回前2个最相关的文档及其评分。
-3. **JSON示例**
-    - **请求**：同样用Python代码示例，指定查询“Which pricing did we get from Oracle?”，文档以JSON对象格式传入，还指定了用于排序的字段及顺序，调用rerank.create方法。例如：
-```python
-from together import Together
+  for result in response.results:
+      print(f"得分: {result.relevance_score} | 内容: {documents[result.index]}")
+  ```
+- [ ] **JSON 数据排序**：支持通过 `rank_fields` 指定 JSON 对象中的特定字段（如 `from`, `subject`, `text`）进行综合排序。
 
-client = Together()
+---
 
-query = "Which pricing did we get from Oracle?"
+## 🔍 主流 Reranker 选型 (Model Selection)
 
-documents = [
-    {
-        "from": "Paul Doe <paul@oracle.com>",
-        "date": "2026-03-27",
-        "subject": "Follow-up",
-        "text": "We are happy to give you the following pricing for your project."
-    },
-    {
-        "from": "John McGill <john@microsoft.com>",
-        "date": "2026-03-28",
-        "subject": "Missing Information",
-        "text": "Here is the pricing you asked for."
-    },
-    {
-        "from": "Generic SaaS Company <marketing@example.com>",
-        "date": "2026-01-26",
-        "subject": "Generative AI tips",
-        "text": "Learn how to build generative AI applications fast!"
-    },
-]
+- [ ] [**BGE-Reranker-v2-Gemma**](https://huggingface.co/BAAI/bge-reranker-v2-gemma) - 智源开源的最强轻量级精排模型之一。
+- [ ] [**Cohere Rerank v3**](https://cohere.com/rerank) - 行业标杆，支持多语言、长文本与结构化数据。
+- [ ] [**Jina Reranker v2**](https://jina.ai/reranker/) - 极致性能优化，支持极长上下文。
 
-response = client.rerank.create(
-    model="Salesforce/Llama-Rank-V1",
-    query=query,
-    documents=documents,
-    rank_fields=["from", "date", "text"],
-    return_documents=True
-)
+---
 
-print(response)
-```
-    - **结果**：返回按指定字段排序的文档列表，同时提供每个文档的相关性评分。
-
-#### 总结
-通过Together Rerank API，用户能够轻松提升搜索相关性，优化生成结果的质量，进而显著提高用户体验。它在搜索和RAG系统中起到了关键的优化作用，无论是文本还是JSON格式的文档都能很好地处理，为企业应用在信息处理方面提供了强大的支持。
+## 💡 选型建议
+1. **追求性价比**：首选 **Together AI** 的托管服务，兼容 Cohere 格式，迁移零成本。
+2. **私有化部署**：首选 **BGE-Reranker** 系列，配合 **vLLM** 或 **Text Embeddings Inference (TEI)** 部署。
+3. **处理海量碎片化文档**：利用 Rerank 过滤掉 90% 的低质量召回内容。
+4. **提升准确度**：如果 RAG 回复“一本正经胡说八道”，优先检查 Rerank 步骤是否漏掉。

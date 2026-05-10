@@ -1,66 +1,41 @@
-# 优秀的 Gaussian Splatting 资源
+# 3D Gaussian Splatting (3DGS) 技术与实战资源 (2026 Checklist)
 
-一个精选的 Gaussian Splatting 资源列表，受到 awesome-computer-vision 的启发。
+> [!TIP]
+> **Indie Hacker Insight**: 2026 年，3DGS 已成为**“实景 3D 重建”**的首选方案。
+> - **实时性**：相比 NeRF，3DGS 的核心优势在于渲染极快（可在手机端达到 60FPS）。
+> - **显存管理**：虽然渲染快，但高精度的高斯点云文件可能很大，务必使用 **Compressed 3DGS** 方案。
+> - **物理引擎**：如果需要 3DGS 资产在游戏里产生物理碰撞，请关注 **PhysGaussian**。
 
-## 简介
+---
 
-Gaussian Splatting 是一种创新的技术，它结合了显式 3D 场景表示（如网格和点）和连续表示（如神经辐射场，NeRF）的优势。通过引入 3D 高斯，这种方法实现了灵活且具有表现力的场景表示，支持 1080p 分辨率下的高质量实时渲染。此外，该方法还优化了训练速度，非常适合从多张照片生成复杂场景的实时渲染。
+## 🏗️ 核心论文与基石 (Foundational Papers)
 
-## 快速链接
+- [ ] [**3D Gaussian Splatting (Original)**](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/) - 2023 年发布的开创性论文，定义了实时辐射场渲染的新范式。
+- [ ] [**2D Gaussian Splatting**](https://surfacemesh.github.io/2dgs/) - 改进了物体表面的平滑度，特别适合生成具有准确法线的 3D 网格。
+- [ ] [**SuGaR**](https://github.com/Antwo7/SuGaR) - **[网格化工具]** 实现了从 3D 高斯点云到高质量三角形网格 (Mesh) 的快速转换。
+- [ ] [**4D Gaussian Splatting**](https://guanjunwu.github.io/4dgs/) - 针对动态场景（带时间维度）的实时渲染方案。
 
-- **必读论文**：[3D Gaussian Splatting for Real-Time Radiance Field Rendering](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/)
-- **精彩视频**：[3D Gaussian Splatting 简介](https://youtu.be/T_kXY43VZnk?si=DrkbDFxQAv5scQNT)
-- **实现代码**：[C++ 和 CUDA 实现的 3D Gaussian Splatting](https://github.com/MrNeRF/gaussian-splatting-cuda)
-- **入门介绍**：[博客：3D Gaussian Splatting 介绍](https://huggingface.co/blog/gaussian-splatting)
-- **两分钟入门视频**：[3D Gaussian Splatting - 改变图像技术的未来](https://www.youtube.com/watch?v=HVv_IQKlafQ)
+---
 
-## 最新更新
+## 🛠️ 开源工具与实现 (Open Source Implementations)
 
-- **2023年11月1日**：增加了入门友好的 GS 内容
-- **2023年10月31日**：新增论文：4D Gaussian Splatting 用于实时动态场景渲染
-- **2023年10月30日**：新增常见问题解答部分
+- [ ] [**Post-process-3d-gaussian-splatting**](https://github.com/mkkellogg/GaussianSplats3D) - **[Web 端首选]** 基于 Three.js 的高性能 Web 渲染器，支持在大规模点云下保持流畅。
+- [ ] [**NerfStudio**](https://github.com/nerfstudio-project/nerfstudio) - **[全能平台]** 虽然名字叫 NerfStudio，但它现在是训练、预览和对比 3DGS 模型最成熟的框架。
+- [ ] [**GaussianSplatting-Unity**](https://github.com/aras-p/UnityGaussianSplatting) - 独立开发者将 3DGS 导入 Unity 游戏引擎的最佳插件。
+- [ ] [**DreamGaussian**](https://github.com/dreamgaussian/dreamgaussian) - **[生成式 AI]** 结合扩散模型，实现从一张图在 2 分钟内生成高质量 3DGS 资产。
 
-## 相关论文
+---
 
-### 开创性的 3D Gaussian Splatting 论文
-- [3D Gaussian Splatting for Real-Time Radiance Field Rendering](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/)  
-  作者：Bernhard Kerbl, Georgios Kopanas, Thomas Leimkühler, George Drettakis  
-  描述：该论文提出了一种使用 3D 高斯的快速渲染方法，实现了 1080p 分辨率下的高质量实时视图合成。  
-  [📄 低分辨率论文](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/3d_gaussian_splatting_low.pdf)  
-  [📄 高分辨率论文](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/3d_gaussian_splatting_high.pdf)  
-  [🌐 项目页面](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/)  
-  [💻 代码](https://github.com/graphdeco-inria/gaussian-splatting)  
-  [🎥 简短介绍视频](https://youtu.be/T_kXY43VZnk?si=DrkbDFxQAv5scQNT)
+## 📂 扫描、处理与托管 (Scanning & Hosting)
 
-### 动态 3D Gaussian Splatting
-- [Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis](https://dynamic3dgaussians.github.io/paper.pdf)  
-  作者：Jonathon Luiten, Georgios Kopanas 等  
-  描述：此论文提出了一种同时实现动态场景视图合成和场景元素跟踪的方法。  
-  [📄 论文](https://dynamic3dgaussians.github.io/paper.pdf)  
-  [🌐 项目页面](https://dynamic3dgaussians.github.io/)  
-  [💻 代码](https://github.com/JonathonLuiten/Dynamic3DGaussians)  
-  [🎥 解释视频](https://www.youtube.com/live/hDuy1TgD8I4?si=6oGN0IYnPRxOibpg)
+- [ ] [**Luma AI**](https://lumalabs.ai/) - 手机端最成熟的 3DGS 采集 App，支持云端训练并导出 `.splat` 格式。
+- [ ] [**Polycam**](https://poly.cam/) - 广泛用于建筑和房产扫描，支持最新的 3DGS 导出。
+- [ ] [**PlayCanvas Viewer**](https://playcanvas.com/viewer) - 优秀的 Web 端 3DGS 预览器，支持实时调整视觉参数。
 
-### 4D Gaussian Splatting
-- [4D Gaussian Splatting for Real-Time Dynamic Scene Rendering](https://arxiv.org/pdf/2310.08528.pdf)  
-  作者：Guanjun Wu, Taoran Yi 等  
-  描述：该论文介绍了一种 4D Gaussian Splatting 方法，用于实时渲染动态场景，具有效率和高分辨率（800*800 下达到 70 FPS）。  
-  [📄 论文](https://arxiv.org/pdf/2310.08528.pdf)  
-  [🌐 项目页面](https://guanjunwu.github.io/4dgs/)  
-  [💻 代码](https://github.com/hustvl/4DGaussians)
+---
 
-## 实现
-
-- [实时辐射场渲染的 3D Gaussian Splatting](https://github.com/graphdeco-inria/gaussian-splatting)
-- [使用 Gaussian Splatting 的文本到 3D 转换](https://github.com/gsgen3d/gsgen)
-- [DreamGaussian: 高效 3D 内容创建](https://github.com/dreamgaussian/dreamgaussian)
-
-## 常见问题
-
-### 什么是 3D Gaussian Splatting？
-- **答**：3D Gaussian Splatting 是一种新技术，用于实现 3D 场景的高质量实时渲染。它通过使用 3D 高斯来实现灵活且高效的场景表示。
-
-### 3D Gaussian Splatting 与传统的 3D 场景表示有何不同？
-- **答**：传统的 3D 场景表示（如网格和点）适合快速的 GPU 渲染，但缺乏连续性。而 3D Gaussian Splatting 结合了显式表示的效率和连续表示的优点，提供了更好的视觉效果。
-
-以上是对 Gaussian Splatting 技术和资源的简化描述，希望对您理解这个前沿技术有所帮助。
+## 💡 选型建议
+1. **构建网页端 3D 展厅**：选 **Luma AI 采集** + **Three.js (mkkellogg)** 渲染。
+2. **需要模型参与游戏物理互动**：选 **SuGaR** 将高斯点云转化为 Mesh。
+3. **追求极致的渲染质量**：使用 **Gaussian-Pro** 或 **Mip-Splatting**。
+4. **节省带宽/首屏体积**：强制使用 **Compressed-3DGS** 插件。
