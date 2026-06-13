@@ -243,6 +243,7 @@
 | [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | **微软开源**。支持多语言，是构建企业级 Agent 的核心技能框架。 |
 | [LangGraph / AutoGen](https://microsoft.github.io/autogen/) | **复杂协作**。支持多 Agent 之间进行复杂逻辑编排与多轮自动对话。 |
 | [OpenAI Swarm](https://github.com/openai/swarm) | **轻量级编排**。OpenAI 提供的多 Agent 协作教育框架，强调简单性与可组合性。 |
+| [Prismix MCP 目录](https://prismix.dev/mcp) | **MCP 生态聚合**。收录 80+ 精选 + 500+ 自动发现的 MCP Server，支持 Bundle（分组管理，生成 Claude Desktop 配置）、版本追踪与 AI 服务状态监控三合一。免费使用。 |
 
 #### 高影响力 MCP Server 选型
 
