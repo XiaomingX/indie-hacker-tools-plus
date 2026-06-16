@@ -313,6 +313,7 @@
 | --- | --- |
 | **Runway Gen-3 / Luma Dream Machine** | 视频生成领域的领跑者，支持极高质量的物理引擎模拟。 |
 | **Midjourney V6 / Flux.1** | 2026 年图像生成的金标准，Flux 在文字渲染与真实感上更胜一筹。 |
+| **[Seedream AI Studio](https://seedream4.video/)** | **字节跳动多模型图像生成**。Seedream 5.0/4.5/4.0 模型集成，AI 图像竞技场排名第一，支持最多 10 张参考图，免费可用。 |
 | **HeyGen** | **数字人视频**。目前最强的 AI 数字人生成、视频翻译与口型同步平台。 |
 | **ElevenLabs** | 依然是语音合成（TTS）的霸主，多语言表现无懈可击。 |
 
