@@ -349,7 +349,8 @@
 
 | 技术栈 | 备注 |
 | --- | --- |
-| [Stripe](https://stripe.com/) | **行业标杆**。最全能的支付基础设施，其 Connect 服务是平台型应用的首选。 |
+| [Stripe](https://stripe.com/) | **行业标杆**。最全能的支付基础设施，其 Connect 服务是平台型应用的首选。（⚠️ 需要美国公司资质） |
+| [LLC Class](https://llcclass.com) | **美国公司注册**。[Wyoming LLC 注册](https://llcclass.com/wyoming) 服务，专为中国开发者出海设计；含 [registered agent for LLC](https://llcclass.com/what-is-llc-registered-agent)、EIN，注册后可直接开通 Stripe 与 Mercury 银行。 |
 | [Adyen](https://www.adyen.com/) | **企业级全球支付**。专为大中型企业设计的支付处理平台，支持全球全渠道收款。 |
 | [Payoneer (派安盈)](https://www.payoneer.com/) | **全球收款标准**。深度集成全球主流电商与零工平台，适合管理全球供应商与自由职业者打款. |
 | [Wise Business](https://wise.com/zh-cn/business/) | **透明汇率**。使用中间市场汇率，是小微企业与自由职业者跨境转账、持有外币的性价比之王。 |
