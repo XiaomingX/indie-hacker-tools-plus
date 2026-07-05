@@ -418,3 +418,5 @@
 > **关于本项目**: 本仓库（Indie Hacker Tools Plus）致力于为全球独立开发者提供最实用的技术栈、AI 工具及实战项目。
 > 
 > 欢迎 [提交 Issue](https://github.com/XiaomingX/indie-hacker-tools-plus/issues) 推荐更多好工具！
+
+- **[Context Kit](https://github.com/JDDavenport/context-kit)** — Personal Context Artifacts: 4 Markdown templates (wiki, mental-models, voice, protocols) + 5 Claude Code skills. Solves context amnesia — every session starts context-full. MIT, one-command install.
