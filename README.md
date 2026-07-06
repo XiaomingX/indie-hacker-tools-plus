@@ -418,3 +418,4 @@
 > **关于本项目**: 本仓库（Indie Hacker Tools Plus）致力于为全球独立开发者提供最实用的技术栈、AI 工具及实战项目。
 > 
 > 欢迎 [提交 Issue](https://github.com/XiaomingX/indie-hacker-tools-plus/issues) 推荐更多好工具！
+- [FreeAIStack](https://aifreeaistack.com) - 免费AI工具合集：简历优化、邮件助手、内容生成等14款工具
