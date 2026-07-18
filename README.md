@@ -171,6 +171,7 @@
 | 平台名称 | 备注 |
 | --- | --- |
 | [Google AdMob / Ads](https://admob.google.com/) | **全球流量巨头**。覆盖 Google 搜索、YouTube 及千万级 App 联盟，出海获客必选。 |
+| [GetAppNiche](https://getappniche.com/) | **iOS App Store 情报**。用于应用收入估算、ASO 关键词、竞品广告、评论和细分市场研究。 |
 | [Meta (Facebook/IG) Ads](https://www.facebook.com/business/ads) | **社交投放**。最强大的兴趣定向与再营销系统，适合独立开发者进行种子用户获取。 |
 | [TikTok for Business](https://getstarted.tiktok.com/) | **新增长引擎**。短视频与直播带货的流量高地，尤其适合 Z 世代受众与游戏出海。 |
 | [Pinterest Ads](https://ads.pinterest.com/) | **高客单价蓝海**。适合家居、时尚、艺术类商品，用户购买意向高且视觉属性强。 |
