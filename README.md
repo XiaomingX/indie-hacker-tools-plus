@@ -141,7 +141,7 @@
 | [Apache Flink](https://flink.apache.org/) | **实时流计算**。支持极低延迟的状态化流处理，是实时数仓的核心引擎。 |
 
 ### 可观测性、日志与错误追踪 (Observability & Logging)
-- **[Bride Cognitive Engine](https://tools.gracestack.se/bride-demo.html)** — AI agent cognitive monitoring. Real-time anomaly detection, confidence tracking, and dream analysis for AI agents. 120+ anomaly types. Free demo, $1 trial. Built on HDC + Active Inference. [Try free →](https://tools.gracestack.se/bride-demo.html)
+| [Bride Cognitive Engine](https://tools.gracestack.se/bride-demo.html) | **AI Agent 认知监控**。实时异常检测、信心追踪、梦境分析。120+ 异常类型，免费 Demo，$1 试用。 |
 
 | 工具名 | 备注 |
 | --- | --- |
