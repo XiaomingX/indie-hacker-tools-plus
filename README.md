@@ -81,6 +81,7 @@
 | [Supabase](https://supabase.com/) | **开源首选**。基于 PostgreSQL，支持 Edge Functions 和向量数据库。 |
 | [Convex](https://www.convex.dev/) | **实时同步**。无需手动管理状态，后端数据自动实时推送到前端。 |
 | [Appwrite](https://appwrite.io/) | **全栈平台**。提供认证、数据库、存储及云函数的一站式开源方案。 |
+| [AI for Database](https://aifordatabase.com/) | **数据库问答**。用自然语言与任意数据库对话，无需 SQL，支持生成自刷新看板与自动化工作流。 |
 
 ### 数据库与 ORM (Database & ORM)
 
