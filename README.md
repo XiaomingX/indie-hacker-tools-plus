@@ -176,6 +176,7 @@
 | [Pinterest Ads](https://ads.pinterest.com/) | **高客单价蓝海**。适合家居、时尚、艺术类商品，用户购买意向高且视觉属性强。 |
 | [HypeAuditor / Modash](https://hypeauditor.com/) | **KOL/KOC 撮合与审计**。通过海量数据分析达人真实影响力，避免刷量坑。 |
 | [Grin / Upfluence](https://grin.co/) | **达人管理平台**。一站式处理全球博主联系、寄样、合同与佣金结算的 SaaS 系统。 |
+| [NotFair](https://github.com/nowork-studio/NotFair) | **开源 AI 营销技能集**。Claude Code 插件，涵盖 SEO（关键词研究、结构化数据、GEO 优化）、Google Ads 和 Meta Ads 技能，通过 Google Ads MCP、Meta Ads MCP、Google Search Console MCP 和 Google Analytics (GA4) MCP 连接实时数据，约 2.9k stars，MIT 开源。 |
 
 ### 能力开放平台 (Capability & API Platforms)
 
