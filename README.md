@@ -215,6 +215,7 @@
 | 工具名 | 备注 |
 | --- | --- |
 | [LM Eval Harness](https://github.com/EleutherAI/lm-evaluation-harness) | **行业标准**。标准化评测基准，模型研究与对比的首选工具。 |
+| [agent-qa](https://github.com/vostride/agent-qa) | **Web/Mobile QA Agent**。用自然语言编写测试，保留运行记忆并自动捕获回归。 |
 | [DeepEval](https://www.confident-ai.com/) | **LLM 界的 Pytest**。将评测集成到 CI/CD 流程中，支持 50+ 指标。 |
 | [RAGAS](https://docs.ragas.io/) | **RAG 评估神器**。专注于检索和生成质量的参考-free 评分框架。 |
 | [Langfuse / LangSmith](https://langfuse.com/) | **全链路观测**。开源/闭源观测与评估平台，支持 Trace、Prompt 管理及评估。 |
