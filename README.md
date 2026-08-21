@@ -188,6 +188,7 @@
 | [高德 / 百度地图开放平台](https://lbs.amap.com/) | **国内 LBS 首选**。提供精准的国内地图渲染、路径规划及 POI 搜索。 |
 | [Aliyun SMS / 腾讯云短信](https://www.aliyun.com/product/sms) | **高可靠触达**。国内最稳定的短信下发通道，支持验证码及营销短信。 |
 | [Auth0 / Okta](https://auth0.com/) | **企业级身份**。针对复杂企业场景的身份认证与单点登录 (SSO) 解决方案。 |
+| [Clerk](https://clerk.com) | **用户管理**。内置登录/注册组件、组织管理与计费，免费额度 50,000 MRU。 |
 
 ---
 
