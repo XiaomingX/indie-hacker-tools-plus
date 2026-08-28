@@ -240,6 +240,7 @@
 | [Supabase MCP](https://supabase.com/docs/guides/ai/mcp) | **Supabase 开源**。让 AI 助手直接管理数据库 Schema、生成迁移并运行 SQL 报告。 |
 | [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code) | **Anthropic 官方**。具备深度重构、仓库索引与自主任务执行“技能”的命令行 Agent。 |
 | [Developer Knowledge MCP](https://developers.googleblog.com/en/google-mcp-server-developer-docs/) | **Google 开源**。让 Agent 具备精准阅读官方技术文档（Android/Firebase等）的“技能”。 |
+| [SandBase CLI](https://github.com/sandbaseai/cli) | **开源 CLI + 本地 MCP server**。将 25 个 AI 客户端统一接入 2,000+ 个模型/API，并提供 OAuth、诊断和回滚，适合需要在多个模型与客户端间切换的开发者。 |
 | [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | **微软开源**。支持多语言，是构建企业级 Agent 的核心技能框架。 |
 | [LangGraph / AutoGen](https://microsoft.github.io/autogen/) | **复杂协作**。支持多 Agent 之间进行复杂逻辑编排与多轮自动对话。 |
 | [OpenAI Swarm](https://github.com/openai/swarm) | **轻量级编排**。OpenAI 提供的多 Agent 协作教育框架，强调简单性与可组合性。 |
