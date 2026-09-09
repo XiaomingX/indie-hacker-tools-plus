@@ -276,6 +276,7 @@
 | [Windsurf](https://codeium.com/windsurf) | **Agentic IDE**。具备强推理能力的 Cascade Agent，擅长自主完成复杂任务。 |
 | [Kilo Code](https://kilo.ai/) | **全能插件**。支持 VS Code 和 JetBrains 的 Agent 插件，支持 500+ 模型连接。 |
 | [OpenCode](https://opencode.ai/) | **开源 Agent**。支持 TUI 和桌面端，强调开发者控制权与极简工作流。 |
+| [HagiCode](https://hagicode.com/) | **本地优先工作区**。支持提案驱动开发、并行多 Agent 执行、多仓库协作，适合需要编排 Claude Code、Codex、Gemini 等工作流的团队。 |
 | [Zed](https://zed.dev/) | **极致性能**。Rust 编写，原生支持 AI 协作，启动速度与内存占用极低。 |
 | [Aider](https://aider.chat/) | **命令行标配**。通过终端直接操作 Git 仓库并进行 AI 编程的最佳实践。 |
 
