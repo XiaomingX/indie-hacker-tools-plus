@@ -11,7 +11,7 @@
 
 ## 环境准备
 1. **基础环境**
-   - Python 3.9+（推荐 3.10，避免依赖兼容性问题）
+   - Python 3.11+（推荐 3.11）
    - 谷歌浏览器（Chrome 110+，需与 `browser-use` 支持的版本匹配）
    - Azure OpenAI 账号（获取 API 密钥与端点，用于 AI 岗位分析）
 
@@ -39,7 +39,7 @@ source venv/bin/activate
 ### 2. 安装依赖
 通过 `pip` 安装所有必需包：
 ```bash
-pip install python-dotenv PyPDF2 langchain-openai browser-use
+pip install python-dotenv PyPDF2 browser-use
 ```
 
 ### 3. 配置环境变量
@@ -53,7 +53,7 @@ AZURE_OPENAI_ENDPOINT=你的Azure OpenAI端点（如：https://xxx.openai.azure.
 ### 4. 运行工具
 ```bash
 # 执行主脚本
-python job_finder.py
+python automated_job_application_bot.py
 ```
 运行后将自动：
 1. 加载简历内容
@@ -64,7 +64,7 @@ python job_finder.py
 
 ## 核心配置说明
 ### 1. 调整搜索目标
-修改 `job_finder.py` 中 `main()` 函数的 `companies` 列表，添加/删除需要搜索的公司：
+修改 `automated_job_application_bot.py` 中 `main()` 函数的 `companies` 列表，添加/删除需要搜索的公司：
 ```python
 # 示例：搜索 Google、Microsoft、NVIDIA 的实习
 companies = [
@@ -87,14 +87,12 @@ base_task = (
 ```
 
 ### 3. 浏览器路径配置
-若 Chrome 安装路径与默认不同（如 Windows 系统），修改 `BrowserConfig` 中的 `browser_binary_path`：
+若 Chrome 安装路径与默认不同（如 Windows 系统），修改 `BrowserSession` 中的 `executable_path`：
 ```python
 # Windows 示例路径（需根据实际安装位置调整）
-browser = Browser(
-    config=BrowserConfig(
-        browser_binary_path='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
-        disable_security=True,
-    )
+browser = BrowserSession(
+    executable_path='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
+    disable_security=True,
 )
 ```
 
@@ -116,11 +114,11 @@ browser = Browser(
    - 检查 Azure 账号是否有权限访问 GPT-4o 模型，且 API 密钥未过期
 
 3. **浏览器无法启动**  
-   - 确认 Chrome 版本 ≥ 110，且 `browser_binary_path` 指向正确的 Chrome 可执行文件
+   - 确认 Chrome 版本 ≥ 110，且 `executable_path` 指向正确的 Chrome 可执行文件
    - 若提示“安全设置阻止”，尝试关闭 Chrome 所有进程后重新运行
 
 
 ## 注意事项
 - 遵守目标公司招聘页面的 `robots.txt` 规则，避免频繁请求导致 IP 被限制
-- 简历内容仅本地读取，不会上传至第三方服务器，确保数据安全
-- 若需自动申请职位，可扩展 `upload_cv` 函数（现有代码已包含简历上传能力，需结合具体招聘页表单调整）
+- 简历文本会发送给 Azure OpenAI 用于匹配；只有在页面需要时，Browser Use 才会上传简历文件
+- 现有代码通过 `available_file_paths` 将简历提供给 Browser Use，需上传时由内置操作处理
