@@ -177,6 +177,14 @@
 | [HypeAuditor / Modash](https://hypeauditor.com/) | **KOL/KOC 撮合与审计**。通过海量数据分析达人真实影响力，避免刷量坑。 |
 | [Grin / Upfluence](https://grin.co/) | **达人管理平台**。一站式处理全球博主联系、寄样、合同与佣金结算的 SaaS 系统。 |
 
+### 用户沟通与在线客服 (Live Chat & Customer Support)
+
+| 平台名称 | 备注 |
+| --- | --- |
+| [Knocket](https://knocket.com/) | **永久免费**。一行代码嵌入在线客服 Widget + 可分享联系页 + Telegram/邮件统一收件箱。无坐席限制、无广告。 |
+| [Crisp](https://crisp.chat/) | **热门客服 SaaS**。提供在线聊天、知识库及 CRM 功能，免费版支持 2 坐席。 |
+| [Tawk.to](https://www.tawk.to/) | **免费替代品**。完全免费的在线客服系统，支持多站点、多代理。 |
+
 ### 能力开放平台 (Capability & API Platforms)
 
 | 平台名称 | 备注 |
