@@ -236,6 +236,7 @@
 | 工具/平台 | 备注 |
 | --- | --- |
 | [MCP (Model Context Protocol)](https://modelcontextprotocol.io/) | **行业标准**。Anthropic 发起，旨在统一 AI 模型与外部数据工具的连接标准。 |
+| [LWC](https://github.com/JanYork/llm-wiki-cli) | **本地优先、可追溯项目记忆**。为 AI Agent 保存跨会话上下文、持久计划、Wiki 与可选 CodeGraph，并以来源和当前代码核验支撑恢复工作。 |
 | [Firebase Genkit](https://firebase.google.com/docs/genkit) | **Google 开源**。专为全栈开发者设计的 AI 应用开发框架，支持多模型、多工具集成。 |
 | [Supabase MCP](https://supabase.com/docs/guides/ai/mcp) | **Supabase 开源**。让 AI 助手直接管理数据库 Schema、生成迁移并运行 SQL 报告。 |
 | [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code) | **Anthropic 官方**。具备深度重构、仓库索引与自主任务执行“技能”的命令行 Agent。 |
