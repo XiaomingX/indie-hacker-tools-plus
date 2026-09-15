@@ -176,6 +176,7 @@
 | [Pinterest Ads](https://ads.pinterest.com/) | **高客单价蓝海**。适合家居、时尚、艺术类商品，用户购买意向高且视觉属性强。 |
 | [HypeAuditor / Modash](https://hypeauditor.com/) | **KOL/KOC 撮合与审计**。通过海量数据分析达人真实影响力，避免刷量坑。 |
 | [Grin / Upfluence](https://grin.co/) | **达人管理平台**。一站式处理全球博主联系、寄样、合同与佣金结算的 SaaS 系统。 |
+| [NotFair](https://notfair.co) | **AI 投放管理**。Google Ads MCP 服务器，让 Claude 等 AI 代理诊断广告系列、推荐优化方案并通过 Google Ads API 执行已批准的更改。免费版可用。 |
 
 ### 能力开放平台 (Capability & API Platforms)
 
