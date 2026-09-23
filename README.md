@@ -103,6 +103,7 @@
 
 | 平台名称 | 备注 |
 | --- | --- |
+| [Cortex](https://github.com/cortex-docs/cortex) | **API 文档与 SDK 生成**。从 OpenAPI、AsyncAPI、GraphQL、gRPC 和 OpenRPC 生成交互式文档、类型化 SDK 和 MCP Server。 |
 | [Stainless](https://www.stainlessapi.com/) | **SDK 生成**。自动化生成高质量、类型安全的客户端 SDK，是 OpenAI 等大厂的首选。 |
 | [Speakeasy](https://www.speakeasyapi.dev/) | **API 平台**。提供从 OpenAPI 规范生成 SDK、Terraform Provider 及文档的全链路工具。 |
 | [Fern](https://buildwithfern.com/) | **API 优先**。支持从单一定义生成同步的 SDK、API 文档 and 后端模板。 |
