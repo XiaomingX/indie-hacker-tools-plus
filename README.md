@@ -81,6 +81,7 @@
 | [Supabase](https://supabase.com/) | **开源首选**。基于 PostgreSQL，支持 Edge Functions 和向量数据库。 |
 | [Convex](https://www.convex.dev/) | **实时同步**。无需手动管理状态，后端数据自动实时推送到前端。 |
 | [Appwrite](https://appwrite.io/) | **全栈平台**。提供认证、数据库、存储及云函数的一站式开源方案。 |
+| [Nhost](https://nhost.io) | **GraphQL 优先**。基于 PostgreSQL，自动生成 GraphQL API，内置认证、存储和云函数，并提供 MCP 服务器方便 AI 编程助手接入。 |
 
 ### 数据库与 ORM (Database & ORM)
 
