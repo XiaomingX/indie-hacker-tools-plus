@@ -419,5 +419,5 @@
 > 
 > 欢迎 [提交 Issue](https://github.com/XiaomingX/indie-hacker-tools-plus/issues) 推荐更多好工具！
 
-### 多模型 AI API 网关
-- [APIClaw](https://apiclaw.biz) - 扁平费率、OpenAI 兼容的托管 AI API 网，统一访问 Claude、GPT、KimiQwen、DeepSeek  GLM，提供 50 次免费试用。
+### Multi-Model AI API Gateways
+- [APIClaw](https://apiclaw.biz) - Flat-rate, OpenAI-compatible hosted AI API gateway for Claude, GPT, Kimi, Qwen, DeepSeek, and GLM; includes a 50-request free trial.。
