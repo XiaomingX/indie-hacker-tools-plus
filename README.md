@@ -89,6 +89,7 @@
 | --- | --- |
 | [Drizzle ORM](https://orm.drizzle.team/) | **极致轻量**。零开销且原生 SQL 体验，边缘计算 (Edge) 环境的最佳搭档。 |
 | [Prisma](https://www.prisma.io/) | **开发体验最好**。自动生成的类型定义，极大地提升了后端建模效率。 |
+| [Prisma Postgres](https://www.prisma.io/postgres) | **托管 Postgres**。免费套餐含 1.01 GB 存储、每月 20 万次操作、最多 50 个数据库，无需信用卡；`npx create-db@latest` 一条命令即可创建。 |
 
 ## 🌐 开放平台与商业生态 (Open Platforms)
 
