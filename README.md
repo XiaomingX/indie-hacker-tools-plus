@@ -33,6 +33,9 @@
 
 🧠 [世界上覆盖最全的优秀Qwen（千问）提示语大全](https://github.com/XiaomingX/awesome-qwen-prompt-insight)
 
+
+🌍 [DevTools Help](https://devtools.help/) - 免费在线开发者工具箱：JSON/YAML 格式化、正则测试、Hash/JWT、时间戳转换、Go 速查表，纯浏览器端无需注册。
+
 ## Web 开发模板 (2026 精选版)
 
 ### 全栈 SaaS 启动器 (SaaS Starters)
