@@ -326,6 +326,7 @@
 | [ComfyUI](https://github.com/comfyanonymous/ComfyUI) | **最强图像流**。基于节点的 Stable Diffusion 工作流设计，专业玩家首选。 |
 | [飞书 Aily](https://www.feishu.cn/product/aily) | **企业 AI 助手**。集成在飞书中的智能工作助手，助力企业流程自动化。 |
 | [阿里悟空](https://www.alibabacloud.com/) | **办公 AI**。阿里力推的智能办公新物种，深度集成云端与端侧模型。 |
+| [Frink](https://frink.dev/) | **Fine-tuned automation for everyone**。Visual workflows where AI coding agents (Claude Code, Codex, OpenCode, GitHub Copilot, Cursor) act on your tickets, errors and schedules, and ask before they change anything. |
 
 ### 值得关注的大语言模型 (LLM Watchlist)
 
