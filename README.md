@@ -326,6 +326,7 @@
 | [ComfyUI](https://github.com/comfyanonymous/ComfyUI) | **最强图像流**。基于节点的 Stable Diffusion 工作流设计，专业玩家首选。 |
 | [飞书 Aily](https://www.feishu.cn/product/aily) | **企业 AI 助手**。集成在飞书中的智能工作助手，助力企业流程自动化。 |
 | [阿里悟空](https://www.alibabacloud.com/) | **办公 AI**。阿里力推的智能办公新物种，深度集成云端与端侧模型。 |
+| [Frink](https://frink.dev/) | **桌面优先的开源（MIT）应用**，可在你已经在用的各家 AI 编程服务商上运行并行智能体，以及由定时调度、Webhook 或 Linear、Sentry 等工具的事件触发的多步骤自定义工作流。 |
 
 ### 值得关注的大语言模型 (LLM Watchlist)
 
