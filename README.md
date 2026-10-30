@@ -58,6 +58,9 @@
 | [Aceternity UI](https://ui.aceternity.com/) | | **现代感利器**。提供极具视觉冲击力的落地页组件。 |
 | [v0.dev](https://v0.dev/) | | **AI 生成 UI**。Vercel 出品，通过自然语言直接生成可用的 React 组件代码。 |
 | [Hyperiux Vault](https://vault.hyperiux.com/) | | **动效组件库**。为 Next.js 打造的动画效果与交互组件集合，通过 CLI 将源码直接复制进项目，拥有完整控制权。 |
+| [PromptImage](https://promptimage.cloud) | Free AI image & video studio with a prompt library (signup credits, multi-model). Freemium |
+| [TeslaWraps](https://teslawraps.design) | Browser Tesla Paint Shop wrap designer — core editing + PNG export free without account; optional AI credit… |
+| [GrokVideo Studio](https://grokvideogenerator.dev) | Independent web app for text/image-to-video via Grok Imagine API (Free Trial, 20 credits). Not an official … |
 
 ### 内容驱动框架 (Content & SEO)
 
