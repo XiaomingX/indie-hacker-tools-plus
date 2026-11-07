@@ -71,6 +71,7 @@
 ## 📈 增长与获客 (Growth & Acquisition)
 
 - [ ] [**Tavily**](https://tavily.com/) - 专为 AI Agent 优化的搜索 API，快速获取实时且结构化的网络信息。
+- [ ] [**Keenable**](https://keenable.ai/) - 面向 AI Agent 的独立网页搜索索引，提供搜索与网页抓取（API / CLI / MCP），每月 10 万次免费请求，支持免密钥公共端点。
 - [ ] [**JobLeap.cn**](https://jobleap.cn) - 简历优化与模拟面试标配，深度适配 2026 年求职市场。
 - [ ] [**Clearbit**](https://clearbit.com/) - 企业级数据增强，利用 AI 精准识别 B2B 潜在客户。
 
