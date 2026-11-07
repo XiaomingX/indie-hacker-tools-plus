@@ -177,6 +177,7 @@
 | [Pinterest Ads](https://ads.pinterest.com/) | **高客单价蓝海**。适合家居、时尚、艺术类商品，用户购买意向高且视觉属性强。 |
 | [HypeAuditor / Modash](https://hypeauditor.com/) | **KOL/KOC 撮合与审计**。通过海量数据分析达人真实影响力，避免刷量坑。 |
 | [Grin / Upfluence](https://grin.co/) | **达人管理平台**。一站式处理全球博主联系、寄样、合同与佣金结算的 SaaS 系统。 |
+| [Outfame Instagram 免费工具](https://www.outfame.com/free-instagram-tools) | **Instagram 运营小工具**。互动率计算、标签与文案生成、账号诊断，免费且无需登录，适合出海做 Instagram 增长的独立开发者。 |
 
 ### 能力开放平台 (Capability & API Platforms)
 
