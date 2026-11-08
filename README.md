@@ -74,6 +74,7 @@
 | [NotebookLM](https://notebooklm.google.com/) | **Google 出品**。基于上传源文件的 AI 笔记与调研神器，支持生成播客、思维导图、幻灯片等。 |
 | [Perplexity.ai](https://www.perplexity.ai/) | **AI 搜索**。结合实时搜索与模型推理，是技术调研、市场研究的最佳信息源。 |
 | [Afforai](https://afforai.com/) | **论文/文档研究**。专为学术和深度研究设计，支持对海量文献进行交叉引用与分析。 |
+| [ORANO](https://oranoai.com) | 将保存的 Reels、TikTok、YouTube 视频和文章转为可搜索摘要与分步计划，支持 iOS、Android 和 Web；闭源，采用免费增值模式。 |
 
 ### 后端云/BaaS (Backend as a Service)
 
