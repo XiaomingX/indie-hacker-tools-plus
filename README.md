@@ -74,6 +74,7 @@
 | [NotebookLM](https://notebooklm.google.com/) | **Google 出品**。基于上传源文件的 AI 笔记与调研神器，支持生成播客、思维导图、幻灯片等。 |
 | [Perplexity.ai](https://www.perplexity.ai/) | **AI 搜索**。结合实时搜索与模型推理，是技术调研、市场研究的最佳信息源。 |
 | [Afforai](https://afforai.com/) | **论文/文档研究**。专为学术和深度研究设计，支持对海量文献进行交叉引用与分析。 |
+| [EarlyLore](https://earlylore.com/) | **产品调研**。对照真实竞品、需求信号与切入点，帮助独立开发者在动手前验证产品想法。 |
 
 ### 后端云/BaaS (Backend as a Service)
 
