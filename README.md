@@ -356,6 +356,7 @@
 | [Wise Business](https://wise.com/zh-cn/business/) | **透明汇率**。使用中间市场汇率，是小微企业与自由职业者跨境转账、持有外币的性价比之王。 |
 | [WorldFirst (万里汇) / PingPong](https://www.worldfirst.com.cn/) | **电商收款利器**。针对国内跨境卖家优化，支持多平台一键收款，费率极具竞争力。 |
 | [Paddle / Lemon Squeezy](https://paddle.com/) | **Merchant of Record (MoR)**。自动代缴全球税务，极大简化了 SaaS 产品的出海合规。 |
+| [GetPaidAtlas](https://getpaidatlas.com/) | **按国家查收款平台**。免费、独立的数据库：覆盖 250 个国家和地区，查询 Stripe、Paddle、Lemon Squeezy、Polar、Gumroad、PayPal、Wise 等平台是否支持当地卖家，每项附官方来源链接；本身不是支付服务商，不经手资金。 |
 | [Tipalti](https://tipalti.com/) | **自动化 mass payouts**。适合零工平台或全球分销系统，自动处理全球结算与税务表单。 |
 | [Airwallex (空中云汇)](https://www.airwallex.com/) | **跨境金融**。提供低成本的全球收款、付款及虚拟卡服务，适合出海贸易与跨境电商。 |
 | [XTransfer](https://www.xtransfer.cn/) | **B2B 跨境支付**。专注为中小微企业提供全球收付款、结汇及风控服务的跨境金融平台。 |
