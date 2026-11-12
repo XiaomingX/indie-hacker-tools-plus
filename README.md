@@ -129,6 +129,7 @@
 | [IBM Cloud](https://www.ibm.com/cloud) | **企业级 AI**。深耕金融与传统企业市场，提供强大的 Watson AI 与企业级安全保障。 |
 | [Railway](https://railway.app/) | **极简后端托管**。Heroku 精神续作，支持一键部署各种后端服务与数据库，极其丝滑。 |
 | [Fly.io](https://fly.io/) | **全球分布容器**。将你的应用部署在靠近用户的地方，支持 SQLite 边缘同步与极速冷启动。 |
+| [Zenavo](https://www.zenavo.app/) | **部署到自己的 VPS**。通过 SSH 部署 Git 或 Docker 项目，自带 HTTPS、日志、指标和备份，可一键导入 Zeabur 模板；有免费版，付费 $5/月起。 |
 | [Hetzner](https://www.hetzner.com/) | **性价比之王**。德国老牌厂商，提供性能惊人且价格极低的独享服务器与云主机。 |
 
 ### 缓存、消息队列与流处理 (Caching, MQ & Streaming)
