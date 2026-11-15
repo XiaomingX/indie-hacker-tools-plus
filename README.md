@@ -231,6 +231,7 @@
 | [Groq Cloud](https://groq.com/) | **极速推理**。体验目前全球最快的 Llama 3 推理，提供免费的开发者测试额度。 |
 | [Hugging Face Chat](https://huggingface.co/chat/) | **开源之光**。完全免费体验最新的顶级开源模型（如 Qwen、Llama 3、Command R+）。 |
 | [Vercel AI SDK](https://sdk.vercel.ai/) | **全栈框架**。通过统一接口调用上百种模型，支持流式渲染，前端集成体验最好。 |
+| [HiAPI](https://hiapi.ai/?utm_source=github&utm_medium=awesome-list&utm_campaign=bf26&utm_content=indie-hacker-tools-plus) | **按量付费 API 聚合**。一个 key 覆盖图片、视频、音频和文本模型（GPT Image、Seedance、Kling、Veo、DeepSeek、Claude、Grok、Qwen 等），文本模型提供 OpenAI 兼容的 Responses 与 Chat Completions 接口，图片/视频/音频走异步任务接口，每个模型价格公开，任务失败自动退款。 |
 
 ### Agent 协议、MCP 生态与高影响力 Skill (Agentic Ecosystem)
 
