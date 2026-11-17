@@ -344,6 +344,7 @@
 | [DocuSign](https://www.docusign.com/) | **全球标准**。不仅是电子签章，其 IAM 平台已覆盖合同全生命周期的智能管理。 |
 | [法大大 (Fadada)](https://www.fadada.com/) | **国内领先**。深耕国内法律合规场景，提供存证、出证及电子签全链路服务。 |
 | [e签宝 (eSign)](https://www.esign.cn/) | **全案解决**。国内市场占有率极高，支持多行业、多场景的电子合同签署。 |
+| [Freelance Client Onboarding Toolkit](https://github.com/AHMEDFOUAAD/freelance-client-onboarding-toolkit) | 免费的英文客户资格评估 SOP、项目需求问卷、启动清单和报价计算器，适用于自由开发者与独立咨询顾问，采用 CC BY 4.0 许可。 |
 | [PandaDoc](https://www.pandadoc.com/) | **商务自动化**。更侧重于报价单、合规合同的生成与自动化流转。 |
 
 ### 💳 支付与金融基础设施 (Payment & Fintech)
