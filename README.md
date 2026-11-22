@@ -166,6 +166,7 @@
 | [Loops](https://loops.so/) | **SaaS 营销**。专为现代软件设计的邮件自动化平台，简单且强大。 |
 | [Mailgun / SendGrid](https://www.mailgun.com/) | **行业巨头**。高送达率的全球邮件 API，适合大规模营销与事务性邮件。 |
 | [Beehiiv](https://www.beehiiv.com/) | **Newsletter 首选**。针对创作者和 EDM 营销优化的全能平台。 |
+| [InboxShield](https://inbox-checker.appwrite.network/spf-flattener) | **免费免注册诊断**。在线检测 SPF/DKIM/DMARC/MTA-STS 邮件送达率并自动展平超 10 次查询的 SPF 记录，附开源 CLI。 |
 
 ### 全球营销、广告与达人撮合 (Global Marketing & Influencer Matching)
 
