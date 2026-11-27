@@ -1,18 +1,12 @@
+import asyncio
 import csv
 import os
-import asyncio
 from pathlib import Path
-from typing import Optional
 
+from browser_use import Agent, BrowserSession, ChatAzureOpenAI, Controller
 from dotenv import load_dotenv
+from pydantic import BaseModel
 from PyPDF2 import PdfReader
-from langchain_openai import AzureChatOpenAI
-from pydantic import BaseModel, SecretStr
-
-# 导入浏览器控制相关模块
-from browser_use import Agent, Controller
-from browser_use.browser.context import BrowserContext
-from browser_use.browser.browser import Browser, BrowserConfig
 
 # 加载环境变量
 load_dotenv()
@@ -33,8 +27,8 @@ class Job(BaseModel):
     title: str
     link: str
     company: str
-    location: Optional[str] = None
-    salary: Optional[str] = None
+    location: str | None = None
+    salary: str | None = None
 
 # 控制器初始化
 controller = Controller()
@@ -65,45 +59,21 @@ def read_cv():
                 text += page_text
         
         return f"简历内容: {text[:500]}..."  # 只返回前500字符避免过长
-    except Exception as e:
-        return f"读取简历出错: {str(e)}"
-
-# 上传简历
-@controller.action('上传简历到指定位置')
-async def upload_cv(index: int, browser: BrowserContext):
-    try:
-        # 获取DOM元素并上传文件
-        dom_el = await browser.get_dom_element_by_index(index)
-        if not dom_el:
-            return f"未找到索引为 {index} 的元素"
-            
-        upload_el = dom_el.get_file_upload_element()
-        if not upload_el:
-            return f"索引为 {index} 的元素不是文件上传控件"
-            
-        # 执行上传操作
-        element = await browser.get_locate_element(upload_el)
-        await element.set_input_files(str(CV_PATH.absolute()))
-        return f"成功上传简历到索引为 {index} 的位置"
-        
-    except Exception as e:
-        return f"上传简历失败: {str(e)}"
+    except Exception as e:  # noqa: BLE001
+        return f"读取简历出错: {e!s}"
 
 # 浏览器配置
-browser = Browser(
-    config=BrowserConfig(
-        browser_binary_path='/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
-        disable_security=True,
-    )
+browser = BrowserSession(
+    executable_path='/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
+    disable_security=True,
 )
 
 async def main():
     # 配置AI模型
-    ai_model = AzureChatOpenAI(
+    ai_model = ChatAzureOpenAI(
         model='gpt-4o',
-        api_version='2026-10-21',
         azure_endpoint=os.getenv('AZURE_OPENAI_ENDPOINT', ''),
-        api_key=SecretStr(os.getenv('AZURE_OPENAI_KEY', ''))
+        api_key=os.getenv('AZURE_OPENAI_KEY', '')
     )
     
     # 定义搜索任务
@@ -127,11 +97,20 @@ async def main():
     agents = []
     for company in companies:
         task = f"{base_task}\n当前需要搜索的公司：{company}"
-        agent = Agent(task=task, llm=ai_model, controller=controller, browser=browser)
+        agent = Agent(
+            task=task,
+            llm=ai_model,
+            controller=controller,
+            browser_session=browser,
+            available_file_paths=[str(CV_PATH.absolute())],
+        )
         agents.append(agent.run())
     
     # 等待所有任务完成
-    await asyncio.gather(*agents)
+    try:
+        await asyncio.gather(*agents)
+    finally:
+        await browser.stop()
 
 if __name__ == "__main__":
     asyncio.run(main())
