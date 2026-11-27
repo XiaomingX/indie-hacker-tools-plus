@@ -305,6 +305,7 @@
 | --- | --- |
 | [Replicate](https://replicate.com/) | **模型托管**。通过简单 API 运行各种开源 AI 模型（SDXL, Llama 3等），无需管理服务器。 |
 | [OpenRouter](https://openrouter.ai/) | **LLM 聚合网关**。统一 API 访问上百种 LLM 模型，支持最佳价格路由与自动 fallback。 |
+| [LLMTR](https://llmtr.com) | **OpenAI 兼容网关**。统一 API 访问多家 LLM，按量预付费，兼容现有 OpenAI SDK。 |
 | [Together AI](https://www.together.ai/) | **极速推理**。专注于开源模型的高性能推理服务，适合对延迟极其敏感的应用。 |
 | [Groq](https://groq.com/) | **推理巅峰**。基于自研 LPU，提供目前全球最快的 LLM 推理速度（每秒数百 token）。 |
 
