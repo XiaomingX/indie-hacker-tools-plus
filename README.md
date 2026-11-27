@@ -177,6 +177,7 @@
 | [Pinterest Ads](https://ads.pinterest.com/) | **高客单价蓝海**。适合家居、时尚、艺术类商品，用户购买意向高且视觉属性强。 |
 | [HypeAuditor / Modash](https://hypeauditor.com/) | **KOL/KOC 撮合与审计**。通过海量数据分析达人真实影响力，避免刷量坑。 |
 | [Grin / Upfluence](https://grin.co/) | **达人管理平台**。一站式处理全球博主联系、寄样、合同与佣金结算的 SaaS 系统。 |
+| [Hermoso](https://hermoso.ai/) | **AI Agent 营销工具**。Claude、ChatGPT、Cursor 等 Agent 通过 MCP、CLI 或 API 调研竞品广告、制作图片和视频广告、发布和排期社媒内容，并投放 Meta、Google、TikTok、LinkedIn 等广告，有免费套餐。 |
 
 ### 能力开放平台 (Capability & API Platforms)
 
