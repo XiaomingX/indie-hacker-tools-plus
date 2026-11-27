@@ -267,6 +267,7 @@
 | [Tavily](https://tavily.com/) | **AI 搜索专家**。专为 LLM 和 Agent 设计的搜索引擎，返回清洗后的、对模型友好的结构化数据。 |
 | [Exa (Metaphor)](https://exa.ai/) | **神经搜索**。基于神经网络的搜索引擎，擅长通过语义相似度寻找高质量网页链接。 |
 | [Jina Reader](https://r.jina.ai/) | **网页转 Markdown**。将网页内容转化为精简的 Markdown 格式，极大提升 RAG 的检索效率。 |
+| [looot](https://looot.ai) | **Agent 数据 API / 远程 MCP**。一个 API Key 加预付余额，调用约 2,500 个数据接口（工作邮箱、电话、公司信息补全、Google SERP、网页读取），调用前显示价格，失败不扣费，按次付费。 |
 
 ### 现代 AI 编辑器与 Agent (Modern IDEs & Agents)
 
