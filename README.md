@@ -267,6 +267,7 @@
 | [Tavily](https://tavily.com/) | **AI 搜索专家**。专为 LLM 和 Agent 设计的搜索引擎，返回清洗后的、对模型友好的结构化数据。 |
 | [Exa (Metaphor)](https://exa.ai/) | **神经搜索**。基于神经网络的搜索引擎，擅长通过语义相似度寻找高质量网页链接。 |
 | [Jina Reader](https://r.jina.ai/) | **网页转 Markdown**。将网页内容转化为精简的 Markdown 格式，极大提升 RAG 的检索效率。 |
+| [CurlShot](https://curlshot.com/) | **网页截图 API**。一次 HTTP 请求把 URL、HTML 或 Markdown 渲染成 PNG/JPEG/WebP/PDF 或滚动视频，内置 MCP Server 让 Agent “看见”网页；免费版每月 100 张，无需信用卡。 |
 
 ### 现代 AI 编辑器与 Agent (Modern IDEs & Agents)
 
