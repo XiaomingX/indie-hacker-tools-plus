@@ -279,6 +279,7 @@
 | [OpenCode](https://opencode.ai/) | **开源 Agent**。支持 TUI 和桌面端，强调开发者控制权与极简工作流。 |
 | [Zed](https://zed.dev/) | **极致性能**。Rust 编写，原生支持 AI 协作，启动速度与内存占用极低。 |
 | [Aider](https://aider.chat/) | **命令行标配**。通过终端直接操作 Git 仓库并进行 AI 编程的最佳实践。 |
+| [Mel](https://www.openmel.dev) | **多 Agent 终端**。支持 Mac、Windows、Linux 的 Agentic 终端，多个 AI Agent 协作改代码、执行命令与审查 diff，每一步都可设置审批；自带 API Key 即可免费使用。 |
 
 ### CLI 基础框架与 Agent 原型 (CLI & Agent Prototypes)
 
