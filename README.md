@@ -41,6 +41,7 @@
 | --- | --- |
 | [T3 Stack](https://create.t3.gg/) | **类型安全**。Next.js + TypeScript + tRPC 的极致开发体验。 |
 | [Marblism](https://www.marblism.com/) | **AI 生成全栈**。通过 Prompt 直接生成包含后端、数据库和前端的完整 SaaS。 |
+| [OTF SaaS Dashboard](https://otf-kit.dev/templates/saas-dashboard?utm_source=directory&utm_medium=referral&utm_campaign=first-sale-14d-20261016&utm_content=2026-10-21-indie-hacker-saas-dashboard) | **跨端 SaaS 模板**。Next.js 与 React Native 通用跨平台全栈 SaaS 启动套件，内置鉴权、Stripe 支付与仪表盘组件。 |
 
 ### 管理后台 (Admin Panels)
 
