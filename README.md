@@ -307,6 +307,7 @@
 | [OpenRouter](https://openrouter.ai/) | **LLM 聚合网关**。统一 API 访问上百种 LLM 模型，支持最佳价格路由与自动 fallback。 |
 | [Together AI](https://www.together.ai/) | **极速推理**。专注于开源模型的高性能推理服务，适合对延迟极其敏感的应用。 |
 | [Groq](https://groq.com/) | **推理巅峰**。基于自研 LPU，提供目前全球最快的 LLM 推理速度（每秒数百 token）。 |
+| [AnyAPI.ai](https://anyapi.ai/) | **统一 LLM 网关**。一个 OpenAI 兼容接口覆盖 400+ 模型（Claude、GPT、Gemini、Grok、DeepSeek、Qwen、Kimi、GLM），按 ₳nytokens 逐 token 计费，免费层每日 10 万 tokens 且无需信用卡，支持自动故障切换与 Claude Code。 |
 
 ### AI 创意与媒体流 (Creative AI)
 
