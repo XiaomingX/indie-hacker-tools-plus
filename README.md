@@ -66,6 +66,7 @@
 | [Next.js (SSG)](https://nextjs.org/) | **全能选手**。强大的静态生成模式，兼顾性能与全栈扩展性。 |
 | [Hono](https://hono.dev/) | **极致性能**。支持边缘计算（Cloudflare Workers, Edge），是构建高性能 Content API 与极速 SEO 页面的首选。 |
 | [Astro](https://astro.build/) | **孤岛架构**。极致的静态性能，SEO 与内容站点的王者。 |
+| [No Stairs Please MCP](https://nostairsplease.com/mcp) | **公开 MCP 服务**。覆盖北美 1,700+ 现场音乐演出场地的目录与公开 MCP 端点。 |
 
 ### AI 知识、调研与笔记 (AI Knowledge & Research)
 
